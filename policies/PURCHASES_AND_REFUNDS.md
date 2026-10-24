@@ -28,6 +28,12 @@ Before a resource is offered for sale, its listing should clearly identify:
 
 For purchase-specific questions, use the support route specified on your order or the [official Discord](https://discord.gg/JdZ7NTG5KF), without sharing payment credentials publicly.
 
+## Optional script swaps
+
+Customers may **request** to swap a purchased ToneCustoms script for another ToneCustoms script of reasonably comparable value, based on the **amount originally paid** and the replacement script's value. All swaps are reviewed individually and require approval; no exchange, store credit or price-difference payment is automatic. See the [Script Swap Policy](SCRIPT_SWAPS.md).
+
+A discretionary swap does not replace any remedies required by applicable law or payment-provider terms.
+
 ## Problems with an order
 
 When seeking assistance, provide the purchased product name, approximate purchase date, the nature of the issue and any non-sensitive order reference **only through an appropriate private support channel**.
