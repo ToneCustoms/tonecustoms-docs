@@ -29,6 +29,12 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 - Availability and version status **only when verified**
 - Support and the location of official sales information
 
+## Product documentation quality
+
+Every resource can use the [Product Page Template](PRODUCT_PAGE_TEMPLATE.md) to publish confirmed functionality, compatibility, installation, known limitations, release notes, and customer information consistently.
+
+For quality rules, see the [ToneCustoms Release Standards](../policies/RELEASE_STANDARDS.md).
+
 ## Customer information
 
 - **Purchase / availability:** [ToneCustoms Tebex](https://tonecustoms.tebex.store/)
@@ -36,6 +42,7 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 - **Demos:** [YouTube channel](https://www.youtube.com/@tonyiswavy12)
 - **Community updates:** [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions)
 - **General help:** [Support guide](../SUPPORT.md)
+- **Customer information:** [Licensing, purchase and support policy center](../policies/README.md)
 
 ## Release and documentation rules
 
