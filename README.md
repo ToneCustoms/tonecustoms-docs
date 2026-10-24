@@ -102,7 +102,7 @@ When individual resources are ready to be documented, their pages may include:
 
 ToneCustoms is built with the FiveM community in mind. Clear reports, constructive feedback, and thoughtful ideas are valuable parts of development.
 
-**Need assistance or want to connect?** Join the [ToneCustoms Discord community](https://discord.gg/GmrDcHbAKm) for community discussions and available support channels. For details about available resources and purchases, visit the [official ToneCustoms Tebex store](https://tonecustoms.tebex.store/).
+**Need assistance or want to connect?** Join the [ToneCustoms Discord community](https://discord.gg/JdZ7NTG5KF) for community discussions and available support channels. For details about available resources and purchases, visit the [official ToneCustoms Tebex store](https://tonecustoms.tebex.store/).
 
 When requesting help, include the resource name, the behavior you observed, relevant error messages, and steps to reproduce the issue. **Never post passwords, API keys, tokens, or private server credentials.**
 
@@ -112,7 +112,7 @@ For previews, showcases, and other content, visit [ToneCustoms on YouTube](https
 
 | Destination | Link |
 | --- | --- |
-| **Discord community** | [Join ToneCustoms Discord](https://discord.gg/GmrDcHbAKm) |
+| **Discord community** | [Join ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | **Tebex store** | [Official ToneCustoms Store](https://tonecustoms.tebex.store/) |
 | **YouTube** | [ToneCustoms Channel](https://www.youtube.com/@tonyswavy12) |
 | **Documentation** | [ToneCustoms on GitHub](https://github.com/tonyiswavy/tonecustoms-docs) |
