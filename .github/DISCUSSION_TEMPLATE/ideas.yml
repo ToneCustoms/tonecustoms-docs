@@ -1,0 +1,30 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share ideas for improving ToneCustoms documentation, communication, and the community experience.
+        Requests for private source code or confidential information do not belong here.
+  - type: input
+    id: idea
+    attributes:
+      label: Your idea
+      description: Summarize your suggestion in a sentence.
+      placeholder: "Make installation information easier to find..."
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why would this help?
+      description: Describe the problem this solves or how the community would benefit.
+      placeholder: "This would help readers by..."
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional context
+      description: Optional examples, publicly shareable references, or design suggestions.
+    validations:
+      required: false
