@@ -19,7 +19,7 @@ A central place to learn who we are, what drives our development, and how we app
 
 ## Explore
 
-[About](#about-tonecustoms) · [Our Mission](#our-mission) · [Why ToneCustoms](#why-tonecustoms) · [Our Approach](#our-development-philosophy) · [Documentation](#about-this-documentation) · [Community & Support](#community--support)
+[About](#about-tonecustoms) · [Our Mission](#our-mission) · [Why ToneCustoms](#why-tonecustoms) · [Our Approach](#our-development-philosophy) · [Documentation](#about-this-documentation) · [Community & Support](#community--support) · [FAQ](#frequently-asked-questions)
 
 ## About ToneCustoms
 
@@ -107,6 +107,23 @@ ToneCustoms is built with the FiveM community in mind. Clear reports, constructi
 When requesting help, include the resource name, the behavior you observed, relevant error messages, and steps to reproduce the issue. **Never post passwords, API keys, tokens, or private server credentials.**
 
 For previews, showcases, and other content, visit [ToneCustoms on YouTube](https://www.youtube.com/@tonyiswavy12).
+
+## Frequently Asked Questions
+
+**What is ToneCustoms?**  
+ToneCustoms is an independent FiveM development brand focused on custom roleplay resources, gameplay systems, and practical server functionality.
+
+**Where can I find ToneCustoms resources?**  
+Visit the [ToneCustoms Tebex store](https://tonecustoms.tebex.store/) for available listings. This documentation repository does not distribute scripts.
+
+**How do I get help or ask a question?**  
+Join the [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) and use the relevant community or support channels. Include a clear description of your question or issue.
+
+**Where can I see showcases and videos?**  
+Visit [ToneCustoms on YouTube](https://www.youtube.com/@tonyiswavy12).
+
+**Will there be installation and configuration guides?**  
+Resource-specific guides may be added here when those resources are ready to be documented. Compatibility and requirements will be specified per resource.
 
 ## Contact & Official Links
 
