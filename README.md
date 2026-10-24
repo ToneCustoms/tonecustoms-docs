@@ -105,21 +105,11 @@ Good development is iterative. Feedback, new ideas, and lessons from real use he
 
 ## About This Documentation
 
-This GitHub repository is the **official home for ToneCustoms documentation**. The goal is to keep information structured, accessible, and useful.
+This GitHub repository is the **official home for ToneCustoms documentation and community information**. Its purpose is to explain the ToneCustoms brand, development philosophy, community standards, support pathways, and official announcements.
 
-When individual resources are ready to be documented, their pages may include:
+**What you'll find here:** the ToneCustoms overview, community guidelines, contribution instructions, support information, security reporting guidance, and links to official channels.
 
-- **Overview:** purpose, features, and intended behavior.
-- **Compatibility & requirements:** supported frameworks and dependencies.
-- **Installation:** setup instructions and prerequisites.
-- **Configuration:** settings and customization guidance.
-- **Usage:** how the resource works in practice.
-- **Troubleshooting:** answers to common problems.
-- **Changelog:** documented changes and release information.
-
-**Individual script pages have not been added yet.** They will only be introduced when their documentation is ready.
-
-> **Documentation only:** This repository is not intended to distribute paid resources, private source code, or credentials.
+**What this repository is not:** a place to host or distribute FiveM scripts, paid resources, private source code, credentials, or downloadable resource packages. Available offerings and previews are shared through ToneCustoms' official store and content channels.
 
 ## Community Resources
 
