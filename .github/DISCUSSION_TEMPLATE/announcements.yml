@@ -1,0 +1,44 @@
+title: "[ToneCustoms Update] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ToneCustoms — Official Announcements
+
+        Use this category for confirmed ToneCustoms news, documentation updates, and important community notices.
+        Announcements are published by repository maintainers. Share only information that is ready to be public.
+  - type: input
+    id: headline
+    attributes:
+      label: Announcement headline
+      description: Give this announcement a clear, specific subject.
+      placeholder: "Documentation updates and community news"
+    validations:
+      required: true
+  - type: dropdown
+    id: update-type
+    attributes:
+      label: Announcement type
+      description: What is this update about?
+      options:
+        - General ToneCustoms news
+        - Documentation update
+        - Community update
+        - Important notice
+    validations:
+      required: true
+  - type: textarea
+    id: announcement
+    attributes:
+      label: Announcement details
+      description: Explain the update and what readers need to know.
+      placeholder: "What's changing, why it matters, and any relevant details."
+    validations:
+      required: true
+  - type: textarea
+    id: useful-links
+    attributes:
+      label: Official links and next steps
+      description: Optional public links to the documentation, Discord, or other official ToneCustoms channels.
+    validations:
+      required: false
