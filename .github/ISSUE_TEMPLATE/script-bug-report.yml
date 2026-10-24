@@ -1,0 +1,137 @@
+name: "🐛 Script Bug Report"
+description: "Report a reproducible problem with a ToneCustoms FiveM resource."
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a ToneCustoms issue. Please provide enough detail to reproduce the problem.
+        **Do not post license keys, webhook URLs, tokens, private source code, database credentials, or personal information.**
+        This form creates a **public issue** in the documentation/community repository. For private code or sensitive logs, contact ToneCustoms privately through the official support channel instead.
+        An issue is not automatically a verified bug or an official release.
+
+  - type: input
+    id: resource
+    attributes:
+      label: "Affected resource"
+      description: "Which ToneCustoms script is affected?"
+      placeholder: "tonecustoms_queue"
+    validations:
+      required: true
+
+  - type: input
+    id: build
+    attributes:
+      label: "Build / version (if known)"
+      description: "Leave blank for work-in-progress builds without an official version."
+      placeholder: "WIP build or released version"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: framework
+    attributes:
+      label: "Framework"
+      options:
+        - "Qbox"
+        - "QBCore"
+        - "ESX"
+        - "Standalone"
+        - "Other / Not sure"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_area
+    attributes:
+      label: "Issue area"
+      options:
+        - "Gameplay / interaction"
+        - "UI / NUI"
+        - "Inventory / items"
+        - "Permissions / access"
+        - "Database / persistence"
+        - "Installation / configuration"
+        - "Performance"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "What happened?"
+      description: "Describe the bug clearly."
+      placeholder: "When I interact with ..., the interface ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Steps to reproduce"
+      description: "Numbered steps help us reproduce the issue."
+      placeholder: |
+        1. Start the resource...
+        2. Open...
+        3. Select...
+        4. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior"
+      placeholder: "The interaction should..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Relevant console errors / logs"
+      description: "Paste only relevant, redacted errors. Never include secrets or private source code."
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots or short video"
+      description: "Attach screenshots or link a demonstration. Remove personal or sensitive details first."
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Environment and dependencies"
+      description: "Include applicable ox_lib, ox_inventory, ox_target, oxmysql and other relevant dependency details."
+      placeholder: "Server build, dependencies, and any configuration relevant to this issue"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: "How often does this happen?"
+      options:
+        - "Every time"
+        - "Sometimes"
+        - "Once"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Before submitting"
+      options:
+        - label: "I've removed secrets and private information from my report."
+          required: true
+        - label: "I've searched existing issues for the same problem."
+          required: true
