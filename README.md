@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/tonyiswavy/tonyiswavy/main/assets/tonecustoms-header.svg" alt="ToneCustoms — FiveM Development, Built for Roleplay" width="100%" />
+
 # TONECUSTOMS
 
 **FIVEM DEVELOPMENT · ROLEPLAY INNOVATION · SERVER SYSTEMS**
@@ -16,7 +18,18 @@ A central place to learn who we are, what drives our development, and how we app
 
 ## Explore
 
-[About](#about-tonecustoms) · [Our Mission](#our-mission) · [Why ToneCustoms](#why-tonecustoms) · [Our Approach](#our-development-philosophy) · [Documentation](#about-this-documentation) · [Community & Support](#community--support) · [FAQ](#frequently-asked-questions) · [Getting Support](#getting-support)
+[**About**](#about-tonecustoms) · [**Our Mission**](#our-mission) · [**Why ToneCustoms**](#why-tonecustoms) · [**Our Approach**](#our-development-philosophy) · [**Documentation**](#about-this-documentation)
+
+[**Community & Support**](#community--support) · [**FAQ**](#frequently-asked-questions) · [**Getting Support**](#getting-support) · [**Official Links**](#contact--official-links)
+
+### Official ToneCustoms destinations
+
+| Explore | Visit |
+| --- | --- |
+| Developer profile | [Meet Tone / ToneCustoms](https://github.com/tonyiswavy) |
+| Community conversations | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
+| Documentation suggestions | [GitHub Issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
+| Community rules | [Code of Conduct](CODE_OF_CONDUCT.md) |
 
 ## About ToneCustoms
 
