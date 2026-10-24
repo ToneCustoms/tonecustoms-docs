@@ -31,6 +31,19 @@ A central place to learn who we are, what drives our development, and how we app
 | Documentation suggestions | [GitHub Issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
 | Community rules | [Code of Conduct](CODE_OF_CONDUCT.md) |
 
+## Stay Updated
+
+Follow official ToneCustoms news and documentation changes through the channels below.
+
+| What you want | Where to go |
+| --- | --- |
+| **Announcements and community updates** | [ToneCustoms GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
+| **Documentation changes** | Select **Watch** at the top of this repository to manage your GitHub notifications. |
+| **Videos and showcases** | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
+| **Community conversations** | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+
+For questions or suggestions about this documentation, use [Issues & Feedback](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose). Official news will be posted through ToneCustoms' established channels.
+
 ## About ToneCustoms
 
 **ToneCustoms** is an independent FiveM development brand focused on custom resources, roleplay systems, and server functionality. Built from firsthand experience developing and operating a FiveM roleplay community, ToneCustoms brings a server owner's perspective to how resources are planned and developed.
