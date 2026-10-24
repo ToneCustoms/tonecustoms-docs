@@ -6,9 +6,6 @@
 
 *Built for roleplay. Made with purpose.*
 
-![Documentation](https://img.shields.io/badge/Documentation-Official-6D42D8?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-FiveM-20212D?style=for-the-badge)
-
 **Welcome to the official ToneCustoms documentation.**
 
 A central place to learn who we are, what drives our development, and how we approach building experiences for the FiveM community.
