@@ -123,7 +123,7 @@ When individual resources are ready to be documented, their pages may include:
 
 ## Community Resources
 
-For documentation contributions, read the [Contribution Guide](CONTRIBUTING.md). Community participation is covered by the [Code of Conduct](CODE_OF_CONDUCT.md), and sensitive concerns should follow the [Security Policy](SECURITY.md).
+For documentation contributions, read the [Contribution Guide](CONTRIBUTING.md). Find help through the [Support Guide](SUPPORT.md), review the [Code of Conduct](CODE_OF_CONDUCT.md), and report sensitive concerns according to the [Security Policy](SECURITY.md).
 
 ## Community & Support
 
