@@ -2,72 +2,126 @@
 
 # TONECUSTOMS
 
-### Official Documentation
+**FIVEM DEVELOPMENT · ROLEPLAY INNOVATION · SERVER SYSTEMS**
 
-**Custom FiveM Development • Roleplay Systems • Server Resources**
+*Built for roleplay. Made with purpose.*
 
-Welcome to the official documentation home for **ToneCustoms**.
+![Documentation](https://img.shields.io/badge/Documentation-Official-6D42D8?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-FiveM-20212D?style=for-the-badge)
+
+**Welcome to the official ToneCustoms documentation.**
+
+A central place to learn who we are, what drives our development, and how we approach building experiences for the FiveM community.
 
 </div>
 
 ---
 
+## Explore
+
+[About](#about-tonecustoms) · [Our Mission](#our-mission) · [Why ToneCustoms](#why-tonecustoms) · [Our Approach](#our-development-philosophy) · [Documentation](#about-this-documentation) · [Community & Support](#community--support)
+
 ## About ToneCustoms
 
-**ToneCustoms** is a FiveM development brand focused on creating custom scripts, interactive gameplay systems, and practical resources for roleplay communities.
+**ToneCustoms** is an independent FiveM development brand focused on custom resources, roleplay systems, and server functionality. Built from firsthand experience developing and operating a FiveM roleplay community, ToneCustoms brings a server owner's perspective to how resources are planned and developed.
 
-ToneCustoms grew from hands-on FiveM server development, with a focus on building features that make a server feel more alive—not just adding another menu or basic interaction.
+We believe that a great FiveM experience comes from the details: meaningful interactions, a variety of things for players to do, and systems that feel connected to the world around them.
 
-Our work is guided by a straightforward idea: **give server owners useful systems and give players more to experience.** That means putting attention into how a feature works in actual roleplay, how it fits into a server, and how easily it can be managed.
+Our focus isn't simply adding features. It's creating experiences that **give players a reason to participate and give server owners tools that serve a real purpose.**
+
+## Our Mission
+
+**To develop thoughtful, engaging FiveM resources that expand roleplay possibilities while making life easier for server owners.**
+
+We aim to create systems that strike a balance between immersive gameplay, practical server operation, and a polished user experience. Every idea starts with a basic question:
+
+> **Does this improve the experience for the people using it?**
+
+That principle guides what we build and how we improve it.
+
+## Why ToneCustoms?
+
+| What matters | Our focus |
+| :--- | :--- |
+| **Purposeful features** | Systems are designed around actual gameplay and server needs, not just a list of options. |
+| **Player engagement** | More meaningful ways to interact, participate, and create roleplay. |
+| **Server-owner perspective** | Consideration for configuration, administration, and day-to-day use. |
+| **Variety & creativity** | Different types of experiences rather than one-size-fits-all solutions. |
+| **Clear communication** | Documentation that explains what a system does and how it should be used. |
+| **Ongoing development** | Room to refine existing ideas and explore new ones over time. |
+
+These are the priorities behind ToneCustoms—not a claim that every future resource will have identical features or compatibility.
+
+## Our Development Philosophy
+
+### 01 — Build with purpose
+
+Start with the problem or experience a resource should address. Features should have a clear reason to exist.
+
+### 02 — Put the roleplay first
+
+Gameplay should support player interaction and creative scenarios, not replace them with unnecessary complexity.
+
+### 03 — Respect the server owner's workflow
+
+Practical configuration, understandable behavior, and manageable systems matter as much as the feature itself.
+
+### 04 — Keep improving
+
+Good development is iterative. Feedback, new ideas, and lessons from real use help guide future refinements.
 
 ## What We Focus On
 
-**Immersive roleplay**  
-Interactive experiences and gameplay mechanics that give players more ways to engage with the city and with each other.
+**Custom FiveM resources** — Original gameplay ideas and purpose-built systems for roleplay communities.
 
-**Custom development**  
-Purpose-built resources with attention to functionality, presentation, and the needs of different roleplay environments.
+**Immersive interactions** — Mechanics and experiences intended to make the in-game world feel active.
 
-**Server operations**  
-Systems that help server owners and staff manage their communities and keep the experience organized.
+**Server operations** — Functionality that considers the needs of owners, administrators, and staff.
 
-**Continued improvement**  
-Refining features, addressing issues, and developing new ideas as the ToneCustoms project grows.
+**Documentation & usability** — Clear explanations so resources can be understood and managed more easily.
 
 ## About This Documentation
 
-This repository is the **official ToneCustoms documentation hub**. It's here to make information easy to find and understand.
+This GitHub repository is the **official home for ToneCustoms documentation**. The goal is to keep information structured, accessible, and useful.
 
-As documentation is added, you'll be able to find:
+When individual resources are ready to be documented, their pages may include:
 
-- **Resource overviews** — What a resource does and how it works.
-- **Requirements** — Supported frameworks and necessary dependencies.
-- **Installation guides** — Clear, step-by-step setup instructions.
-- **Configuration** — Settings and customization options.
-- **Usage guides** — How to use each system in-game.
-- **Troubleshooting** — Common issues and solutions.
-- **Updates** — Changes and improvements to documented resources.
+- **Overview:** purpose, features, and intended behavior.
+- **Compatibility & requirements:** supported frameworks and dependencies.
+- **Installation:** setup instructions and prerequisites.
+- **Configuration:** settings and customization guidance.
+- **Usage:** how the resource works in practice.
+- **Troubleshooting:** answers to common problems.
+- **Changelog:** documented changes and release information.
 
-Each resource will receive its own documentation **when it's ready to be added**. No individual script documentation is included at this stage.
+**Individual script pages have not been added yet.** They will only be introduced when their documentation is ready.
 
-## Our Approach
+> **Documentation only:** This repository is not intended to distribute paid resources, private source code, or credentials.
 
-We believe good FiveM development goes beyond simply making a script run. Features should make sense in roleplay, offer useful interactions, and be designed with the server owner in mind.
+## Community & Support
 
-ToneCustoms aims to provide **quality, variety, and practical functionality** without losing sight of the player experience.
+ToneCustoms is built with the FiveM community in mind. Clear reports, constructive feedback, and thoughtful ideas are valuable parts of the development process.
 
-## Support & Updates
+For future support requests, helpful information includes a resource name, the observed behavior, relevant error messages, and steps to reproduce the issue. **Never share passwords, API keys, tokens, or private server credentials in a public report.**
 
-Official support details, announcements, and resource-specific guidance will be included here as they become available. For now, this repository serves as the central introduction to ToneCustoms and the foundation for its documentation.
+Verified ToneCustoms community and support channels will be linked here when they're ready to be published. Until then, this repository serves as the official documentation reference rather than a live support desk.
 
-> **Please note:** This is a documentation repository, not a download or source-code repository for ToneCustoms FiveM scripts.
+## Contact & Official Links
+
+- **Documentation repository:** [ToneCustoms on GitHub](https://github.com/tonyiswavy/tonecustoms-docs)
+- **Support contact:** To be announced through an official ToneCustoms channel.
+- **Community links:** To be added when confirmed.
+
+Only links published through official ToneCustoms channels should be treated as verified.
 
 ---
 
 <div align="center">
 
-**TONECUSTOMS**
+### TONECUSTOMS
 
-*Built for roleplay. Made with purpose.*
+**Create more. Experience more.**
+
+*Custom FiveM development, driven by roleplay.*
 
 </div>
