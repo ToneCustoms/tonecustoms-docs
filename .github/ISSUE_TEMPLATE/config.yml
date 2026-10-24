@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ToneCustoms Discussions
+    url: https://github.com/tonyiswavy/tonecustoms-docs/discussions
+    about: General questions, community conversations, feedback, and announcements.
+  - name: ToneCustoms Discord
+    url: https://discord.gg/JdZ7NTG5KF
+    about: Reach the official ToneCustoms community and available support channels.
+  - name: Security reports
+    url: https://github.com/tonyiswavy/tonecustoms-docs/security/policy
+    about: Follow the security policy to report sensitive concerns privately.
