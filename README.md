@@ -19,7 +19,7 @@ A central place to learn who we are, what drives our development, and how we app
 
 ## Explore
 
-[About](#about-tonecustoms) · [Our Mission](#our-mission) · [Why ToneCustoms](#why-tonecustoms) · [Our Approach](#our-development-philosophy) · [Documentation](#about-this-documentation) · [Community & Support](#community--support) · [FAQ](#frequently-asked-questions)
+[About](#about-tonecustoms) · [Our Mission](#our-mission) · [Why ToneCustoms](#why-tonecustoms) · [Our Approach](#our-development-philosophy) · [Documentation](#about-this-documentation) · [Community & Support](#community--support) · [FAQ](#frequently-asked-questions) · [Getting Support](#getting-support)
 
 ## About ToneCustoms
 
@@ -124,6 +124,42 @@ Visit [ToneCustoms on YouTube](https://www.youtube.com/@tonyiswavy12).
 
 **Will there be installation and configuration guides?**  
 Resource-specific guides may be added here when those resources are ready to be documented. Compatibility and requirements will be specified per resource.
+
+## Getting Support
+
+For the fastest and clearest assistance, use the [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) and provide the information relevant to your issue.
+
+### Before you open a support request
+
+1. Check any documentation included with the resource you are using.
+2. Confirm the resource name and version, if known.
+3. Note the expected result and what actually happened.
+4. Collect relevant console errors or screenshots, **with sensitive information removed**.
+5. Explain what you already tried, so the same steps do not need to be repeated.
+
+### Suggested support request format
+
+```text
+Resource:
+Framework:
+Resource version (if known):
+Issue:
+Expected behavior:
+Actual behavior:
+Error message (if any):
+Steps to reproduce:
+What I already tried:
+```
+
+Providing these details helps identify issues more efficiently. Please do not post license keys, database credentials, API tokens, or private account details.
+
+> **Support availability:** Support channels and any response expectations are communicated through official ToneCustoms announcements. This page does not guarantee a specific response time.
+
+## Official Information & Safety
+
+For accurate information about ToneCustoms, use the official links listed below. Do not rely on unofficial download mirrors or people claiming to represent ToneCustoms outside its published channels.
+
+This GitHub repository contains **documentation only**. It does not ask you to share passwords, API keys, private script source code, or remote server access.
 
 ## Contact & Official Links
 
