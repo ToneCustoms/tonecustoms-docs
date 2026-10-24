@@ -16,6 +16,7 @@ This section explains how customers can learn about ToneCustoms products, reques
 | Product updates, versions and compatibility | [Updates & Releases](UPDATES.md) | Development rules; commercial entitlements unconfirmed |
 | Customer support process | [Support](CUSTOMER_SUPPORT.md) | Support routes available; service commitments unconfirmed |
 | Customer privacy and data handling | [Privacy](PRIVACY.md) | Draft — practices and legal review required |
+| Tebex listing and checkout consistency | [Tebex Listing Guide](TEBEX_LISTING_GUIDE.md) | Draft template — not live store terms |
 | Documentation and release checklist | [Release Standards](RELEASE_STANDARDS.md) | Internal publication checklist |
 
 ## Confirmed official channels
