@@ -10,7 +10,7 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 
 | Resource | Purpose | Documentation | Demonstration |
 | --- | --- | --- | --- |
-| **Gun Jam** | Firearm jamming and clearing interactions | [Gun Jam](gun-jam.md) | [Video](https://youtu.be/kPniOo-VThw) |
+| **Gun Jam** — Listed $14.99 | Firearm jamming and clearing interactions | [Gun Jam](gun-jam.md) · [Tebex](https://tonecustoms.tebex.store/category/3419336) | [Video](https://youtu.be/kPniOo-VThw) |
 | **Queue** | Server access, whitelist and priority queue | [Queue](queue.md) | [Video](https://youtu.be/qhEbaAJHqpQ) |
 | **Farming** | Farming-related roleplay activity | [Farming](farming.md) | [Video](https://youtu.be/MWF8Kgai5KA) |
 | **Skills** | Character progression through skills | [Skills](skills.md) | [Video](https://youtu.be/TYk_jkLa8wM) |
@@ -19,7 +19,7 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 | **Pharmacy** | Pharmacy and activity-based rehabilitation mechanics | [Pharmacy](pharmacy.md) | Not published here |
 | **Inventory Images** | Custom FiveM inventory icon collection | [Inventory Images](inventory-images.md) | Private asset library |
 
-**Catalog status:** These pages are **showcases or development documentation** until a particular resource is individually confirmed as released. No version number or purchase entitlement is implied.
+**Catalog status:** Gun Jam is listed on the official ToneCustoms Tebex store. Other product pages are showcases or development documentation unless their individual availability is verified. Prices and product availability may change.
 
 ## What each product page covers
 
