@@ -30,6 +30,10 @@ ToneCustoms Gun Jam explores an immersive firearm-jamming mechanic that creates 
 
 [Gun Jam video demonstration](https://youtu.be/kPniOo-VThw)
 
+## Storefront preparation
+
+The [Gun Jam Tebex listing draft](store-listings/gun-jam-draft.md) is available for owner review. **It is not a live listing or an announcement that Gun Jam is ready for sale.** Pricing, dependencies and shipped features must be verified before publication.
+
 ## Availability and support
 
 Check [ToneCustoms Tebex](https://tonecustoms.tebex.store/) for any officially available listing. For compatibility or support questions, visit [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF).
