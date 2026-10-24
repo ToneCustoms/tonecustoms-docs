@@ -11,6 +11,7 @@ This section explains how customers can learn about ToneCustoms products, reques
 | Topic | Page | Status |
 | --- | --- | --- |
 | Licensing and permitted use | [Licensing](LICENSING.md) | Draft — owner approval required |
+| Script swaps and comparable-value exchanges | [Script Swap Policy](SCRIPT_SWAPS.md) | Draft — owner-approved approach, checkout alignment pending |
 | Purchase, delivery and refund information | [Purchases & Refunds](PURCHASES_AND_REFUNDS.md) | Draft — owner approval required |
 | Product updates, versions and compatibility | [Updates & Releases](UPDATES.md) | Development rules; commercial entitlements unconfirmed |
 | Customer support process | [Support](CUSTOMER_SUPPORT.md) | Support routes available; service commitments unconfirmed |
@@ -30,7 +31,7 @@ This section explains how customers can learn about ToneCustoms products, reques
 - Exact license scope: per-server, per-customer, permitted modifications, transfers and team access
 - Source distribution and resale restrictions consistent with upstream licenses
 - What purchases include and how buyers receive them
-- Refund/cancellation policy consistent with checkout-provider terms and applicable consumer law
+- Refund/cancellation and optional script-swap procedure consistent with checkout-provider terms and applicable consumer law
 - Length and scope of included updates, if any
 - Support channels, coverage, response expectations and exclusions
 - Data collection and retention practices for any website, licensing tools, bots, or customer support systems
