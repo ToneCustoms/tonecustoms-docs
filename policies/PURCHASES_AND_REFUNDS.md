@@ -6,6 +6,8 @@
 
 Verify current offerings and purchase conditions through the [official ToneCustoms Tebex store](https://tonecustoms.tebex.store/). The existence of a GitHub repository, developer showcase or YouTube video does **not** mean the item is on sale.
 
+For a reusable listing description and publication checklist, see the [ToneCustoms Tebex Listing Guide](TEBEX_LISTING_GUIDE.md). This guide is a draft and does not change live checkout rules.
+
 ## Information to provide on each listing
 
 Before a resource is offered for sale, its listing should clearly identify:
