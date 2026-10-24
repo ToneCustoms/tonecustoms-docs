@@ -100,19 +100,24 @@ When individual resources are ready to be documented, their pages may include:
 
 ## Community & Support
 
-ToneCustoms is built with the FiveM community in mind. Clear reports, constructive feedback, and thoughtful ideas are valuable parts of the development process.
+ToneCustoms is built with the FiveM community in mind. Clear reports, constructive feedback, and thoughtful ideas are valuable parts of development.
 
-For future support requests, helpful information includes a resource name, the observed behavior, relevant error messages, and steps to reproduce the issue. **Never share passwords, API keys, tokens, or private server credentials in a public report.**
+**Need assistance or want to connect?** Join the [ToneCustoms Discord community](https://discord.gg/GmrDcHbAKm) for community discussions and available support channels. For details about available resources and purchases, visit the [official ToneCustoms Tebex store](https://tonecustoms.tebex.store/).
 
-Verified ToneCustoms community and support channels will be linked here when they're ready to be published. Until then, this repository serves as the official documentation reference rather than a live support desk.
+When requesting help, include the resource name, the behavior you observed, relevant error messages, and steps to reproduce the issue. **Never post passwords, API keys, tokens, or private server credentials.**
+
+For previews, showcases, and other content, visit [ToneCustoms on YouTube](https://www.youtube.com/@tonyswavy12).
 
 ## Contact & Official Links
 
-- **Documentation repository:** [ToneCustoms on GitHub](https://github.com/tonyiswavy/tonecustoms-docs)
-- **Support contact:** To be announced through an official ToneCustoms channel.
-- **Community links:** To be added when confirmed.
+| Destination | Link |
+| --- | --- |
+| **Discord community** | [Join ToneCustoms Discord](https://discord.gg/GmrDcHbAKm) |
+| **Tebex store** | [Official ToneCustoms Store](https://tonecustoms.tebex.store/) |
+| **YouTube** | [ToneCustoms Channel](https://www.youtube.com/@tonyswavy12) |
+| **Documentation** | [ToneCustoms on GitHub](https://github.com/tonyiswavy/tonecustoms-docs) |
 
-Only links published through official ToneCustoms channels should be treated as verified.
+Please use these official channels for ToneCustoms information. Resource-specific documentation will be added separately as needed.
 
 ---
 
