@@ -95,6 +95,10 @@ When individual resources are ready to be documented, their pages may include:
 
 > **Documentation only:** This repository is not intended to distribute paid resources, private source code, or credentials.
 
+## Community Resources
+
+For documentation contributions, read the [Contribution Guide](CONTRIBUTING.md). Community participation is covered by the [Code of Conduct](CODE_OF_CONDUCT.md), and sensitive concerns should follow the [Security Policy](SECURITY.md).
+
 ## Community & Support
 
 ToneCustoms is built with the FiveM community in mind. Clear reports, constructive feedback, and thoughtful ideas are valuable parts of development.
