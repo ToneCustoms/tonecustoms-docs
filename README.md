@@ -106,7 +106,7 @@ ToneCustoms is built with the FiveM community in mind. Clear reports, constructi
 
 When requesting help, include the resource name, the behavior you observed, relevant error messages, and steps to reproduce the issue. **Never post passwords, API keys, tokens, or private server credentials.**
 
-For previews, showcases, and other content, visit [ToneCustoms on YouTube](https://www.youtube.com/@tonyswavy12).
+For previews, showcases, and other content, visit [ToneCustoms on YouTube](https://www.youtube.com/@tonyiswavy12).
 
 ## Contact & Official Links
 
@@ -114,7 +114,7 @@ For previews, showcases, and other content, visit [ToneCustoms on YouTube](https
 | --- | --- |
 | **Discord community** | [Join ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | **Tebex store** | [Official ToneCustoms Store](https://tonecustoms.tebex.store/) |
-| **YouTube** | [ToneCustoms Channel](https://www.youtube.com/@tonyswavy12) |
+| **YouTube** | [ToneCustoms Channel](https://www.youtube.com/@tonyiswavy12) |
 | **Documentation** | [ToneCustoms on GitHub](https://github.com/tonyiswavy/tonecustoms-docs) |
 
 Please use these official channels for ToneCustoms information. Resource-specific documentation will be added separately as needed.
