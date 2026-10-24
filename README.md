@@ -18,7 +18,7 @@ A central place to learn who we are, what drives our development, and how we app
 
 ## Explore
 
-[**About**](#about-tonecustoms) · [**Our Mission**](#our-mission) · [**Why ToneCustoms**](#why-tonecustoms) · [**Our Approach**](#our-development-philosophy) · [**Documentation**](#about-this-documentation)
+[**Product Documentation**](products/README.md) · [**About**](#about-tonecustoms) · [**Our Mission**](#our-mission) · [**Why ToneCustoms**](#why-tonecustoms) · [**Our Approach**](#our-development-philosophy) · [**Documentation**](#about-this-documentation)
 
 [**Community & Support**](#community--support) · [**FAQ**](#frequently-asked-questions) · [**Getting Support**](#getting-support) · [**Official Links**](#contact--official-links)
 
@@ -26,10 +26,28 @@ A central place to learn who we are, what drives our development, and how we app
 
 | Explore | Visit |
 | --- | --- |
+| **Product catalog** | **[Browse ToneCustoms Product Documentation](products/README.md)** |
 | Developer profile | [Meet Tone / ToneCustoms](https://github.com/tonyiswavy) |
 | Community conversations | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
 | Documentation suggestions | [GitHub Issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
 | Community rules | [Code of Conduct](CODE_OF_CONDUCT.md) |
+
+## Product Documentation
+
+**Explore the official [ToneCustoms Product Catalog](products/README.md).** View individual resource overviews, video demonstrations, development scope, support information, and release-status guidance in one place.
+
+| Featured documentation | Explore |
+| --- | --- |
+| Gun Jam | [Weapon interaction showcase](products/gun-jam.md) |
+| Queue | [Server access and whitelist development](products/queue.md) |
+| Farming | [Farming activity showcase](products/farming.md) |
+| Skills | [Skills progression showcase](products/skills.md) |
+| 3D Roleplay Text | [Roleplay text demonstration](products/roleplay-text.md) |
+| Multi Job | [Job management showcase](products/multi-job.md) |
+| Pharmacy | [Pharmacy development overview](products/pharmacy.md) |
+| Inventory Images | [Custom icon standards](products/inventory-images.md) |
+
+**Availability note:** A demonstration or project description is not an announcement of a tested release or purchasable product. Only approved announcements and actual listings on the [official store](https://tonecustoms.tebex.store/) establish availability.
 
 ## Stay Updated
 
@@ -187,7 +205,7 @@ This GitHub repository contains **documentation only**. It does not ask you to s
 | **YouTube** | [ToneCustoms Channel](https://www.youtube.com/@tonyiswavy12) |
 | **Documentation** | [ToneCustoms on GitHub](https://github.com/tonyiswavy/tonecustoms-docs) |
 
-Please use these official channels for ToneCustoms information. Resource-specific documentation will be added separately as needed.
+Please use these official channels for ToneCustoms information. Resource-specific overviews are available in the [Product Documentation section](products/README.md); validated installation guides and release details will be added per resource when approved.
 
 ---
 
