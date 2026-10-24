@@ -18,7 +18,7 @@ A central place to learn who we are, what drives our development, and how we app
 
 ## Explore
 
-[**Product Documentation**](products/README.md) · [**About**](#about-tonecustoms) · [**Our Mission**](#our-mission) · [**Why ToneCustoms**](#why-tonecustoms) · [**Our Approach**](#our-development-philosophy) · [**Documentation**](#about-this-documentation)
+[**Product Documentation**](products/README.md) · [**Customer Information**](policies/README.md) · [**About**](#about-tonecustoms) · [**Our Mission**](#our-mission) · [**Why ToneCustoms**](#why-tonecustoms) · [**Our Approach**](#our-development-philosophy) · [**Documentation**](#about-this-documentation)
 
 [**Community & Support**](#community--support) · [**FAQ**](#frequently-asked-questions) · [**Getting Support**](#getting-support) · [**Official Links**](#contact--official-links)
 
@@ -27,6 +27,7 @@ A central place to learn who we are, what drives our development, and how we app
 | Explore | Visit |
 | --- | --- |
 | **Product catalog** | **[Browse ToneCustoms Product Documentation](products/README.md)** |
+| **Customer information** | **[Licensing, purchases, updates and support](policies/README.md)** |
 | Developer profile | [Meet Tone / ToneCustoms](https://github.com/tonyiswavy) |
 | Community conversations | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
 | Documentation suggestions | [GitHub Issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
@@ -48,6 +49,21 @@ A central place to learn who we are, what drives our development, and how we app
 | Inventory Images | [Custom icon standards](products/inventory-images.md) |
 
 **Availability note:** A demonstration or project description is not an announcement of a tested release or purchasable product. Only approved announcements and actual listings on the [official store](https://tonecustoms.tebex.store/) establish availability.
+
+## Customer Information & Policies
+
+The [ToneCustoms Customer Information Center](policies/README.md) brings together licensing, purchase and refund information, update/version policy, support, privacy and quality standards.
+
+**Publication notice:** Commercial policy drafts are marked as **pending owner approval** and are not substitutes for the actual checkout terms shown by the official store or for statutory customer rights.
+
+| Information | Page |
+| --- | --- |
+| Licensing | [Licensing framework (draft)](policies/LICENSING.md) |
+| Purchase & refunds | [Order, delivery and refund information (draft)](policies/PURCHASES_AND_REFUNDS.md) |
+| Updates and releases | [Update and versioning principles](policies/UPDATES.md) |
+| Customer support | [Customer support guide](policies/CUSTOMER_SUPPORT.md) |
+| Privacy | [Privacy disclosure checklist (draft)](policies/PRIVACY.md) |
+| Quality | [Release and publication standards](policies/RELEASE_STANDARDS.md) |
 
 ## Stay Updated
 
