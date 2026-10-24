@@ -1,0 +1,31 @@
+title: "[General] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the ToneCustoms community discussion space.
+        This is for conversations about ToneCustoms documentation and the development brand.
+        Please keep private account information, tokens, and server credentials out of public posts.
+  - type: input
+    id: topic
+    attributes:
+      label: Discussion topic
+      description: What would you like to discuss?
+      placeholder: "A question about the documentation..."
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Give enough information for others to understand and respond.
+      placeholder: "Share your question or thoughts here."
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Before posting
+      options:
+        - label: I have removed passwords, tokens, private links, and other sensitive information.
+          required: true
