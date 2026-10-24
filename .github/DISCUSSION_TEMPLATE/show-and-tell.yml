@@ -1,0 +1,31 @@
+title: "[Showcase] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ToneCustoms Community Showcase
+
+        Show the community a project, creative idea, or public-facing roleplay experience.
+        Share only your own work or material you have permission to display. This is a public discussion area, not a source-code upload or sales listing.
+  - type: input
+    id: showcase-title
+    attributes:
+      label: What are you showcasing?
+      placeholder: "A creative roleplay setup or project preview"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Tell us about it
+      description: Describe your project and what makes it interesting.
+      placeholder: "Share the idea, what inspired it, and anything the community should know."
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots, videos, or public links
+      description: Optional media that you own or have permission to share. Avoid private server details.
+    validations:
+      required: false
