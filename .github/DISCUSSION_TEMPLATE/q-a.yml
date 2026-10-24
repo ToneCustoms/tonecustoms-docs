@@ -1,0 +1,32 @@
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Ask the ToneCustoms Community
+
+        Use Q&A for specific questions about ToneCustoms or its public documentation.
+        Check the README and existing discussions first. Never include passwords, tokens, license keys, or private server details.
+  - type: input
+    id: question
+    attributes:
+      label: Your question
+      description: Ask one clear question.
+      placeholder: "Where can I find the official documentation?"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What do you need help understanding?
+      description: Provide relevant background and public links.
+      placeholder: "Explain what you were looking for and where you got stuck."
+    validations:
+      required: true
+  - type: textarea
+    id: checked
+    attributes:
+      label: What have you already checked?
+      description: Optional links to pages, FAQs, or earlier discussions.
+    validations:
+      required: false
