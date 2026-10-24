@@ -3,28 +3,50 @@ body:
   - type: markdown
     attributes:
       value: |
-        Share ideas for improving ToneCustoms documentation, communication, and the community experience.
-        Requests for private source code or confidential information do not belong here.
+        ## Share Your Ideas With ToneCustoms
+
+        Suggest new FiveM gameplay systems, custom jobs, roleplay interactions, resource improvements, or better documentation and community features.
+
+        Explain what you'd like to see and why it would help players, developers, or server owners.
+
+        Please do not post private source code, credentials, paid resources, or confidential server information.
+        Suggestions help inform future development but do not guarantee a feature or release.
   - type: input
     id: idea
     attributes:
       label: Your idea
-      description: Summarize your suggestion in a sentence.
-      placeholder: "Make installation information easier to find..."
+      description: Summarize your FiveM or ToneCustoms suggestion in one sentence.
+      placeholder: "An immersive civilian job with meaningful player interactions..."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Idea category
+      description: Which area best fits your suggestion?
+      options:
+        - Jobs & Businesses
+        - Economy & Banking
+        - Police & EMS
+        - Vehicles & Garages
+        - Roleplay & Gameplay Activities
+        - Server Management & Tools
+        - Documentation & Community
+        - Other
     validations:
       required: true
   - type: textarea
     id: benefit
     attributes:
-      label: Why would this help?
-      description: Describe the problem this solves or how the community would benefit.
-      placeholder: "This would help readers by..."
+      label: Why would this improve the experience?
+      description: Describe the roleplay scenario, problem, or benefit behind your idea.
+      placeholder: "This would give players or server owners..."
     validations:
       required: true
   - type: textarea
     id: details
     attributes:
       label: Additional context
-      description: Optional examples, publicly shareable references, or design suggestions.
+      description: Optional public examples, links, gameplay details, or design suggestions. Do not include sensitive information.
     validations:
       required: false
