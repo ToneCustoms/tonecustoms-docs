@@ -32,6 +32,8 @@ A customer may request written approval from ToneCustoms before modifying files 
 - **Swaps:** A purchased script may be considered for a swap **only for another ToneCustoms script of reasonably comparable value**, assessed using the customer's actual purchase amount and the replacement product's value. All swaps require owner approval. There is no automatic entitlement to a swap or price-difference credit.
 - **Refunds:** The business preference is no refunds for a change of mind. Any legal, contractual, platform or payment-provider obligation to provide a refund or another remedy still applies.
 
+For the full request and approval process, read the [Script Swap Policy](SCRIPT_SWAPS.md).
+
 For details still subject to final purchase terms, see [Purchases & Refunds](PURCHASES_AND_REFUNDS.md), [Updates](UPDATES.md) and [Customer Support](CUSTOMER_SUPPORT.md).
 
 ## Official channels
