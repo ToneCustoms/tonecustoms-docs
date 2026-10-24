@@ -38,7 +38,7 @@ Follow official ToneCustoms news and documentation changes through the channels 
 | What you want | Where to go |
 | --- | --- |
 | **Announcements and community updates** | [ToneCustoms GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
-| **Documentation changes** | Select **Watch** at the top of this repository to manage your GitHub notifications. |
+| **Documentation changes** | Use the **Watch** menu at the top of the repository to choose how you want to receive notifications about documentation activity. |
 | **Videos and showcases** | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
 | **Community conversations** | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 
