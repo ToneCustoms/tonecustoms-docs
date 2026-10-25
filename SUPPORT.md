@@ -1,5 +1,9 @@
 # ToneCustoms Support
 
+---
+
+**Navigate:** [About](ABOUT.md) · [Products](products/README.md) · [Installation](INSTALLATION.md) · [Updates](policies/UPDATES.md) · [Support](SUPPORT.md) · [Policies](policies/README.md)
+
 Welcome to the official **ToneCustoms** support information page.
 
 This repository hosts documentation and community information for ToneCustoms, an independent FiveM development brand. For assistance, choose the channel that best matches your request.
