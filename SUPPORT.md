@@ -14,6 +14,7 @@ For common purchase and setup questions, read the [FAQ](FAQ.md). For support rou
 
 | Your request | Recommended channel |
 | --- | --- |
+| Billing disputes, refund requests or ongoing Tebex order cases | Use the official Tebex support route on the order and reply within the original Tebex support thread |
 | Questions about ToneCustoms or a resource | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Documentation errors, outdated information, or broken links | [Documentation Issue Templates](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
 | Documentation suggestions and general community discussions | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
@@ -39,6 +40,10 @@ If reporting a documentation mistake, include the specific section and the corre
 Never share passwords, database credentials, API tokens, private license keys, or server access details in public issues or discussions.
 
 If a report involves a vulnerability or other sensitive security concern, follow the [ToneCustoms Security Policy](SECURITY.md) rather than posting sensitive information publicly.
+
+## Tebex Buyer-Support Cases
+
+When a customer opens a case through Tebex, keep order-resolution communication inside the **original Tebex support thread** so Tebex can review the response history. Discord remains available for installation and product troubleshooting, but Discord messages are not a substitute for responding in a Tebex buyer-support case.
 
 ## Support Expectations
 
