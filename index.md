@@ -1,91 +1,112 @@
-<div align="center">
+---
+layout: home
 
-<img src="https://raw.githubusercontent.com/tonyiswavy/tonyiswavy/main/assets/tonecustoms-header.svg" alt="ToneCustoms — Built for Roleplay. Made with Purpose." width="100%" />
+title: ToneCustoms Documentation
+titleTemplate: FiveM Scripts & Customer Guides
 
-# TONECUSTOMS
+hero:
+  name: ToneCustoms
+  text: Built for Roleplay.
+  tagline: Made with Purpose. Official documentation for custom FiveM resources, installation guides, troubleshooting, and customer support.
+  actions:
+    - theme: brand
+      text: Explore Products
+      link: /products/
+    - theme: alt
+      text: Installation Guides
+      link: /INSTALLATION
+    - theme: alt
+      text: Visit the Store
+      link: https://tonecustoms.tebex.store/
 
-**CUSTOM FIVEM DEVELOPMENT · INTERACTIVE ROLEPLAY SYSTEMS**
+features:
+  - icon: 🎮
+    title: FiveM Gameplay Systems
+    details: Discover interactive jobs, firearm systems, roleplay mechanics, and server resources developed by ToneCustoms.
+    link: /products/
+    linkText: Browse resources
+  - icon: 🛠️
+    title: Setup & Configuration
+    details: Follow product-specific installation steps, required dependencies, and approved configuration guidance.
+    link: /INSTALLATION
+    linkText: View installation guides
+  - icon: 📖
+    title: Customer Documentation
+    details: Find compatibility details, frequently asked questions, purchase and delivery help, and version information.
+    link: /FAQ
+    linkText: Open the FAQ
+  - icon: 💬
+    title: Official Support
+    details: Get installation and troubleshooting assistance through the official ToneCustoms support channels.
+    link: /SUPPORT
+    linkText: Get support
+---
 
-*Built for Roleplay. Made with Purpose.*
+<div class="tc-home-body">
 
-Official ToneCustoms product information, setup instructions, customer support and policies.
+<div class="tc-section-eyebrow">FEATURED RESOURCE</div>
 
-**[Explore Products](products/README.md)** · **[Visit Tebex](https://tonecustoms.tebex.store/)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)**
+## ToneCustoms Gun Jam
 
+<div class="tc-feature-product">
+  <div class="tc-product-visual">
+    <div class="tc-product-visual-tag">WEAPON INTERACTION SYSTEM</div>
+    <div class="tc-product-mark">GUN<br><span>JAM</span></div>
+    <div class="tc-product-visual-foot">MAKE EVERY SHOT COUNT.</div>
+  </div>
+  <div class="tc-product-details">
+    <div class="tc-product-label">FIVEM · OX_INVENTORY · GAMEPLAY</div>
+    <h3>Every shot matters.</h3>
+    <p>Weapon-specific tracking, a fixed 10-shot jam cycle, manual clearing interactions, and Gun Cleaning Kit maintenance. Built for immersive FiveM roleplay.</p>
+    <div class="tc-product-pills"><span>10-shot cycle</span><span>Weapon metadata</span><span>Maintenance</span></div>
+    <div class="tc-product-links">
+      <a class="tc-link-main" href="/tonecustoms-docs/products/gun-jam">Product Overview →</a>
+      <a href="/tonecustoms-docs/products/gun-jam-installation">Installation</a>
+      <a href="https://youtu.be/kPniOo-VThw" target="_blank" rel="noopener noreferrer">Watch Demo ↗</a>
+    </div>
+    <div class="tc-product-disclaimer">Available through the official ToneCustoms store. Confirm current price and terms at checkout.</div>
+  </div>
 </div>
 
----
+<div class="tc-section-eyebrow">DISCOVER MORE</div>
 
-## Documentation Navigation
+## Explore the documentation
 
-| Section | Find what you need |
-| --- | --- |
-| **01 · About** | [Who we are, our mission and development approach](ABOUT.md) |
-| **02 · Products** | [Product catalog, videos, features and availability](products/README.md) |
-| **03 · Installation** | [Setup guides, dependencies and configuration](INSTALLATION.md) |
-| **04 · Updates** | [Released updates, version policy and access](policies/UPDATES.md) |
-| **05 · Support** | [Get installation help or report a problem](SUPPORT.md) |
-| **06 · Policies** | [Licensing, purchasing, script swaps and customer information](policies/README.md) |
+<div class="tc-quick-grid">
+  <a class="tc-quick-card" href="/tonecustoms-docs/ABOUT">
+    <span class="tc-card-kicker">01 / THE BRAND</span>
+    <strong>Meet ToneCustoms</strong>
+    <span>Learn about the developer, the mission, and the approach behind each resource.</span>
+    <b>Read About →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/COMPATIBILITY">
+    <span class="tc-card-kicker">02 / TECHNICAL</span>
+    <strong>Compatibility</strong>
+    <span>Find framework and integration requirements without guessing what works.</span>
+    <b>Check Compatibility →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/UPDATE_GUIDE">
+    <span class="tc-card-kicker">03 / CUSTOMER HELP</span>
+    <strong>Updates & Releases</strong>
+    <span>Understand how approved updates are published and how to install them.</span>
+    <b>View Update Guide →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/policies/">
+    <span class="tc-card-kicker">04 / INFORMATION</span>
+    <strong>Customer Policies</strong>
+    <span>Find licensing, purchase, refund, and optional script-swap information.</span>
+    <b>Explore Policies →</b>
+  </a>
+</div>
 
-## Customer Help & Resources
+<div class="tc-support-strip">
+  <div>
+    <div class="tc-section-eyebrow">NEED HELP?</div>
+    <h2>Support that stays connected.</h2>
+    <p>Installation questions, technical issues, or general product help? Reach ToneCustoms through the official community.</p>
+  </div>
+  <a href="https://discord.gg/JdZ7NTG5KF" target="_blank" rel="noopener noreferrer">Join Discord ↗</a>
+</div>
 
-| Question | Start here |
-| --- | --- |
-| Common questions about purchases, licenses and support | [Frequently Asked Questions](FAQ.md) |
-| Which FiveM framework and dependencies work? | [Compatibility Guide](COMPATIBILITY.md) |
-| How do I access my order? | [Purchase & Delivery](PURCHASE_AND_DELIVERY.md) |
-| How should I install a new release? | [Updating a Script](UPDATE_GUIDE.md) |
-| How do I contact Tone or suggest an improvement? | [Contact & Feedback](CONTACT.md) |
-| What changed in these public guides? | [Documentation Changelog](DOCUMENTATION_CHANGELOG.md) |
-
-## Featured Product — ToneCustoms Gun Jam
-
-**On the ToneCustoms Tebex storefront · Listed at $14.99**
-
-Gun Jam adds firearm jamming, a default ten-shot cycle, weapon-specific tracking, and clearing/maintenance interactions for supported FiveM weapons using ox_inventory.
-
-- [Features and compatibility](products/gun-jam.md)
-- [Installation and configuration guide](products/gun-jam-installation.md)
-- [Watch the demonstration](https://youtu.be/kPniOo-VThw)
-- [Browse the official store](https://tonecustoms.tebex.store/category/3419336)
-
-Price, availability and purchase terms are determined by the actual store listing and checkout.
-
-## Explore Other Resources
-
-| Resource | Documentation | Video |
-| --- | --- | --- |
-| Queue — in development | [Queue](products/queue.md) | [Demo](https://youtu.be/qhEbaAJHqpQ) |
-| Farming | [Farming](products/farming.md) | [Demo](https://youtu.be/MWF8Kgai5KA) |
-| Skills | [Skills](products/skills.md) | [Demo](https://youtu.be/TYk_jkLa8wM) |
-| 3D Roleplay Text | [Roleplay Text](products/roleplay-text.md) | [Demo](https://youtu.be/i4d7FPA4Ces) |
-| Multi Job | [Multi Job](products/multi-job.md) | [Demo](https://youtu.be/WhsA_jp7LC4) |
-| Pharmacy — in development | [Pharmacy](products/pharmacy.md) | — |
-| Inventory Images — private collection | [Inventory Images](products/inventory-images.md) | — |
-
-**Availability:** A product page or demo video does not necessarily mean that a resource is currently for sale. Check the [official store](https://tonecustoms.tebex.store/) for purchasable packages.
-
-## Customer Help
-
-**Already purchased a script?** Start with the [Installation Guides](INSTALLATION.md). For installation, configuration and product issues, visit [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF). Customer support for these matters is free, without a guaranteed 24/7 response time.
-
-**Questions about purchases?** The [Customer Policy Center](policies/README.md) covers owner-defined licensing rules, optional comparable-value script swap requests, free updates when released, and information that must align with the actual checkout terms and applicable law.
-
-**Found a documentation issue?** Use [GitHub Issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose). Do not include license keys, passwords or private source files.
-
-## Community & Official Links
-
-| Destination | Link |
-| --- | --- |
-| Official Store | [ToneCustoms Tebex](https://tonecustoms.tebex.store/) |
-| Support & Community | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
-| Video Demonstrations | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
-| Developer Profile | [ToneCustoms GitHub](https://github.com/tonyiswavy) |
-| Announcements & Questions | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
-| Documentation Contributions | [Contribution Guide](CONTRIBUTING.md) |
-| Security Reporting | [Security Policy](SECURITY.md) |
-| Community Standards | [Code of Conduct](CODE_OF_CONDUCT.md) |
-
----
-
-<sub>© ToneCustoms · This is a public documentation repository; it does not distribute paid source code or replace the contractual terms accepted at checkout.</sub>
+<div class="tc-home-note">ToneCustoms documentation contains product information and guides, not paid resource source code. Only the official store and product-specific announcements confirm purchasing availability. Actual checkout terms govern purchases.</div>
+</div>
