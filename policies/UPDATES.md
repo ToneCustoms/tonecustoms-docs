@@ -1,34 +1,43 @@
-# ToneCustoms — Updates, Versions & Release Communication
+# ToneCustoms — Updates & Release Information
 
-**Status:** Documented development principle; **commercial update entitlements remain unconfirmed**.
+**Customer information · Business approach approved by ToneCustoms · Subject to actual checkout terms**
 
-## Development rule
+## Updates included with purchases
 
-ToneCustoms does not assign a new official release version simply because a file was changed. Work proceeds through development, fixes and in-game testing before the owner approves a release.
+**When ToneCustoms publishes an update to a script a customer already purchased, that update is provided without an additional update charge**, subject to the applicable purchasing and delivery terms.
 
-| Stage | Meaning |
+ToneCustoms chooses when to develop, improve and publish each resource. There is **no fixed update schedule**, required number of updates, or promise that every requested feature will be added.
+
+## What an update may include
+
+- Bug fixes and stability improvements
+- Compatibility improvements for supported integrations
+- Usability refinements or gameplay additions
+- Documentation or configuration guidance
+
+A public demonstration, development commit, or GitHub issue **does not automatically indicate a new customer release**.
+
+## Release quality process
+
+| Stage | Description |
 | --- | --- |
-| Planned | Feature or improvement has been accepted for future development |
-| In Development | Work is underway; not yet a verified release |
-| Fixing / Needs Fixes | Known issue is being investigated or corrected |
-| Testing | Changes are being validated in the target environment |
-| Verified Working | Required functions and acceptance criteria have been tested successfully |
-| Released | An approved build or update has been formally published |
+| Planned | A potential future improvement |
+| In development | Work is underway |
+| Fixing / Needs fixes | An issue requires changes |
+| Testing | Changes are being checked |
+| Verified working | Owner-approved functionality is confirmed |
+| Released | A customer-facing build has been published |
 
-## Release notes standard
+Version numbers are assigned according to the actual approved release process, not for every documentation change or GitHub commit.
 
-Every public product release should identify:
-- Resource name and approved version/tag
-- What changed (features, fixes, compatibility)
-- Required dependencies and any migration/configuration steps
-- Known limitations
-- Date and official distribution method
-- How to get support or report a defect
+## Getting an update
 
-## Existing customers
+Updates are distributed through the **official delivery method for the purchased product**. For scripts delivered through Cfx.re Asset Escrow, customers should follow the delivery/access instructions on their Tebex order and in the corresponding product guide. Do not download code from private ToneCustoms GitHub repositories.
 
-**Not yet decided:** Which updates are included with a purchase, how long access lasts, whether major upgrades are paid, and how updates are delivered. These rights must be specified in approved listing/license terms **before being promised**.
+## Need assistance?
 
-Private source repositories and internal issue-tracking activity do not mean customers receive automatic access to private files.
+Visit [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) for product support and setup questions. Never publish your license or payment credentials in a public issue.
 
-[Policy index](README.md)
+**Note:** The terms shown and accepted at actual checkout, applicable provider rules and law govern the purchase. This page does not retroactively rewrite previous purchases.
+
+[← Customer Information](README.md) · [Product Catalog](../products/README.md)
