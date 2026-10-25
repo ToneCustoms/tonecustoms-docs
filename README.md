@@ -27,6 +27,10 @@ Official ToneCustoms product information, setup instructions, customer support a
 | **05 · Support** | [Get installation help or report a problem](SUPPORT.md) |
 | **06 · Policies** | [Licensing, purchasing, script swaps and customer information](policies/README.md) |
 
+## Free FiveM Resources
+
+Explore the [Free FiveM Resources Directory](products/free-resources.md) for owner-approved free scripts, download links, installation guides and licensing information when they are released. No private or paid source is distributed through this directory.
+
 ## Customer Help & Resources
 
 | Question | Start here |
