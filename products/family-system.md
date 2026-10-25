@@ -59,6 +59,6 @@ Installation, configuration and product troubleshooting support is available thr
 
 ---
 
-**Ready to explore ToneCustoms Family System?** [Visit the store](https://tonecustoms.tebex.store/) · [Browse all scripts](index.md) · [Watch ToneCustoms on YouTube](https://www.youtube.com/@tonyiswavy12)
+**Ready to explore ToneCustoms Family System?** [Visit the store](https://tonecustoms.tebex.store/) · [Browse all scripts](README.md) · [Watch ToneCustoms on YouTube](https://www.youtube.com/@tonyiswavy12)
 
 *ToneCustoms — Built for Roleplay. Made with Purpose.*
