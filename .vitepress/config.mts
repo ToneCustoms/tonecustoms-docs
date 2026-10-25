@@ -43,6 +43,8 @@ export default defineConfig({
         items: [
           { text: 'Product Catalog', link: '/products/' },
           { text: 'Gun Jam — Overview', link: '/products/gun-jam' },
+          { text: 'Family System', link: '/products/family-system' },
+          { text: 'Window Cleaning', link: '/products/window-cleaning' },
           { text: 'Gun Jam — Installation', link: '/products/gun-jam-installation' },
           { text: 'Gun Jam — Troubleshooting', link: '/products/gun-jam-troubleshooting' },
           { text: 'Gun Jam — Release History', link: '/products/gun-jam-changelog' },
