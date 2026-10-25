@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 LINK_RE = re.compile(r"!?(?:\[[^\]]*\])\((<[^>]+>|[^\s)]+)(?:\s+[^)]*)?\)")
 HTML_SRC_RE = re.compile(r"""(?:src|href)\s*=\s*["']([^"']+)["']""")
 FENCE_RE = re.compile(r"^\s*[`~]{3,}")
+SITE_BASE = "/tonecustoms-docs/"  # GitHub Pages project-site base path
 
 failures = []
 checked = 0
@@ -29,10 +30,27 @@ for md in sorted(ROOT.rglob("*.md")):
                 continue
             if not parts.path:
                 continue
-            target = (ROOT / unquote(parts.path).lstrip("/")) if url.startswith("/") else (md.parent / unquote(parts.path))
+            decoded_path = unquote(parts.path)
+            if decoded_path.startswith(SITE_BASE):
+                # VitePress cleanUrls links, written in custom HTML, use the deployed
+                # GitHub Pages base and extensionless Markdown route names.
+                target = ROOT / decoded_path[len(SITE_BASE):]
+            elif url.startswith("/"):
+                target = ROOT / decoded_path.lstrip("/")
+            else:
+                target = md.parent / decoded_path
+
             checked += 1
-            if not target.exists():
-                failures.append(f"{md.relative_to(ROOT)}:{number}: missing local link target {url}")
+            if target.exists():
+                continue
+
+            # VitePress outputs /guide for guide.md and /section/ for section/index.md.
+            # These are valid navigational URLs despite not being filesystem paths.
+            alternatives = [Path(str(target) + ".md"), target / "index.md"]
+            if any(candidate.is_file() for candidate in alternatives):
+                continue
+
+            failures.append(f"{md.relative_to(ROOT)}:{number}: missing local link target {url}")
 
 if failures:
     print("\n".join(failures), file=sys.stderr)
