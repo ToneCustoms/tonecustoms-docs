@@ -10,24 +10,36 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 
 > **Important:** A demonstration or development page is **not** proof that a script is released, for sale, supported on every framework, or ready to install. Only the [official ToneCustoms store](https://tonecustoms.tebex.store/) and explicit ToneCustoms announcements determine availability. All private source code and custom asset libraries remain private.
 
-## Resource catalog
+## Store-listed scripts
 
-| Resource | Purpose | Documentation | Demonstration |
+These products have been documented from ToneCustoms store listings. **Current availability, prices and purchase terms must be confirmed at [Tebex](https://tonecustoms.tebex.store/).**
+
+| Script | What it does | Product information | Store |
 | --- | --- | --- | --- |
-| **Gun Jam** — Listed $14.99 | Firearm jamming and clearing interactions | [Overview](gun-jam.md) · [Install](gun-jam-installation.md) · [Troubleshooting](gun-jam-troubleshooting.md) · [Releases](gun-jam-changelog.md) · [Tebex](https://tonecustoms.tebex.store/category/3419336) | [Video](https://youtu.be/kPniOo-VThw) |
-| **Queue** | Server access, whitelist and priority queue | [Queue](queue.md) | [Video](https://youtu.be/qhEbaAJHqpQ) |
-| **Farming** | Farming-related roleplay activity | [Farming](farming.md) | [Video](https://youtu.be/MWF8Kgai5KA) |
-| **Skills** | Character progression through skills | [Skills](skills.md) | [Video](https://youtu.be/TYk_jkLa8wM) |
-| **3D Roleplay Text** | /me and /do roleplay text | [3D Roleplay Text](roleplay-text.md) | [Video](https://youtu.be/i4d7FPA4Ces) |
-| **Multi Job** | Multiple job management | [Multi Job](multi-job.md) | [Video](https://youtu.be/WhsA_jp7LC4) |
-| **Pharmacy** | Pharmacy and activity-based rehabilitation mechanics | [Pharmacy](pharmacy.md) | Not published here |
-| **Inventory Images** | Custom FiveM inventory icon collection | [Inventory Images](inventory-images.md) | Private asset library |
+| **ToneCustoms Gun Jam** | Weapon jams, clearing and maintenance interactions | [Overview](gun-jam.md) · [Installation](gun-jam-installation.md) · [Troubleshooting](gun-jam-troubleshooting.md) · [Release history](gun-jam-changelog.md) · [Demo](https://youtu.be/kPniOo-VThw) | [View on Tebex](https://tonecustoms.tebex.store/category/3419336) |
+| **Family System** | Family ranks, management and group roleplay features | [Overview](family-system.md) · [Installation](family-system-installation.md) · [Troubleshooting](family-system-troubleshooting.md) · [Release history](family-system-changelog.md) | [Browse store](https://tonecustoms.tebex.store/) |
+| **Window Cleaning** | Interactive civilian cleaning contracts and activities | [Overview](window-cleaning.md) · [Installation](window-cleaning-installation.md) · [Troubleshooting](window-cleaning-troubleshooting.md) · [Release history](window-cleaning-changelog.md) | [Browse store](https://tonecustoms.tebex.store/) |
 
-**Catalog status:** Gun Jam is listed on the official ToneCustoms Tebex store. Other product pages are showcases or development documentation unless their individual availability is verified. Prices and product availability may change.
+## Development showcases and demonstrations
+
+These resources have documentation or demonstrations; **the videos do not establish that they are currently available for download or purchase**.
+
+| Resource | Focus | Documentation | Demo |
+| --- | --- | --- | --- |
+| **Queue** | Whitelist, priority queue and server access | [Overview](queue.md) | [Watch](https://youtu.be/qhEbaAJHqpQ) |
+| **Farming** | Farming roleplay activities | [Overview](farming.md) | [Watch](https://youtu.be/MWF8Kgai5KA) |
+| **Skills** | Character skill progression | [Overview](skills.md) | [Watch](https://youtu.be/TYk_jkLa8wM) |
+| **3D Roleplay Text** | /me and /do interaction | [Overview](roleplay-text.md) | [Watch](https://youtu.be/i4d7FPA4Ces) |
+| **Multi Job** | Multiple job management | [Overview](multi-job.md) | [Watch](https://youtu.be/WhsA_jp7LC4) |
+| **Pharmacy** | Pharmacy and activity-based rehabilitation mechanics | [In-development overview](pharmacy.md) | No public video linked |
+
+## Private asset collections
+
+**Inventory Images** is a private ToneCustoms image collection, not a public download. Read its [documentation](inventory-images.md) for general information.
 
 ## Free FiveM scripts
 
-Looking for publicly downloadable resources? Visit the [Free FiveM Resources Directory](free-resources.md). This page only lists owner-approved, published free scripts; it does not expose paid projects or private development files.
+Visit the [Free FiveM Resources Directory](free-resources.md) for owner-approved public releases. The directory does not list a downloadable free script at present, and it does not distribute paid or private source code.
 
 ## What each product page covers
 
