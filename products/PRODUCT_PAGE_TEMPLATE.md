@@ -1,64 +1,57 @@
-# [Resource Name]
+# [ToneCustoms Product Name]
 
-**Type:** [Gameplay / Management / UI / Asset]  
-**Status:** [Development / Testing / Verified Working / Released — confirmed only]  
-**Availability:** [Official approved listing or “Not announced”]  
-**Demonstration:** [Verified official link, if any]
+**Category:** [Gameplay / Jobs / Systems / UI / Assets]  
+**Availability:** [Listed on official Tebex / Development showcase / Not announced]  
+**Latest confirmed customer release:** [Version and date if officially verified; otherwise “Not documented”]
 
-> A development page is not a claim that the resource is released or purchasable.
+**[Official Store](https://tonecustoms.tebex.store/)** · **[Discord Support](https://discord.gg/JdZ7NTG5KF)**
 
-## What it does
+> Separate features verified in the delivered build from development plans. Do not describe a demo or internal version as a customer release.
 
-[Concise, customer-friendly explanation of the roleplay or server problem this resource solves.]
+## Overview
 
-## Verified features
+[One clear paragraph explaining the purpose of the resource and the benefit to server owners or players.]
 
-Only list functionality that has been personally checked in the intended environment.
+## What players and staff can do
 
-- [ ] [Feature and confirmed behavior]
-- [ ] [Feature and confirmed behavior]
-
-## In development / under consideration
-
-List planned work separately. Do not present it as included in a sale.
-
-## Compatibility and prerequisites
-
-| Property | Confirmed information |
+| Feature | Confirmed behavior |
 | --- | --- |
-| Game | FiveM |
-| Frameworks | [Tested frameworks only] |
-| Dependencies | [Exact names and tested requirements] |
-| Inventory / targeting | [Only when actually supported] |
-| Minimum server setup | [Required details] |
+| [Feature] | [Precise description] |
+| [Feature] | [Precise description] |
 
-## Installation
+**Known limitations:** [Only confirmed limitations; do not invent compatibility promises.]
 
-[Add approved step-by-step instructions only after the actual build is verified.]
+## Requirements and compatibility
 
-## Configuration
-
-[Document configurable options, defaults, and relevant permissions; never expose private credentials or source.]
-
-## Known limitations
-
-[List confirmed limits or state that a complete review is pending.]
-
-## Demonstration and screenshots
-
-[Insert genuine screenshots and approved showcase video(s), not generic promotional mockups.]
-
-## Approved release information
-
-| Item | Information |
+| Component | Requirement |
 | --- | --- |
-| Released version | [Not yet assigned unless verified] |
-| Release date | [Not yet announced unless approved] |
-| Changelog | [Link to approved notes] |
-| Distribution | [Official verified link] |
+| FiveM | [Required] |
+| Framework | [Qbox / QBCore / ESX / standalone, only when supported] |
+| Dependencies | [Exact required resources] |
+| Inventory / target system | [Specify when applicable] |
 
-## Licensing, updates and support
+## Customer guides
 
-For the latest public information, consult [Customer Information & Policies](../policies/README.md) and the actual terms presented on the [ToneCustoms store](https://tonecustoms.tebex.store/).
+| Need | Documentation |
+| --- | --- |
+| Installation and configuration | [Link to product installation guide] |
+| Troubleshooting | [Link to dedicated troubleshooting guide] |
+| Release history | [Link to product changelog] |
+| Customer policies | [Customer Information](../policies/README.md) |
+| Support | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 
-[← Product Catalog](README.md)
+## Demonstration
+
+[Official video URL and/or genuine product screenshots if available. Never invent assets.]
+
+## Availability and purchase
+
+[Verified store listing/category and price, if current and known. Avoid making a category URL appear to be a direct checkout link.]
+
+## Support and updates
+
+Customer setup support is available through [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF). Updates to purchased scripts are free **when released**, with no promised timetable. The actual checkout terms and applicable law govern the purchase.
+
+---
+
+[← Product Catalog](README.md) · [Documentation Home](../README.md)
