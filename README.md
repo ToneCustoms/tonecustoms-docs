@@ -39,7 +39,7 @@ A central place to learn who we are, what drives our development, and how we app
 
 | Featured documentation | Explore |
 | --- | --- |
-| Gun Jam | [Weapon interaction showcase](products/gun-jam.md) |
+| **Gun Jam — on Tebex** | [Overview](products/gun-jam.md) · [Installation & configuration](products/gun-jam-installation.md) · [Shop](https://tonecustoms.tebex.store/category/3419336) |
 | Queue | [Server access and whitelist development](products/queue.md) |
 | Farming | [Farming activity showcase](products/farming.md) |
 | Skills | [Skills progression showcase](products/skills.md) |
@@ -48,19 +48,19 @@ A central place to learn who we are, what drives our development, and how we app
 | Pharmacy | [Pharmacy development overview](products/pharmacy.md) |
 | Inventory Images | [Custom icon standards](products/inventory-images.md) |
 
-**Availability note:** A demonstration or project description is not an announcement of a tested release or purchasable product. Only approved announcements and actual listings on the [official store](https://tonecustoms.tebex.store/) establish availability.
+**Availability note:** Gun Jam is listed on the official ToneCustoms store. Other videos and development pages do **not** automatically mean a product is available for purchase. Check the [store](https://tonecustoms.tebex.store/) for current availability.
 
 ## Customer Information & Policies
 
 The [ToneCustoms Customer Information Center](policies/README.md) brings together licensing, purchase and refund information, update/version policy, support, privacy and quality standards.
 
-**Publication notice:** Commercial policy drafts are marked as **pending owner approval** and are not substitutes for the actual checkout terms shown by the official store or for statutory customer rights.
+**Publication notice:** ToneCustoms has documented its owner-approved commercial approach, while customer-facing terms still must align with Tebex checkout, platform rules and statutory rights. Public documentation does not replace those terms.
 
 | Information | Page |
 | --- | --- |
 | Licensing | [Licensing framework (draft)](policies/LICENSING.md) |
 | Purchase & refunds | [Order, delivery and refund information (draft)](policies/PURCHASES_AND_REFUNDS.md) |
-| Updates and releases | [Update and versioning principles](policies/UPDATES.md) |
+| Updates and releases | [Free released updates and versioning principles](policies/UPDATES.md) |
 | Customer support | [Customer support guide](policies/CUSTOMER_SUPPORT.md) |
 | Privacy | [Privacy disclosure checklist (draft)](policies/PRIVACY.md) |
 | Quality | [Release and publication standards](policies/RELEASE_STANDARDS.md) |
@@ -173,8 +173,11 @@ Join the [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) and use the releva
 **Where can I see showcases and videos?**  
 Visit [ToneCustoms on YouTube](https://www.youtube.com/@tonyiswavy12).
 
-**Will there be installation and configuration guides?**  
-Resource-specific guides may be added here when those resources are ready to be documented. Compatibility and requirements will be specified per resource.
+**Where can I find Gun Jam installation instructions?**  
+Read the [Gun Jam customer installation & configuration guide](products/gun-jam-installation.md) for setup, cleaning-kit integration and common troubleshooting.
+
+**Will other products receive installation and configuration guides?**  
+Guides are added as products are prepared. Compatibility and requirements are documented per resource.
 
 ## Getting Support
 
