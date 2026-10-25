@@ -1,30 +1,37 @@
-# ToneCustoms — Customer Support Guide
+# ToneCustoms — Customer Support
 
-**Status:** Official support entry points documented; service guarantees not yet established.
+**Official customer support information**
 
-## Choose the appropriate channel
+ToneCustoms offers **free installation, configuration, and product issue assistance** for customers who purchased its scripts. Support remains available through official channels, but this is not a promise of immediate or around-the-clock responses.
 
-| Request | Where to go |
+## Where to contact us
+
+| Reason | Channel |
 | --- | --- |
-| Product availability and pre-purchase questions | [Official Tebex](https://tonecustoms.tebex.store/) or [Discord](https://discord.gg/JdZ7NTG5KF) |
-| Installation, configuration or a script issue | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF), using the appropriate support channel |
-| Incorrect documentation or broken documentation links | [Public GitHub documentation issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
-| Security-sensitive details | [Security policy](../SECURITY.md) and confidential reporting |
-| General ideas or community discussion | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
+| Help installing a purchased resource | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+| Configuration help | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+| Report a product bug | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+| Purchase or entitlement question | Use the support route from your Tebex order or [Discord](https://discord.gg/JdZ7NTG5KF) |
+| Incorrect public documentation | [GitHub documentation issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
+| Sensitive vulnerability | [Security disclosure instructions](../SECURITY.md) |
 
-## For efficient troubleshooting
+## Information to include
 
-Provide the resource name, known approved version (if any), server framework, relevant dependencies, what you expected, what happened, steps to reproduce, and **redacted** logs or screenshots.
+Give the resource name, the framework/inventory setup, what happened, the result you expected, and relevant screenshots or redacted console errors. Include the version **only if known**. When purchase verification is necessary, use a private support channel.
 
-## Support boundaries
+Do not post passwords, payment details, license keys, webhooks or other sensitive information in public Discord channels or GitHub issues.
 
-- **No guaranteed response time** is being promised in this document.
-- Available support, included customizations and update entitlements depend on any approved product terms.
-- Public documentation issues are **not** private customer support tickets.
-- Never share tokens, license keys, webhooks, databases, credentials or remote access information publicly.
+## What's included
 
-## Planned service standards — pending owner decision
+- Guidance for initial installation and dependency setup
+- Help using the designated configuration files
+- Assistance investigating errors associated with the purchased resource
+- Guidance on accessing updates when released
 
-Define published coverage hours (if any), order verification method, customer response goals, included installation help, refund escalation route, compatibility and custom-code boundaries, and how support closes resolved tickets.
+**Separate work:** Commissioned custom features, reworking protected source, unrelated server repairs and third-party resource development are not automatically included with a product purchase. Any separate work should be discussed and agreed on before it begins.
 
-[Policy index](README.md) · [General Support](../SUPPORT.md)
+## Response expectations
+
+Support is available through ToneCustoms' official channels. **No 24/7 staffing or guaranteed response time** is represented.
+
+[← Customer Information](README.md) · [General Support](../SUPPORT.md)
