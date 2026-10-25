@@ -23,6 +23,12 @@ Use the **Documentation suggestion** issue template to recommend better organiza
 
 For broader conversations, join [ToneCustoms Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions).
 
+### Quality checks before publication
+
+Changes to the public docs are checked for broken links, restricted files and common credential patterns, and whether VitePress can build expected routes. Pull requests run these checks before maintainers merge when the workflow is enabled. The deploy workflow repeats the checks before publishing to GitHub Pages.
+
+See [Release Workflow](RELEASING.md) for the process and responsibilities. These checks do not substitute for manual review or enforce merge blocking without repository branch rules.
+
 ### Propose a Change
 
 If you want to submit a correction through a pull request:
