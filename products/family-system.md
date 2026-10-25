@@ -1,54 +1,64 @@
 ---
 title: ToneCustoms Family System
-description: FiveM family management resource — features, documentation and availability.
+description: Family management, custom ranks, permissions and headquarters functionality for FiveM roleplay communities.
 ---
 
 # ToneCustoms Family System
 
-**Category:** Group management / roleplay systems  
-**Store status:** Listed on the [official ToneCustoms storefront](https://tonecustoms.tebex.store/)  
-**Listed price at review:** $24.99 — check the storefront for current pricing
+**FIVEM · FAMILY & GROUP MANAGEMENT · ROLEPLAY SYSTEM**
 
-## Overview
+**Build your family's identity. Manage your members. Grow your organization.**
 
-ToneCustoms Family System is designed to help FiveM roleplay communities create and manage player families through a dedicated management interface. The published store description emphasizes organized member management, custom ranks, configurable permissions and family roleplay features.
+ToneCustoms Family System gives player families a dedicated management experience for organizing membership, defining ranks, assigning permissions and coordinating family activities.
 
-## Store-described features
+**Store listing at last review:** $24.99 · [View the official ToneCustoms store](https://tonecustoms.tebex.store/)  
+*Confirm availability, price and checkout terms on the storefront.*
 
-| Feature | Description |
+[Browse Store](https://tonecustoms.tebex.store/) · [Installation Guide](family-system-installation.md) · [Join Discord Support](https://discord.gg/JdZ7NTG5KF)
+
+## What your community can do
+
+| System | Store-described functionality |
 | --- | --- |
-| Family creation | Create and manage a family/group |
-| Member management | Manage family membership |
-| Custom ranks | Define or assign family ranks |
-| Rank permissions | Restrict features by family rank |
+| Family creation | Set up and manage in-city families |
+| Membership management | Organize family members in one place |
+| Custom ranks | Create a clear family hierarchy |
+| Rank-based permissions | Control which members can access management features |
 | Headquarters | Family HQ functionality |
-| Vehicles and garage | Family vehicle / garage functionality |
-| Management interface | Dedicated UI for family administration |
-| Configuration | Family and resource settings |
-| Validation | Server-side validation described by the listing |
+| Family garage | Family vehicle and garage features |
+| Management interface | Centralized family administration |
+| Configuration | Adapt supported family settings to your server |
+| Server validation | Server-side checks described in the listing |
 
-The items above summarize the **public store listing**, not a new independent gameplay verification. Features and compatibility are governed by the delivered resource and listing.
+The feature summary reflects the public product listing, not independent verification of every build or configuration.
 
-## Delivery and setup
+## Designed for structured roleplay
 
-The public listing describes **Cfx.re Keymaster / Asset Escrow** delivery. Customers should confirm that their purchase is associated with the intended Cfx.re account and follow the order's entitlement instructions.
+**For players:** A consistent way to organize their group, manage access, and build an ongoing family identity.
 
-**Frameworks and dependencies:** Exact supported framework versions and required dependencies were not available in the public listing material reviewed for this guide. Use the configuration and installation files included with the delivered resource; ask [ToneCustoms Support](https://discord.gg/JdZ7NTG5KF) if your setup is unclear.
+**For server owners:** A configurable group-management resource with role-based controls rather than an informal collection of commands.
 
-See the [Family System Installation Guide](family-system-installation.md) for the customer setup checklist and [Troubleshooting](family-system-troubleshooting.md) for common diagnostics.
+## Purchase, delivery and compatibility
 
-## Support & updates
+The store description identifies **Cfx.re Keymaster / Asset Escrow** delivery. Ensure the order is associated with the intended Cfx.re account.
 
-Installation, configuration and product troubleshooting help is available without an additional support charge through [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF). ToneCustoms provides updates when released, without a fixed release schedule.
+Exact tested framework versions and dependencies have not been confirmed in the reviewed public listing. Check the delivered files and [installation guide](family-system-installation.md) before installation.
 
-**Customer restrictions:** Designated configuration files may be edited; redistribution and unauthorized core modifications are not permitted under the proposed license approach. Checkout terms and applicable law govern purchases.
+## Documentation and support
 
-## Documentation
+| Need | Resource |
+| --- | --- |
+| Set up the resource | [Installation & configuration](family-system-installation.md) |
+| Resolve common problems | [Troubleshooting guide](family-system-troubleshooting.md) |
+| Review product changes | [Release history](family-system-changelog.md) |
+| Understand delivery | [Purchase & delivery](../PURCHASE_AND_DELIVERY.md) |
+| Review customer information | [Customer policies](../policies/README.md) |
+| Contact ToneCustoms | [Discord support](https://discord.gg/JdZ7NTG5KF) |
 
-- [Installation & Configuration](family-system-installation.md)
-- [Troubleshooting](family-system-troubleshooting.md)
-- [Release History](family-system-changelog.md)
-- [Purchase & Delivery](../PURCHASE_AND_DELIVERY.md)
-- [Customer Policies](../policies/README.md)
+Installation, configuration and product troubleshooting support is available through the official community without an additional support charge. Updates are provided when released, with no fixed schedule. License restrictions and customer entitlements remain subject to the applicable checkout terms and law.
 
-[← Product Catalog](index.md)
+---
+
+**Ready to explore ToneCustoms Family System?** [Visit the store](https://tonecustoms.tebex.store/) · [Browse all scripts](index.md) · [Watch ToneCustoms on YouTube](https://www.youtube.com/@tonyiswavy12)
+
+*ToneCustoms — Built for Roleplay. Made with Purpose.*
