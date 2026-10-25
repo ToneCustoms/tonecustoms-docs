@@ -15,6 +15,17 @@ This page tracks material **changes to public guides and documentation**. It is 
 
 **Policy note:** Customer-facing documentation describes ToneCustoms' intended commercial approach; approved checkout terms, platform rules and applicable law still govern purchases.
 
+## October 25, 2026 — Product documentation and publishing quality
+
+- Added Family System overview, setup, troubleshooting and release-history guides based on its public store description.
+- Added Window Cleaning overview, setup, troubleshooting and release-history guides based on its public store description.
+- Introduced automatic checking of public files for common credential patterns and restricted artifacts.
+- Added generated-site route verification to VitePress builds.
+- Configured the publishing workflow to run documentation, safety and build checks before uploading the website.
+- Documented a consistent customer-facing release process and contribution checklist.
+
+**No private scripts or customer entitlements were modified.** Product version numbers were not invented.
+
 ## Keeping this history accurate
 
 When updating this page, record:
