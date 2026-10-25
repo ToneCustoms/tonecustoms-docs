@@ -25,6 +25,10 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 
 **Catalog status:** Gun Jam is listed on the official ToneCustoms Tebex store. Other product pages are showcases or development documentation unless their individual availability is verified. Prices and product availability may change.
 
+## Free FiveM scripts
+
+Looking for publicly downloadable resources? Visit the [Free FiveM Resources Directory](free-resources.md). This page only lists owner-approved, published free scripts; it does not expose paid projects or private development files.
+
 ## What each product page covers
 
 - Overview and intended gameplay experience
