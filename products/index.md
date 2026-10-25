@@ -33,6 +33,25 @@ description: Explore official ToneCustoms FiveM products, demos and development 
   </div>
 </div>
 
+<div class="tc-section-eyebrow">MORE STORE-LISTED RESOURCES</div>
+
+## Family System & Window Cleaning
+
+<div class="tc-quick-grid">
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/family-system">
+    <span class="tc-card-kicker">GROUP MANAGEMENT · LISTED ON TEBEX</span>
+    <strong>Family System</strong>
+    <span>Family membership, ranks, configurable permissions, HQ and garage functionality.</span>
+    <b>Features & Customer Guides →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/window-cleaning">
+    <span class="tc-card-kicker">CIVILIAN JOB · LISTED ON TEBEX</span>
+    <strong>Window Cleaning</strong>
+    <span>Interactive mouse-controlled window cleaning, contracts, equipment and payouts.</span>
+    <b>Features & Customer Guides →</b>
+  </a>
+</div>
+
 <div class="tc-section-eyebrow">SHOWCASES & DEVELOPMENT</div>
 
 ## Explore more resources
