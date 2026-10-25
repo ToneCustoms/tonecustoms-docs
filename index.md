@@ -69,6 +69,29 @@ features:
   </div>
 </div>
 
+<div class="tc-section-eyebrow">MORE TONECUSTOMS SCRIPTS</div>
+
+## Explore our store-listed resources
+
+Discover more interactive systems developed for FiveM roleplay. Product details are based on their public store descriptions; check Tebex for current availability, pricing, and purchase terms.
+
+<div class="tc-quick-grid">
+  <div class="tc-quick-card">
+    <span class="tc-card-kicker">FAMILY & GROUP MANAGEMENT</span>
+    <strong>ToneCustoms Family System</strong>
+    <span>Give roleplay families dedicated member management, custom ranks, configurable permissions, headquarters features, and vehicle/garage tools.</span>
+    <span><a href="/tonecustoms-docs/products/family-system">Product Details →</a> · <a href="/tonecustoms-docs/products/family-system-installation">Installation →</a> · <a href="https://tonecustoms.tebex.store/" target="_blank" rel="noopener noreferrer">View Store ↗</a></span>
+  </div>
+  <div class="tc-quick-card">
+    <span class="tc-card-kicker">INTERACTIVE CIVILIAN JOB</span>
+    <strong>ToneCustoms Window Cleaning</strong>
+    <span>Run cleaning contracts with equipment pickup, location-based jobs, and hands-on mouse-controlled window-cleaning gameplay.</span>
+    <span><a href="/tonecustoms-docs/products/window-cleaning">Product Details →</a> · <a href="/tonecustoms-docs/products/window-cleaning-installation">Installation →</a> · <a href="https://tonecustoms.tebex.store/" target="_blank" rel="noopener noreferrer">View Store ↗</a></span>
+  </div>
+</div>
+
+<p><a href="/tonecustoms-docs/products/">Explore the complete ToneCustoms product catalog →</a></p>
+
 <div class="tc-section-eyebrow">DISCOVER MORE</div>
 
 ## Explore the documentation
