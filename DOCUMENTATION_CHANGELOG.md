@@ -26,6 +26,12 @@ This page tracks material **changes to public guides and documentation**. It is 
 
 **No private scripts or customer entitlements were modified.** Product version numbers were not invented.
 
+## October 25, 2026 — Community navigation
+
+- Added direct YouTube, Discord, GitHub and Tebex navigation cards to the documentation homepage.
+- Kept script source repositories and Discord bot projects unchanged.
+- This was a documentation-only change; it did not publish a new script or alter product versions.
+
 ## Keeping this history accurate
 
 When updating this page, record:
