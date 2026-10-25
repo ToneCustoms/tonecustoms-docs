@@ -21,6 +21,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'About', link: '/ABOUT' },
       { text: 'Products', link: '/products/' },
+      { text: 'Free Scripts', link: '/products/free-resources' },
       { text: 'Installation', link: '/INSTALLATION' },
       { text: 'Updates', link: '/policies/UPDATES' },
       { text: 'Support', link: '/SUPPORT' },
@@ -42,6 +43,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Product Catalog', link: '/products/' },
+          { text: 'Free FiveM Scripts', link: '/products/free-resources' },
           { text: 'Gun Jam — Overview', link: '/products/gun-jam' },
           { text: 'Family System', link: '/products/family-system' },
           { text: 'Window Cleaning', link: '/products/window-cleaning' },
