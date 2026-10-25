@@ -33,6 +33,36 @@ This guide explains how ToneCustoms separates public information from protected 
 
 Naming examples are patterns only: they do **not** imply the example repository exists or that a resource is available.
 
+## GitHub Projects workflow
+
+Use the existing GitHub Project to coordinate work across repositories instead of creating a separate project for each script. A project item represents a deliverable or issue; the repository stores the actual code or documentation.
+
+| Status | Meaning | Exit condition |
+| --- | --- | --- |
+| Backlog | Approved idea or task awaiting prioritization | Selected for work |
+| Ready | Scope, owner and next action are clear | Development begins |
+| In Progress | Work is actively being implemented or documented | Ready for review |
+| Review | Changes, installation guidance and dependencies are checked | Accepted or returned for fixes |
+| Done | Deliverable completed with relevant issue or documentation updated | Final state |
+
+**Suggested project fields:** Status, Priority (High / Medium / Low), Type (Script / Bug / Docs / Release), and Repository. Add target dates only when a real deadline exists; don't create fake launch dates.
+
+### Recommended working views
+
+- **Board:** Group by Status to see current work and blockers.
+- **Backlog:** Filter to Backlog and Ready, sorted by priority.
+- **Releases:** Filter to Release type to track preparation, store information and documentation together.
+
+### Keep the project useful
+
+1. Create an item when there is a clear next action, not simply because a resource might exist someday.
+2. Link an existing GitHub issue or pull request where one exists; don't create duplicates.
+3. Keep unreleased or sensitive details in private repositories or private project items.
+4. When an item is Done, update public documentation only for owner-approved features and releases.
+5. Review stale In Progress items periodically, without treating idle development as a missed deadline.
+
+**Access note:** A public documentation guide cannot change GitHub Project board settings. Configure project fields and views in GitHub Projects itself.
+
 ## Minimum checklist for each script repository
 
 1. Clear description, product scope, owner, and supported FiveM dependencies.
