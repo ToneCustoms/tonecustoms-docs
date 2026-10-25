@@ -62,4 +62,6 @@ Only designated configuration files may be modified unless otherwise authorized.
 
 **Explore ToneCustoms Gun Jam:** [Shop Packages](https://tonecustoms.tebex.store/category/3419336) · [Browse all scripts](README.md) · [Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)
 
+**Explore more ToneCustoms scripts:** [Family System](family-system.md) · [Window Cleaning](window-cleaning.md) · [Full Product Catalog](README.md)
+
 *ToneCustoms — Built for Roleplay. Made with Purpose.*
