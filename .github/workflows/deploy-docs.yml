@@ -6,6 +6,7 @@ on:
     paths:
       - '**/*.md'
       - '.vitepress/**'
+      - 'tools/**'
       - 'package.json'
       - 'package-lock.json'
       - '.github/workflows/deploy-docs.yml'
@@ -22,12 +23,17 @@ concurrency:
 
 jobs:
   build:
+    name: Validate and build public website
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Validate local documentation links
+        run: python3 tools/check_docs.py
+      - name: Reject sensitive or restricted files
+        run: python3 tools/check_public_safety.py
       - name: Install Node
         uses: actions/setup-node@v4
         with:
@@ -36,6 +42,8 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Build documentation
         run: npm run docs:build
+      - name: Verify generated VitePress pages
+        run: python3 tools/check_site.py
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload built website
@@ -44,6 +52,7 @@ jobs:
           path: .vitepress/dist
 
   deploy:
+    name: Publish verified documentation
     needs: build
     runs-on: ubuntu-latest
     environment:
