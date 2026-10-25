@@ -61,4 +61,6 @@ Installation, configuration and product troubleshooting support is available thr
 
 **Ready to explore ToneCustoms Family System?** [Visit the store](https://tonecustoms.tebex.store/) · [Browse all scripts](README.md) · [Watch ToneCustoms on YouTube](https://www.youtube.com/@tonyiswavy12)
 
+**Explore more ToneCustoms scripts:** [Gun Jam](gun-jam.md) · [Window Cleaning](window-cleaning.md) · [Full Product Catalog](README.md)
+
 *ToneCustoms — Built for Roleplay. Made with Purpose.*
