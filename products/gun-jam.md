@@ -1,48 +1,53 @@
 # ToneCustoms Gun Jam
 
-**Category:** Gameplay / weapon interaction  
-**Store status:** Listed on the official ToneCustoms Tebex storefront  
-**Listed price:** $14.99 (subject to change)  
-**Demo:** [Watch Gun Jam](https://youtu.be/kPniOo-VThw)  
-**Shop:** [ToneCustoms Tebex — Packages](https://tonecustoms.tebex.store/category/3419336)
+**FiveM firearm interaction system** · **Listed on ToneCustoms Tebex**
 
-## About
+**[Shop Packages](https://tonecustoms.tebex.store/category/3419336)** · **[Watch Demonstration](https://youtu.be/kPniOo-VThw)** · **[Get Support](https://discord.gg/JdZ7NTG5KF)**
 
-**ToneCustoms Gun Jam** brings weapon jamming and manual clearing to FiveM. Its supplied build uses a fixed **10-shot jam cycle** with weapon-specific tracking through ox_inventory metadata, clearing interactions, and gun cleaning-kit maintenance.
+## Overview
+
+**ToneCustoms Gun Jam** adds weapon jamming and manual clearing to supported FiveM firearms. The documented build uses a **fixed 10-shot jam cycle** tracked per weapon through ox_inventory metadata, with clearing interactions and gun-cleaning-kit maintenance.
 
 ## Features
 
-- Fixed 10-shot jam behavior and per-weapon shot tracking
-- Clearing interactions and configurable animations
-- Jam state saved in weapon metadata
-- Gun Cleaning Kit maintenance using ox_inventory
-- Registered custom firearms supported when compatible with ox_inventory and the resource's filtering rules
-- Configuration of supported weapons, controls, animations and text
+| Feature | Behavior |
+| --- | --- |
+| Fixed jam cycle | Supported firearm jams after 10 shots in the documented implementation |
+| Weapon tracking | Shot/jam state is associated with the individual weapon through ox_inventory metadata |
+| Manual jam clearing | Default **J** key binding, with configurable actions and animations |
+| Gun Cleaning Kit | Inventory item supports maintenance interactions |
+| Supported custom firearms | Configured and compatible registered add-on guns can participate; exclusions apply |
+| Configuration | Designated `config.lua` controls supported options, keys, animations and text |
 
-## Requirements
+**Compatibility:** FiveM with `ox_lib` and `ox_inventory`, designed for Qbox, QBCore and ESX server environments using the required inventory integration. Your actual firearm registration and server setup may affect behavior.
 
-- FiveM
-- `ox_lib`
-- `ox_inventory` for firearms
-- Designed to operate on Qbox, QBCore and ESX environments using ox_inventory
+## Customer documentation
 
-## Installation and customer support
+| Need | Guide |
+| --- | --- |
+| **Set up the resource** | [Installation & Configuration](gun-jam-installation.md) |
+| **Fix a problem** | [Gun Jam Troubleshooting](gun-jam-troubleshooting.md) |
+| **Track published changes** | [Release History](gun-jam-changelog.md) |
+| **Understand purchases and updates** | [Customer Policy Center](../policies/README.md) |
+| **Contact the developer** | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 
-**[Read the Gun Jam Installation & Configuration Guide](gun-jam-installation.md)** — dependencies, cleaning kit setup, controls, configuration and troubleshooting.
+## Getting started
 
+1. Obtain the official resource via your authorized purchase/delivery method.
+2. Follow the [installation guide](gun-jam-installation.md) to install dependencies and register `gun_cleaning_kit`.
+3. Review only the designated configuration files.
+4. Use the [troubleshooting guide](gun-jam-troubleshooting.md) if you encounter problems.
 
-The resource includes an installation README and `install/ox_inventory_items.txt` with the Gun Cleaning Kit item entry to add to the existing ox_inventory items table. This file is intentionally TXT because its item definition is not a standalone Lua script.
+The `install/ox_inventory_items.txt` supplied with the resource is an **item-definition snippet**, not a standalone script. It is added to the existing ox_inventory item table as described in the setup guide.
 
-Customers should edit designated configuration files only, subject to the purchase terms provided at checkout.
+## Demo and availability
 
-For installation assistance and product questions, use [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF).
+**[Watch the official Gun Jam demonstration on YouTube](https://youtu.be/kPniOo-VThw)**
 
-## Purchase and video
+The resource has been listed at **$14.99**, but price and availability may change. [Browse the official Packages category on ToneCustoms Tebex](https://tonecustoms.tebex.store/category/3419336). The direct product URL has not been confirmed here; the link intentionally leads to the known store category.
 
-- **Official listing:** [Browse Gun Jam on ToneCustoms Tebex](https://tonecustoms.tebex.store/category/3419336)
-- **Demonstration:** [Watch ToneCustoms Gun Jam](https://youtu.be/kPniOo-VThw)
-- **Customer policies:** [ToneCustoms information center](../policies/README.md)
+**Purchase terms:** Customers may modify designated configuration files only unless otherwise authorized; actual checkout terms and applicable laws govern purchases. Customer installation support is available without a separate charge, and released updates are free without a promised release cadence.
 
-> The link above opens the verified **Packages** category. A direct product-specific Tebex URL has not yet been confirmed, so this page does not invent one. Store price and availability can change.
+---
 
-[← Back to product catalog](README.md)
+[← All Products](README.md) · [Installation Hub](../INSTALLATION.md) · [Documentation Home](../README.md)
