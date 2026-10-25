@@ -9,7 +9,9 @@
 ## Checklist
 
 - [ ] The change is limited to ToneCustoms documentation or repository administration.
-- [ ] Links and spelling have been checked.
+- [ ] Links, spelling and navigation have been checked.
+- [ ] Generated VitePress pages and automated checks pass.
+- [ ] Customer-facing version/availability statements have supporting evidence.
 - [ ] Existing documentation is preserved unless removal is part of the proposed correction.
 - [ ] No passwords, access tokens, private credentials, or restricted source code are included.
 
