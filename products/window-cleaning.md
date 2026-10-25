@@ -1,46 +1,62 @@
 ---
 title: ToneCustoms Window Cleaning
-description: FiveM interactive civilian job — features, installation and customer help.
+description: Interactive FiveM civilian window-cleaning contracts with mouse-controlled cleaning, equipment and job progression.
 ---
 
 # ToneCustoms Window Cleaning
 
-**Category:** Civilian job / interactive gameplay  
-**Store status:** Listed on the [official ToneCustoms storefront](https://tonecustoms.tebex.store/)  
-**Listed price at review:** $12.99 — confirm the current price on Tebex
+**FIVEM · CIVILIAN JOB · INTERACTIVE GAMEPLAY**
 
-## Overview
+**More than a progress bar. Make every job hands-on.**
 
-ToneCustoms Window Cleaning turns civilian window cleaning into a hands-on FiveM activity. Instead of relying solely on a progress timer, the public store describes an interactive **mouse-controlled squeegee** mechanic, job contracts and player payouts for completed work.
+ToneCustoms Window Cleaning turns ordinary civilian work into a playable activity. Players accept contracts, gather their equipment, travel to job sites and clean windows through an interactive **mouse-controlled squeegee** mechanic.
 
-## Store-described features
+**Store listing at last review:** $12.99 · [View the official ToneCustoms store](https://tonecustoms.tebex.store/)  
+*Confirm availability, price and checkout terms on the storefront.*
 
-| Feature | Description |
+[Browse Store](https://tonecustoms.tebex.store/) · [Installation Guide](window-cleaning-installation.md) · [Join Discord Support](https://discord.gg/JdZ7NTG5KF)
+
+## What players experience
+
+| Feature | Store-described functionality |
 | --- | --- |
-| Interactive cleaning | Physically complete window cleaning with a mouse-controlled squeegee |
-| Job workflow | Accept contracts and travel to job locations |
-| Multiple locations | Work across configured job locations |
-| Equipment pickup | Collect the equipment needed before beginning work |
-| Vehicles | Job workflow includes vehicle-based travel |
-| Completion & payment | Cleaning individual windows is part of job completion and payout |
-| Configuration | Locations and rewards can be configured |
+| Interactive squeegee | Use mouse input to clean windows directly |
+| Contracts | Take on window-cleaning jobs |
+| Multiple work locations | Travel to configured job sites |
+| Equipment pickup | Collect the tools needed to work |
+| Vehicle-based workflow | Move between assigned locations |
+| Individual windows | Complete the cleaning interaction before finishing the job |
+| Job rewards | Receive payouts for completed work |
+| Server configuration | Adjust supported job locations and rewards |
 
-These features summarize the **published Tebex description**, not an independent verification of a specific customer build.
+This describes features in the public Tebex listing, not a new verification of a particular delivered build.
 
-## Delivery & requirements
+## A civilian job built around interaction
 
-The public listing describes automatic delivery via **Cfx.re Asset Escrow** after a Tebex purchase, associated with the appropriate Cfx.re account.
+**For players:** An activity with physical actions and job progression rather than a single timed prompt.
 
-**Frameworks and dependencies:** The reviewed store description does not establish an exact tested framework/version matrix, dependency list or required resource folder name. Follow the delivered package's instructions and consult support if uncertain; do not assume the setup is identical to another ToneCustoms resource.
+**For server owners:** A configurable civilian activity that adds variety to the city’s job selection.
 
-## Documentation
+## Purchase, delivery and compatibility
 
-- [Installation & Configuration](window-cleaning-installation.md)
-- [Troubleshooting](window-cleaning-troubleshooting.md)
-- [Release History](window-cleaning-changelog.md)
-- [Purchase & Delivery](../PURCHASE_AND_DELIVERY.md)
-- [Customer Support](../SUPPORT.md)
+The public listing describes **Cfx.re Asset Escrow** delivery linked to the purchasing account's Cfx.re entitlement.
 
-Customers receive installation and configuration support through the official [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF). Updates are free when ToneCustoms publishes them, without a fixed release calendar.
+Exact tested framework versions, dependency requirements and resource folder naming have not been established from the reviewed listing. Follow the delivered installation files and consult [ToneCustoms Support](https://discord.gg/JdZ7NTG5KF) if needed.
 
-[← Product Catalog](index.md)
+## Documentation and support
+
+| Need | Resource |
+| --- | --- |
+| Set up the job | [Installation & configuration](window-cleaning-installation.md) |
+| Fix common issues | [Troubleshooting guide](window-cleaning-troubleshooting.md) |
+| Check product updates | [Release history](window-cleaning-changelog.md) |
+| Understand delivery | [Purchase & delivery](../PURCHASE_AND_DELIVERY.md) |
+| Contact support | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+
+Installation and configuration support is available through the official Discord without an additional support charge. Updates are free when released, without a fixed release schedule; actual purchase terms are governed by checkout and applicable law.
+
+---
+
+**Explore ToneCustoms Window Cleaning:** [Visit the store](https://tonecustoms.tebex.store/) · [Browse all scripts](index.md) · [Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)
+
+*ToneCustoms — Built for Roleplay. Made with Purpose.*
