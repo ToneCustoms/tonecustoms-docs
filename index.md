@@ -63,6 +63,7 @@ features:
       <a class="tc-link-main" href="/tonecustoms-docs/products/gun-jam">Product Overview →</a>
       <a href="/tonecustoms-docs/products/gun-jam-installation">Installation</a>
       <a href="https://youtu.be/kPniOo-VThw" target="_blank" rel="noopener noreferrer">Watch Demo ↗</a>
+      <a href="https://tonecustoms.tebex.store/category/3419336" target="_blank" rel="noopener noreferrer">View on Tebex ↗</a>
     </div>
     <div class="tc-product-disclaimer">Available through the official ToneCustoms store. Confirm current price and terms at checkout.</div>
   </div>
