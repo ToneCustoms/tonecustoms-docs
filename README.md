@@ -27,6 +27,17 @@ Official ToneCustoms product information, setup instructions, customer support a
 | **05 · Support** | [Get installation help or report a problem](SUPPORT.md) |
 | **06 · Policies** | [Licensing, purchasing, script swaps and customer information](policies/README.md) |
 
+## Customer Help & Resources
+
+| Question | Start here |
+| --- | --- |
+| Common questions about purchases, licenses and support | [Frequently Asked Questions](FAQ.md) |
+| Which FiveM framework and dependencies work? | [Compatibility Guide](COMPATIBILITY.md) |
+| How do I access my order? | [Purchase & Delivery](PURCHASE_AND_DELIVERY.md) |
+| How should I install a new release? | [Updating a Script](UPDATE_GUIDE.md) |
+| How do I contact Tone or suggest an improvement? | [Contact & Feedback](CONTACT.md) |
+| What changed in these public guides? | [Documentation Changelog](DOCUMENTATION_CHANGELOG.md) |
+
 ## Featured Product — ToneCustoms Gun Jam
 
 **On the ToneCustoms Tebex storefront · Listed at $14.99**
