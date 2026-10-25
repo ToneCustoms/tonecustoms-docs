@@ -16,7 +16,7 @@ This section explains how customers can learn about ToneCustoms products, reques
 | --- | --- | --- |
 | Licensing and permitted use | [Licensing](LICENSING.md) | Owner decisions documented; checkout alignment pending |
 | Script swaps and comparable-value exchanges | [Script Swap Policy](SCRIPT_SWAPS.md) | Draft — owner-approved approach, checkout alignment pending |
-| Purchase, delivery and refund information | [Purchases & Refunds](PURCHASES_AND_REFUNDS.md) | Checkout/provider terms require alignment |
+| Purchase, delivery and refund information | [Purchases & Refunds](PURCHASES_AND_REFUNDS.md) | Tebex default no-refunds selection checked; checkout terms still govern |
 | Product updates, versions and compatibility | [Updates & Releases](UPDATES.md) | Free released updates documented; no promised schedule |
 | Customer support process | [Support](CUSTOMER_SUPPORT.md) | Free product assistance; no response-time guarantee |
 | Customer privacy and data handling | [Privacy](PRIVACY.md) | Draft — practices and legal review required |
@@ -46,7 +46,8 @@ This section explains how customers can learn about ToneCustoms products, reques
 
 ## Before final checkout policy publication
 
-- Confirm the current Tebex checkout terms and asset-delivery disclosures are consistent with customer-facing policy wording.
+- The current Tebex Project refund selection has been checked as **[Default] No Refunds Policy**; its generic virtual-item/server-ban wording is not tailored to FiveM scripts, and checkout terms continue to govern.
+- Confirm any future changes to Tebex checkout terms and asset-delivery disclosures against these customer-facing pages.
 - Confirm legal/provider requirements for refunds, licensing and script swaps.
 - Verify data collection and retention practices before publishing a final privacy notice.
 - Keep package descriptions and available features aligned with the resources actually delivered.
