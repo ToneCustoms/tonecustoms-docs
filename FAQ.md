@@ -13,6 +13,24 @@ Use the fulfillment and entitlement instructions provided by the **specific prod
 ### Does every script support Qbox, QBCore and ESX?
 No universal compatibility promise is made. Each product specifies its own supported environments and dependencies. Read the [Compatibility Guide](COMPATIBILITY.md) and the applicable product page.
 
+## Choosing a ToneCustoms script
+
+### Which script fits my server?
+
+| Your goal | Start with |
+| --- | --- |
+| Add weapon handling, jams and maintenance | [Gun Jam](products/gun-jam.md) |
+| Give player families ranks, permissions and group management | [Family System](products/family-system.md) |
+| Add an interactive civilian activity with cleaning contracts | [Window Cleaning](products/window-cleaning.md) |
+| Explore other demonstrated or developing systems | [Product Catalog](products/README.md) |
+| Find approved public free resources | [Free FiveM Resources](products/free-resources.md) |
+
+The first three resources have documented store listings. Other demos do not imply public availability; check [Tebex](https://tonecustoms.tebex.store/) for current listings.
+
+### Where can I see the features before buying?
+
+Start with the individual product overview. [Gun Jam has an official gameplay demonstration](https://youtu.be/kPniOo-VThw); the Family System and Window Cleaning pages describe their public store-listed features. Ask in [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) if you need more information before checkout.
+
 ## Using your purchase
 
 ### Can I use a purchased script on more than one server?
