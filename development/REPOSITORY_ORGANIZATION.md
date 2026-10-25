@@ -35,33 +35,29 @@ Naming examples are patterns only: they do **not** imply the example repository 
 
 ## GitHub Projects workflow
 
-Use the existing GitHub Project to coordinate work across repositories instead of creating a separate project for each script. A project item represents a deliverable or issue; the repository stores the actual code or documentation.
+The existing [ToneCustoms Development Board](https://github.com/users/tonyiswavy/projects/7) is the primary place to track work. Keep its existing, FiveM-specific statuses rather than replacing them with a generic board template.
 
-| Status | Meaning | Exit condition |
-| --- | --- | --- |
-| Backlog | Approved idea or task awaiting prioritization | Selected for work |
-| Ready | Scope, owner and next action are clear | Development begins |
-| In Progress | Work is actively being implemented or documented | Ready for review |
-| Review | Changes, installation guidance and dependencies are checked | Accepted or returned for fixes |
-| Done | Deliverable completed with relevant issue or documentation updated | Final state |
+| Existing board status | Meaning |
+| --- | --- |
+| **Planned** | Resource or task is inventoried but has not started |
+| **Development** | Active implementation |
+| **Testing** | Gameplay, integration or documentation checks are underway |
+| **Needs Fixes** | Issues found during review or testing |
+| **Verified Working** | Functionality confirmed working, but not necessarily released |
+| **Released** | Owner-approved official release |
 
-**Suggested project fields:** Status, Priority (High / Medium / Low), Type (Script / Bug / Docs / Release), and Repository. Add target dates only when a real deadline exists; don't create fake launch dates.
+**Board snapshot (October 25, 2026):** Nine items in Planned and one in Released (Gun Jam); the other columns are empty. This is a point-in-time inventory, not a claim that all planned resources are unfinished.
 
-### Recommended working views
+### Working rules
 
-- **Board:** Group by Status to see current work and blockers.
-- **Backlog:** Filter to Backlog and Ready, sorted by priority.
-- **Releases:** Filter to Release type to track preparation, store information and documentation together.
+1. Keep existing linked GitHub issues as the source of truth; avoid duplicate project cards.
+2. Move a card only when its status genuinely changes, not just to populate columns.
+3. Treat **Verified Working** and **Released** as distinct milestones. A tested script is not automatically a public or paid release.
+4. Use issue labels or optional project fields for Priority, Type and Repository if those are useful. Never assign artificial deadlines or release versions.
+5. Keep sensitive technical details in private repositories. Do not expose protected code, customer information or credentials in public documentation.
+6. Maintain a separate Release view only if it improves navigation; the current Development Board already shows the full workflow.
 
-### Keep the project useful
-
-1. Create an item when there is a clear next action, not simply because a resource might exist someday.
-2. Link an existing GitHub issue or pull request where one exists; don't create duplicates.
-3. Keep unreleased or sensitive details in private repositories or private project items.
-4. When an item is Done, update public documentation only for owner-approved features and releases.
-5. Review stale In Progress items periodically, without treating idle development as a missed deadline.
-
-**Access note:** A public documentation guide cannot change GitHub Project board settings. Configure project fields and views in GitHub Projects itself.
+**Access note:** This document records the existing board workflow; editing Project fields, views and card status requires GitHub Projects controls, which are not exposed through the current connected GitHub actions.
 
 ## Minimum checklist for each script repository
 
