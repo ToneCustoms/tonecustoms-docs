@@ -1,61 +1,85 @@
-# ToneCustoms Product Documentation
-
+---
+title: ToneCustoms Products
+description: Explore official ToneCustoms FiveM products, demos and development showcases.
 ---
 
-**Navigate:** [About](../ABOUT.md) · [Products](../products/README.md) · [Installation](../INSTALLATION.md) · [Updates](../policies/UPDATES.md) · [Support](../SUPPORT.md) · [Policies](../policies/README.md)
+# ToneCustoms Products
 
-**Official product information and development showcases**
+**Purpose-built gameplay. Clear documentation.** Explore the resources being developed and demonstrated by ToneCustoms.
 
-This catalog helps FiveM server owners understand what ToneCustoms is developing, the purpose of each resource, available video demonstrations, and how to confirm product availability.
+> **Availability:** A demonstration or documentation page does not mean a script is for sale. Confirm current packages and prices on the [official Tebex store](https://tonecustoms.tebex.store/).
 
-> **Important:** A demonstration or development page is **not** proof that a script is released, for sale, supported on every framework, or ready to install. Only the [official ToneCustoms store](https://tonecustoms.tebex.store/) and explicit ToneCustoms announcements determine availability. All private source code and custom asset libraries remain private.
+<div class="tc-section-eyebrow">ON THE OFFICIAL STORE</div>
 
-## Resource catalog
+## Featured — Gun Jam
 
-| Resource | Purpose | Documentation | Demonstration |
-| --- | --- | --- | --- |
-| **Gun Jam** — Listed $14.99 | Firearm jamming and clearing interactions | [Overview](gun-jam.md) · [Install](gun-jam-installation.md) · [Troubleshooting](gun-jam-troubleshooting.md) · [Releases](gun-jam-changelog.md) · [Tebex](https://tonecustoms.tebex.store/category/3419336) | [Video](https://youtu.be/kPniOo-VThw) |
-| **Queue** | Server access, whitelist and priority queue | [Queue](queue.md) | [Video](https://youtu.be/qhEbaAJHqpQ) |
-| **Farming** | Farming-related roleplay activity | [Farming](farming.md) | [Video](https://youtu.be/MWF8Kgai5KA) |
-| **Skills** | Character progression through skills | [Skills](skills.md) | [Video](https://youtu.be/TYk_jkLa8wM) |
-| **3D Roleplay Text** | /me and /do roleplay text | [3D Roleplay Text](roleplay-text.md) | [Video](https://youtu.be/i4d7FPA4Ces) |
-| **Multi Job** | Multiple job management | [Multi Job](multi-job.md) | [Video](https://youtu.be/WhsA_jp7LC4) |
-| **Pharmacy** | Pharmacy and activity-based rehabilitation mechanics | [Pharmacy](pharmacy.md) | Not published here |
-| **Inventory Images** | Custom FiveM inventory icon collection | [Inventory Images](inventory-images.md) | Private asset library |
+<div class="tc-feature-product">
+  <div class="tc-product-visual">
+    <div class="tc-product-visual-tag">TONECUSTOMS · GAMEPLAY SYSTEMS</div>
+    <div class="tc-product-mark">GUN<br><span>JAM</span></div>
+    <div class="tc-product-visual-foot">MAKE EVERY SHOT COUNT.</div>
+  </div>
+  <div class="tc-product-details">
+    <div class="tc-product-label">LISTED ON TEBEX · FIVEM RESOURCE</div>
+    <h3>Weapon jamming & maintenance</h3>
+    <p>A fixed 10-shot jam cycle, per-weapon metadata tracking, manual clearing interactions, and Gun Cleaning Kit maintenance for supported ox_inventory firearms.</p>
+    <div class="tc-product-pills"><span>ox_inventory</span><span>ox_lib</span><span>Custom firearm support</span></div>
+    <div class="tc-product-links">
+      <a class="tc-link-main" href="/tonecustoms-docs/products/gun-jam">Product Details →</a>
+      <a href="/tonecustoms-docs/products/gun-jam-installation">Setup Guide</a>
+      <a href="https://youtu.be/kPniOo-VThw" target="_blank" rel="noopener noreferrer">Watch Demo ↗</a>
+    </div>
+    <div class="tc-product-disclaimer">Previously listed at $14.99. Check Tebex for the current price and checkout terms.</div>
+  </div>
+</div>
 
-**Catalog status:** Gun Jam is listed on the official ToneCustoms Tebex store. Other product pages are showcases or development documentation unless their individual availability is verified. Prices and product availability may change.
+<div class="tc-section-eyebrow">SHOWCASES & DEVELOPMENT</div>
 
-## What each product page covers
+## Explore more resources
 
-- Overview and intended gameplay experience
-- Demonstrated features vs. development targets
-- FiveM framework/dependency information **only when confirmed**
-- Availability and version status **only when verified**
-- Support and the location of official sales information
+<div class="tc-quick-grid">
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/queue">
+    <span class="tc-card-kicker">SERVER ACCESS</span>
+    <strong>Queue System</strong>
+    <span>Whitelist, access control, and priority queue development.</span>
+    <b>Explore Queue →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/farming">
+    <span class="tc-card-kicker">CIVILIAN GAMEPLAY</span>
+    <strong>Farming</strong>
+    <span>A farming-related roleplay activity showcase.</span>
+    <b>Explore Farming →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/skills">
+    <span class="tc-card-kicker">CHARACTER PROGRESSION</span>
+    <strong>Skills</strong>
+    <span>Character progression systems with a documented demonstration.</span>
+    <b>Explore Skills →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/multi-job">
+    <span class="tc-card-kicker">JOB MANAGEMENT</span>
+    <strong>Multi Job</strong>
+    <span>Management and switching of multiple character jobs.</span>
+    <b>Explore Multi Job →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/roleplay-text">
+    <span class="tc-card-kicker">ROLEPLAY TOOLS</span>
+    <strong>3D Roleplay Text</strong>
+    <span>In-world /me and /do text for richer player interactions.</span>
+    <b>Explore Roleplay Text →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/pharmacy">
+    <span class="tc-card-kicker">DEVELOPMENT OVERVIEW</span>
+    <strong>Pharmacy</strong>
+    <span>Pharmacy and activity-based rehabilitation mechanics in development.</span>
+    <b>Explore Pharmacy →</b>
+  </a>
+</div>
 
-## Product documentation quality
+## Documentation & support
 
-Every resource can use the [Product Page Template](PRODUCT_PAGE_TEMPLATE.md) to publish confirmed functionality, compatibility, installation, known limitations, release notes, and customer information consistently.
+See [Inventory Images](inventory-images.md) for the private asset-library overview. Resource pages describe demonstrated functionality and planned development separately.
 
-For quality rules, see the [ToneCustoms Release Standards](../policies/RELEASE_STANDARDS.md).
+For purchased resources, start with [Installation](../INSTALLATION.md), [Compatibility](../COMPATIBILITY.md), and [Support](../SUPPORT.md). The [Customer Policy Center](../policies/README.md) explains the licensing and purchasing approach.
 
-## Customer information
-
-- **Purchase / availability:** [ToneCustoms Tebex](https://tonecustoms.tebex.store/)
-- **Support and product questions:** [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF)
-- **Demos:** [YouTube channel](https://www.youtube.com/@tonyiswavy12)
-- **Community updates:** [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions)
-- **General help:** [Support guide](../SUPPORT.md)
-- **Customer information:** [Licensing, purchase and support policy center](../policies/README.md)
-
-## Release and documentation rules
-
-1. A video demonstration does not automatically establish commercial availability.
-2. Unverified functionality is described as **planned / in development**, never as guaranteed.
-3. A release version is published only after the resource works and the owner approves the release.
-4. Framework compatibility and setup instructions are published per resource after confirmation; no universal compatibility promises.
-5. Sensitive configurations, license data, API credentials and source files are never published to this documentation repository.
-
----
-
-*ToneCustoms — Built for roleplay. Made with purpose.*
+**[Shop at ToneCustoms Tebex](https://tonecustoms.tebex.store/)** · **[Watch demos](https://www.youtube.com/@tonyiswavy12)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)**
