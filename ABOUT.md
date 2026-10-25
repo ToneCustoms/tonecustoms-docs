@@ -4,6 +4,22 @@
 
 ToneCustoms is an independent FiveM development brand creating custom resources and interactive gameplay systems for roleplay servers. Our work is informed by first-hand experience developing and operating FiveM communities.
 
+## Meet the Developer — Tone
+
+**Tone | Founder & Developer of ToneCustoms**
+
+I'm Tone, the founder and developer behind ToneCustoms. I create custom FiveM resources designed to give server owners practical tools and players more ways to interact with their city.
+
+My development experience comes from building and managing my own roleplay server. That hands-on perspective shapes how I approach projects: I care about working gameplay, useful features, and the details that make a resource fit into an active community.
+
+My work includes interactive civilian jobs, weapon mechanics, character systems, and server management features. I develop with popular FiveM environments such as **Qbox, QBCore, and ESX**, along with **ox_inventory**, **ox_target**, and related integrations when appropriate for the resource.
+
+With ToneCustoms, my goal is to build a recognizable development brand where each resource has a clear purpose, practical configuration, and documentation that helps customers get started.
+
+**What matters to me:** quality before unnecessary version changes, gameplay that adds something meaningful, and continued growth through new ideas and improvements.
+
+You can explore my work through the [ToneCustoms product catalog](products/README.md), watch [demonstrations on YouTube](https://www.youtube.com/@tonyiswavy12), or connect through [Discord](https://discord.gg/JdZ7NTG5KF).
+
 ## What we create
 
 | Area | Our focus |
