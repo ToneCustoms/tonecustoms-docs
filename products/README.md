@@ -10,7 +10,7 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 
 | Resource | Purpose | Documentation | Demonstration |
 | --- | --- | --- | --- |
-| **Gun Jam** — Listed $14.99 | Firearm jamming and clearing interactions | [Gun Jam](gun-jam.md) · [Tebex](https://tonecustoms.tebex.store/category/3419336) | [Video](https://youtu.be/kPniOo-VThw) |
+| **Gun Jam** — Listed $14.99 | Firearm jamming and clearing interactions | [Overview](gun-jam.md) · [Install guide](gun-jam-installation.md) · [Tebex](https://tonecustoms.tebex.store/category/3419336) | [Video](https://youtu.be/kPniOo-VThw) |
 | **Queue** | Server access, whitelist and priority queue | [Queue](queue.md) | [Video](https://youtu.be/qhEbaAJHqpQ) |
 | **Farming** | Farming-related roleplay activity | [Farming](farming.md) | [Video](https://youtu.be/MWF8Kgai5KA) |
 | **Skills** | Character progression through skills | [Skills](skills.md) | [Video](https://youtu.be/TYk_jkLa8wM) |
