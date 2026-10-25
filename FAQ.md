@@ -42,7 +42,7 @@ Product installation, configuration and troubleshooting assistance are free thro
 You may **request** a swap for another ToneCustoms script of reasonably comparable value, using the amount originally paid as a consideration. Approval is discretionary, and no automatic exchange or cash difference is promised. [Swap Policy](policies/SCRIPT_SWAPS.md).
 
 ### What if I want a refund?
-Refund rights and procedures depend on the terms presented at checkout, platform requirements, and applicable law. See [Purchases & Refunds](policies/PURCHASES_AND_REFUNDS.md).
+ToneCustoms has selected Tebex's **[Default] No Refunds Policy** and does not offer discretionary change-of-mind refunds. Delivery problems, technical access failures, Tebex's buyer-support process and any applicable legal rights are exceptions or separate considerations. Use the official order support route for billing/refund requests and see [Purchases & Refunds](policies/PURCHASES_AND_REFUNDS.md).
 
 ## Contact and security
 
