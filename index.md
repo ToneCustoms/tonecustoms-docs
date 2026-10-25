@@ -99,6 +99,39 @@ features:
   </a>
 </div>
 
+<div class="tc-section-eyebrow">FOLLOW TONECUSTOMS</div>
+
+## Stay connected
+
+Watch FiveM script demonstrations, follow development, join the community, or browse released products.
+
+<div class="tc-quick-grid">
+  <a class="tc-quick-card" href="https://www.youtube.com/@tonyiswavy12" target="_blank" rel="noopener noreferrer">
+    <span class="tc-card-kicker">VIDEO SHOWCASES</span>
+    <strong>Subscribe on YouTube</strong>
+    <span>Watch ToneCustoms FiveM demonstrations and new videos.</span>
+    <b>Watch on YouTube →</b>
+  </a>
+  <a class="tc-quick-card" href="https://discord.gg/JdZ7NTG5KF" target="_blank" rel="noopener noreferrer">
+    <span class="tc-card-kicker">COMMUNITY & SUPPORT</span>
+    <strong>Join Our Discord</strong>
+    <span>Connect with ToneCustoms and get product support.</span>
+    <b>Join Discord →</b>
+  </a>
+  <a class="tc-quick-card" href="https://github.com/tonyiswavy" target="_blank" rel="noopener noreferrer">
+    <span class="tc-card-kicker">DEVELOPMENT</span>
+    <strong>Follow on GitHub</strong>
+    <span>Explore public projects, documentation, and developer updates.</span>
+    <b>Visit GitHub →</b>
+  </a>
+  <a class="tc-quick-card" href="https://tonecustoms.tebex.store/" target="_blank" rel="noopener noreferrer">
+    <span class="tc-card-kicker">OFFICIAL STORE</span>
+    <strong>Browse Scripts</strong>
+    <span>See current offerings and official purchase information.</span>
+    <b>Open Store →</b>
+  </a>
+</div>
+
 <div class="tc-support-strip">
   <div>
     <div class="tc-section-eyebrow">NEED HELP?</div>
