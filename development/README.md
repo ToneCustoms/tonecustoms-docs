@@ -23,7 +23,7 @@ For an optional consolidated GitHub Projects board under the existing personal a
 
 ## New-resource structure
 
-Use the [Resource Repository Checklist](RESOURCE_REPOSITORY_TEMPLATE.md) when setting up a future **private** script repository. Follow [Release Workflow](../RELEASING.md) for testing, delivery and version decisions.
+Use the [Repository Organization Guide](REPOSITORY_ORGANIZATION.md) to decide whether a new repository is needed, how to name it, and whether it should be public or private. Use the [Resource Repository Checklist](RESOURCE_REPOSITORY_TEMPLATE.md) when setting up a future **private** script repository. Follow [Release Workflow](../RELEASING.md) for testing, delivery and version decisions.
 
 ## Scope
 
