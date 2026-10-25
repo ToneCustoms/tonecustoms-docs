@@ -36,7 +36,7 @@ for path in ROOT.rglob("*"):
     if path.suffix.lower() == ".lua" and str(rel) not in ALLOWED_LUA_EXAMPLES:
         failures.append(f"{rel}: Lua source must stay outside public docs")
         continue
-    if path.suffix.lower() not in SAFE_EXTENSIONS and low not in {".gitignore"}:
+    if path.suffix.lower() not in SAFE_EXTENSIONS and low not in {".gitignore", "codeowners"}:
         # Binary assets must be deliberately approved before committing to public docs.
         failures.append(f"{rel}: file format not allowlisted for public documentation")
         continue
