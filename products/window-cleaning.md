@@ -57,6 +57,6 @@ Installation and configuration support is available through the official Discord
 
 ---
 
-**Explore ToneCustoms Window Cleaning:** [Visit the store](https://tonecustoms.tebex.store/) · [Browse all scripts](index.md) · [Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)
+**Explore ToneCustoms Window Cleaning:** [Visit the store](https://tonecustoms.tebex.store/) · [Browse all scripts](README.md) · [Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)
 
 *ToneCustoms — Built for Roleplay. Made with Purpose.*
