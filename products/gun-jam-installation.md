@@ -56,6 +56,9 @@ Customers may edit **designated configuration files only**. Editing core Lua imp
 
 ## Troubleshooting
 
+For a step-by-step diagnosis, use the **[dedicated Gun Jam Troubleshooting Guide](gun-jam-troubleshooting.md)**.
+
+
 | Problem | What to check |
 | --- | --- |
 | Resource does not start | Folder name, `fxmanifest.lua`, dependencies and startup order |
@@ -70,6 +73,8 @@ For assistance, contact [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF). In
 ## Learn more
 
 - [Gun Jam Product Overview](gun-jam.md)
+- [Troubleshooting Guide](gun-jam-troubleshooting.md)
+- [Release History](gun-jam-changelog.md)
 - [Video Demonstration](https://youtu.be/kPniOo-VThw)
 - [Official ToneCustoms Store](https://tonecustoms.tebex.store/)
 - [Licensing and Support Information](../policies/README.md)
