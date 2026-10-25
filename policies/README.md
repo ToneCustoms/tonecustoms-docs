@@ -23,6 +23,13 @@ This section explains how customers can learn about ToneCustoms products, reques
 | Tebex listing and checkout consistency | [Tebex Listing Guide](TEBEX_LISTING_GUIDE.md) | Draft template — not live store terms |
 | Documentation and release checklist | [Release Standards](RELEASE_STANDARDS.md) | Internal publication checklist |
 
+## Customer quick links
+
+- [FAQ](../FAQ.md) — common purchase, licensing, and update questions
+- [Purchase & Delivery](../PURCHASE_AND_DELIVERY.md) — order access and entitlement guidance
+- [Updating a Script](../UPDATE_GUIDE.md) — safe customer update process
+- [Contact & Feedback](../CONTACT.md) — support routes and documentation suggestions
+
 ## Confirmed official channels
 
 - [ToneCustoms Tebex store](https://tonecustoms.tebex.store/) — check for actual product listings and checkout terms
