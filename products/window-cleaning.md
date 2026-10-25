@@ -59,4 +59,6 @@ Installation and configuration support is available through the official Discord
 
 **Explore ToneCustoms Window Cleaning:** [Visit the store](https://tonecustoms.tebex.store/) · [Browse all scripts](README.md) · [Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)
 
+**Explore more ToneCustoms scripts:** [Gun Jam](gun-jam.md) · [Family System](family-system.md) · [Full Product Catalog](README.md)
+
 *ToneCustoms — Built for Roleplay. Made with Purpose.*
