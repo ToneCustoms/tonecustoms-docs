@@ -25,6 +25,26 @@ This guide explains how ToneCustoms separates public information from protected 
 
 **Do not create a second support, documentation, changelog or portfolio repository unless the existing one becomes demonstrably insufficient.**
 
+## Public repository presentation audit (October 25, 2026)
+
+Every public repository should have a meaningful **About** description, relevant topics and a README that states its actual status. These metadata fields appear alongside GitHub repositories and are separate from README content.
+
+| Public repository | About description to use | Suggested topics |
+| --- | --- | --- |
+| [tonyiswavy](https://github.com/tonyiswavy/tonyiswavy) | ToneCustoms — FiveM development, custom scripts, roleplay systems and official project links. | `fivem`, `tonecustoms`, `lua`, `roleplay` |
+| [ToneCustoms-Shell-Studio](https://github.com/tonyiswavy/ToneCustoms-Shell-Studio) | Planning and development showcase for a proposed FiveM interior shell creation studio; no public application release yet. | `fivem`, `gta5`, `3d-modeling`, `development` |
+| [tonecustoms-prop-generator-updates](https://github.com/tonyiswavy/tonecustoms-prop-generator-updates) | Public update manifest for ToneCustoms Prop Generator; contains metadata, not application source. | `fivem`, `updates`, `release-metadata`, `tonecustoms` |
+| [tonecustoms-docs](https://github.com/tonyiswavy/tonecustoms-docs) | Existing description and topics are already set. | Retain existing relevant topics |
+
+**Metadata still to set:** At this review the first three repositories did not have an About description or topics. The connected GitHub actions can edit README files but cannot change repository About metadata or rename repositories. The table is a ready-to-use set of descriptions and topics, **not a claim those GitHub settings were changed**.
+
+### Naming and visibility decisions
+
+- Preserve existing repository names and clone URLs unless a specific rename has been approved and dependencies or external links have been checked.
+- Keep private development, internal tools and bots private. A consistent public brand does not require exposing private source.
+- Where legacy names differ from the `tonecustoms_` naming standard, document the discrepancy and plan any future rename separately rather than risking breaking integrations.
+- Never create extra repositories simply to make the account look more active.
+
 ## Suggested naming for future repositories
 
 - Protected resource: `tonecustoms_<resource>` — for example, the existing `tonecustoms_gunjam`.
