@@ -99,6 +99,27 @@ features:
   </a>
 </div>
 
+<div class="tc-section-eyebrow">FREE RESOURCES</div>
+
+## Free FiveM Scripts
+
+Explore the official Free Scripts directory for approved public releases, installation guides and licensing details. No free script is listed as released until a downloadable build is approved.
+
+<div class="tc-quick-grid">
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/free-resources">
+    <span class="tc-card-kicker">PUBLIC RELEASES</span>
+    <strong>Browse Free Resources</strong>
+    <span>Find official free downloads when they become available.</span>
+    <b>Explore Free Scripts →</b>
+  </a>
+  <a class="tc-quick-card" href="/tonecustoms-docs/products/">
+    <span class="tc-card-kicker">FIVEM SHOWCASES</span>
+    <strong>Explore All Scripts</strong>
+    <span>See released products, demonstrations and ongoing development.</span>
+    <b>View Product Catalog →</b>
+  </a>
+</div>
+
 <div class="tc-section-eyebrow">FOLLOW TONECUSTOMS</div>
 
 ## Stay connected
