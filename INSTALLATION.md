@@ -8,7 +8,7 @@ Installation steps and dependencies depend on the specific resource. Always use 
 
 | Resource | Guide | Dependencies |
 | --- | --- | --- |
-| **Gun Jam** | [Installation & Configuration](products/gun-jam-installation.md) | `ox_lib`, `ox_inventory` |
+| **Gun Jam** | [Install](products/gun-jam-installation.md) · [Troubleshoot](products/gun-jam-troubleshooting.md) · [Release History](products/gun-jam-changelog.md) | `ox_lib`, `ox_inventory` |
 
 Other installation guides will appear here as products receive customer documentation. A video demonstration alone does not imply a resource is available for sale.
 
