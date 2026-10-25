@@ -35,7 +35,7 @@ jobs:
       - name: Reject sensitive or restricted files
         run: python3 tools/check_public_safety.py
       - name: Install Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '22'
       - name: Install dependencies
