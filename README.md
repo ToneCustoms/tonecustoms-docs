@@ -90,6 +90,7 @@ Price, availability and purchase terms are determined by the actual store listin
 | Developer Profile | [ToneCustoms GitHub](https://github.com/tonyiswavy) |
 | Announcements & Questions | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
 | Documentation Contributions | [Contribution Guide](CONTRIBUTING.md) |
+| Development & Release Workflow | [Development Guide](development/README.md) · [Repository Checklist](development/RESOURCE_REPOSITORY_TEMPLATE.md) |
 | Security Reporting | [Security Policy](SECURITY.md) |
 | Community Standards | [Code of Conduct](CODE_OF_CONDUCT.md) |
 
