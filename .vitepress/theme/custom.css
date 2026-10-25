@@ -1,0 +1,76 @@
+:root {
+  --vp-c-brand-1: #b66cff;
+  --vp-c-brand-2: #a855f7;
+  --vp-c-brand-3: #8433d2;
+  --vp-c-brand-soft: rgba(168, 85, 247, 0.15);
+  --vp-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.dark {
+  --vp-c-bg: #0c0912;
+  --vp-c-bg-alt: #130e1d;
+  --vp-c-bg-elv: #1b1427;
+  --vp-c-bg-soft: #1b1427;
+  --vp-c-divider: rgba(184, 129, 251, 0.14);
+  --vp-c-border: rgba(184, 129, 251, 0.25);
+  --vp-c-text-1: #f7f1ff;
+  --vp-c-text-2: #c6b5dc;
+  --vp-nav-bg-color: rgba(12, 9, 18, 0.88);
+}
+
+.VPNavBar {
+  backdrop-filter: blur(14px);
+}
+
+.VPNavBarTitle .title {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.vp-doc h1 {
+  letter-spacing: -0.035em;
+}
+
+.vp-doc h2 {
+  border-top-color: rgba(184, 129, 251, 0.15);
+}
+
+.vp-doc a {
+  text-underline-offset: 3px;
+}
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+
+.vp-doc thead tr {
+  background: #21162f;
+}
+
+.vp-doc tbody tr:nth-child(2n) {
+  background: rgba(168, 85, 247, 0.05);
+}
+
+.VPSidebarItem.is-active > .item .link .text,
+.VPNavBarMenuLink.active,
+.VPNavBarMenuLink:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.VPButton.brand {
+  border-color: #9b4ce7;
+  background: #8a37d0;
+}
+
+.VPButton.brand:hover {
+  border-color: #ad66f4;
+  background: #a855f7;
+}
+
+@media (max-width: 767px) {
+  .vp-doc table {
+    display: block;
+    overflow-x: auto;
+  }
+}
