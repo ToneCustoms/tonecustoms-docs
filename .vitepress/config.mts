@@ -39,6 +39,7 @@ export default defineConfig({
       },
       {
         text: 'Products',
+        collapsed: true,
         items: [
           { text: 'Product Catalog', link: '/products/' },
           { text: 'Gun Jam — Overview', link: '/products/gun-jam' },
@@ -66,6 +67,7 @@ export default defineConfig({
       },
       {
         text: 'Customer Policies',
+        collapsed: true,
         items: [
           { text: 'Policy Center', link: '/policies/' },
           { text: 'Licensing', link: '/policies/LICENSING' },
@@ -78,6 +80,7 @@ export default defineConfig({
       },
       {
         text: 'Documentation',
+        collapsed: true,
         items: [
           { text: 'Documentation Changelog', link: '/DOCUMENTATION_CHANGELOG' },
           { text: 'Contributing', link: '/CONTRIBUTING' },
