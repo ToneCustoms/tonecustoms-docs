@@ -10,7 +10,7 @@
 
 Official ToneCustoms product information, setup instructions, customer support and policies.
 
-**[Explore Products](products/README.md)** · **[Visit Tebex](https://tonecustoms.tebex.store/)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)**
+**[Explore Products](products/README.md)** · **[Shop Tebex](https://tonecustoms.tebex.store/)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)** · **[Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)** · **[Follow on GitHub](https://github.com/tonyiswavy)**
 
 </div>
 
@@ -90,7 +90,7 @@ Price, availability and purchase terms are determined by the actual store listin
 | Developer Profile | [ToneCustoms GitHub](https://github.com/tonyiswavy) |
 | Announcements & Questions | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
 | Documentation Contributions | [Contribution Guide](CONTRIBUTING.md) |
-| Development & Release Workflow | [Development Guide](development/README.md) · [Repository Checklist](development/RESOURCE_REPOSITORY_TEMPLATE.md) |
+| Development & Release Workflow | [Development Guide](development/README.md) · [Repository Organization](development/REPOSITORY_ORGANIZATION.md) · [Repository Checklist](development/RESOURCE_REPOSITORY_TEMPLATE.md) |
 | Security Reporting | [Security Policy](SECURITY.md) |
 | Community Standards | [Code of Conduct](CODE_OF_CONDUCT.md) |
 
