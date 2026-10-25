@@ -28,6 +28,9 @@
 
 ## Installation and customer support
 
+**[Read the Gun Jam Installation & Configuration Guide](gun-jam-installation.md)** — dependencies, cleaning kit setup, controls, configuration and troubleshooting.
+
+
 The resource includes an installation README and `install/ox_inventory_items.txt` with the Gun Cleaning Kit item entry to add to the existing ox_inventory items table. This file is intentionally TXT because its item definition is not a standalone Lua script.
 
 Customers should edit designated configuration files only, subject to the purchase terms provided at checkout.
