@@ -30,7 +30,7 @@ Videos, development documentation and repositories do **not** establish product 
 
 - Check the account and email used for the purchase and the confirmation instructions.
 - Review the specific listing's fulfillment method.
-- Use the support route provided with your order, or open a **private** request through [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF).
+- Use the support route provided with your order for billing, refunds or missing entitlements, and keep communication inside an existing Tebex support case. For resource installation and product troubleshooting, use [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF).
 - Provide product name and approximate purchase date; give order references only through a private channel when requested.
 - Do not share payment-card information, passwords, login codes, license keys or private access links publicly.
 
