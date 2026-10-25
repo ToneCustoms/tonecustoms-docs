@@ -285,6 +285,29 @@
   border-color: rgba(190, 119, 248, .66);
 }
 
+/* Product showcase cards contain multiple independent links. */
+.tc-quick-card:has(a) {
+  cursor: default;
+}
+.tc-quick-card > span a {
+  display: inline-block;
+  color: #d8a6ff;
+  font-size: .86rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-underline-offset: 3px;
+}
+.tc-quick-card > span a:hover,
+.tc-quick-card > span a:focus-visible {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.tc-quick-card > span a:focus-visible {
+  outline: 2px solid #c995f7;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 .tc-quick-card strong { color: #f8f3ff; font-size: 1.2rem; }
 .tc-quick-card > span:not(.tc-card-kicker) { color: #c6b7d5; font-size: .9rem; line-height: 1.65; }
 .tc-quick-card b { color: #c995f7; font-size: .85rem; }
