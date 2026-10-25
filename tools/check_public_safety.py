@@ -8,7 +8,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-SKIP_DIRS = {".git", "node_modules", ".vitepress", "__pycache__"}
+SKIP_DIRS = {".git", "node_modules", "dist", "cache", "__pycache__"}
 SAFE_EXTENSIONS = {".md", ".mts", ".ts", ".css", ".json", ".yml", ".yaml", ".py", ".txt"}
 BLOCKED_SUFFIXES = {".pem", ".p12", ".pfx", ".key", ".env", ".sql", ".db", ".sqlite", ".zip", ".rar", ".7z"}
 ALLOWED_LUA_EXAMPLES = set()  # A public docs repo should never distribute private Lua scripts.
