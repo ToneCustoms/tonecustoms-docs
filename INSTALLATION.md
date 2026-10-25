@@ -12,6 +12,8 @@ Installation steps and dependencies depend on the specific resource. Always use 
 
 Other installation guides will appear here as products receive customer documentation. A video demonstration alone does not imply a resource is available for sale.
 
+For framework requirements, see [Compatibility](COMPATIBILITY.md). For obtaining purchased resources, see [Purchase & Delivery](PURCHASE_AND_DELIVERY.md). For future versions, use the [Update Guide](UPDATE_GUIDE.md).
+
 ## Before installation
 
 1. Obtain the resource from the official delivery method indicated by your purchase.
