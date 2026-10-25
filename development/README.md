@@ -17,7 +17,7 @@ A GitHub commit, issue status or CI success **does not** mean a script has been 
 
 ## Tracking setup
 
-ToneCustoms keeps protected source, internal issues and unannounced product plans **private**. The existing private [Gun Jam repository](https://github.com/tonyiswavy/tonecustoms_gunjam) has issue templates and a review issue for upcoming work.
+ToneCustoms keeps protected source, internal issues and unannounced product plans **private**. The existing private `tonyiswavy/tonecustoms_gunjam` repository has issue templates and an internal review issue for upcoming work. Its contents are visible only to authorized collaborators.
 
 For an optional consolidated GitHub Projects board under the existing personal account, use **New project → Board** with columns **Planned, Development, Testing, Needs Fixes, Verified Working, Released**, and set the project visibility to **Private** before adding internal issues. Creating a Project board is a separate account-level action; this documentation does not claim one has been created.
 
