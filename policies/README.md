@@ -1,5 +1,9 @@
 # ToneCustoms — Customer Information & Policy Center
 
+---
+
+**Navigate:** [About](../ABOUT.md) · [Products](../products/README.md) · [Installation](../INSTALLATION.md) · [Updates](../policies/UPDATES.md) · [Support](../SUPPORT.md) · [Policies](../policies/README.md)
+
 **Customer help, purchasing information and policy reference**
 
 This section explains how customers can learn about ToneCustoms products, request support, and understand the publication and approval process for commercial terms.
