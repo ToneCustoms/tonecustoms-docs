@@ -19,6 +19,16 @@ Videos, development documentation and repositories do **not** establish product 
 4. Check the [Installation Hub](INSTALLATION.md) for a product-specific setup guide.
 5. Keep purchase proof private; you may be asked to provide non-sensitive verification through private support.
 
+## Product-specific customer guides
+
+| Product | Overview | Installation | Troubleshooting |
+| --- | --- | --- | --- |
+| Gun Jam | [Overview](products/gun-jam.md) | [Installation](products/gun-jam-installation.md) | [Troubleshooting](products/gun-jam-troubleshooting.md) |
+| Family System | [Overview](products/family-system.md) | [Installation](products/family-system-installation.md) | [Troubleshooting](products/family-system-troubleshooting.md) |
+| Window Cleaning | [Overview](products/window-cleaning.md) | [Installation](products/window-cleaning-installation.md) | [Troubleshooting](products/window-cleaning-troubleshooting.md) |
+
+*These are documentation links, not a guarantee that a listing is currently available for purchase.*
+
 ## Gun Jam customer links
 
 - [Gun Jam Product Overview](products/gun-jam.md)
