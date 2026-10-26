@@ -4,6 +4,20 @@
 **Publication status:** Showcase documentation; public release availability not confirmed here  
 **Demonstration:** [Watch Queue](https://youtu.be/qhEbaAJHqpQ)
 
+## At a glance
+
+| Detail | Information |
+| --- | --- |
+| Platform | FiveM |
+| Focus | Whitelist and connection queue |
+| Category | Server access controls |
+| Video demonstration | [Watch on YouTube](https://youtu.be/qhEbaAJHqpQ) |
+| Public release status | Not confirmed by this documentation |
+| Download / purchase | Check the [official ToneCustoms store](https://tonecustoms.tebex.store/) for current availability |
+| Product questions | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+
+> **Showcase information:** This page describes a project or demonstration, not a guarantee of a downloadable release. Features and compatibility should be confirmed against the approved build.
+
 ## Overview
 
 ToneCustoms Queue is a FiveM queue and access-management project intended to help server owners manage incoming connections and whitelist access.
