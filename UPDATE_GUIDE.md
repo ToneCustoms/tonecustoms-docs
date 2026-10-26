@@ -2,6 +2,16 @@
 
 Use this guide **only alongside the official update instructions for the specific product**. File layouts, configuration behavior and database steps vary by resource.
 
+## Product release histories
+
+| Product | Release information |
+| --- | --- |
+| Gun Jam | [Gun Jam release history](products/gun-jam-changelog.md) |
+| Family System | [Family System release history](products/family-system-changelog.md) |
+| Window Cleaning | [Window Cleaning release history](products/window-cleaning-changelog.md) |
+
+Use the release history for **your specific product**, together with the instructions supplied with its delivered update. Showcase projects without a verified release do not have an approved customer update path here.
+
 ## Before updating
 
 1. Confirm a new customer-facing release is actually published in the official delivery channel.
