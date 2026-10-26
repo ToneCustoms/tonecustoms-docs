@@ -4,6 +4,20 @@
 **Publication status:** Video showcase; exact build and release status unconfirmed  
 **Demonstration:** [Watch Farming](https://youtu.be/MWF8Kgai5KA)
 
+## At a glance
+
+| Detail | Information |
+| --- | --- |
+| Platform | FiveM |
+| Focus | Farming gameplay activity |
+| Category | Gameplay / activities |
+| Video demonstration | [Watch on YouTube](https://youtu.be/MWF8Kgai5KA) |
+| Public release status | Not confirmed by this documentation |
+| Download / purchase | Check the [official ToneCustoms store](https://tonecustoms.tebex.store/) for current availability |
+| Product questions | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+
+> **Showcase information:** This page describes a project or demonstration, not a guarantee of a downloadable release. Features and compatibility should be confirmed against the approved build.
+
 ## Overview
 
 A farming-focused gameplay showcase featuring a FiveM activity system. This page currently documents the existence of the video demonstration rather than making unverified claims about crop types, economy integration, inventory items, or framework support.
