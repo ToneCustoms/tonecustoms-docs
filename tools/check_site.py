@@ -15,6 +15,11 @@ ROUTES = [
     "/products/family-system-troubleshooting", "/products/family-system-changelog",
     "/products/window-cleaning", "/products/window-cleaning-installation",
     "/products/window-cleaning-troubleshooting", "/products/window-cleaning-changelog",
+    "/products/free-resources", "/products/queue", "/products/farming",
+    "/products/skills", "/products/roleplay-text", "/products/multi-job",
+    "/products/pharmacy", "/products/inventory-images",
+    "/CONTACT", "/policies/UPDATES", "/policies/LICENSING",
+    "/policies/CUSTOMER_SUPPORT", "/development/",
 ]
 missing = []
 for route in ROUTES:
