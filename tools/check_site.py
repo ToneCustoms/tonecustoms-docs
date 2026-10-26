@@ -19,7 +19,7 @@ ROUTES = [
     "/products/skills", "/products/roleplay-text", "/products/multi-job",
     "/products/pharmacy", "/products/inventory-images",
     "/CONTACT", "/policies/UPDATES", "/policies/LICENSING",
-    "/policies/CUSTOMER_SUPPORT", "/development/",
+    "/policies/CUSTOMER_SUPPORT",
 ]
 missing = []
 for route in ROUTES:
