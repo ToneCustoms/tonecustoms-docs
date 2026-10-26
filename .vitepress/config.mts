@@ -93,7 +93,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Documentation Changelog', link: '/DOCUMENTATION_CHANGELOG' },
-          { text: 'Development Workflow', link: '/development/' },
+          { text: 'Development Workflow', link: '/development/README' },
           { text: 'Resource Repository Checklist', link: '/development/RESOURCE_REPOSITORY_TEMPLATE' },
           { text: 'Contributing', link: '/CONTRIBUTING' },
           { text: 'Security', link: '/SECURITY' }
