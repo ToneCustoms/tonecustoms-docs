@@ -45,7 +45,7 @@ jobs:
       - name: Verify generated VitePress pages
         run: python3 tools/check_site.py
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload built website
         uses: actions/upload-pages-artifact@v5
         with:
