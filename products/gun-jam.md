@@ -16,6 +16,19 @@ Bring another layer of interaction to FiveM firearm gameplay. ToneCustoms Gun Ja
 
 [View on Tebex](https://tonecustoms.tebex.store/category/3419336) · [Watch Demo](https://youtu.be/kPniOo-VThw) · [Installation Guide](gun-jam-installation.md) · [Join Discord Support](https://discord.gg/JdZ7NTG5KF)
 
+## Product at a glance
+
+| Detail | Information |
+| --- | --- |
+| Product classification | Store-listed FiveM resource |
+| Main gameplay | Weapon jamming, manual clearing, maintenance |
+| Documented integration | ox_inventory and ox_lib |
+| Video | [Watch Gun Jam demonstration](https://youtu.be/kPniOo-VThw) |
+| Getting started | [Installation](gun-jam-installation.md) · [Troubleshooting](gun-jam-troubleshooting.md) |
+| Purchasing | [Official ToneCustoms packages](https://tonecustoms.tebex.store/category/3419336); confirm current availability and terms |
+
+*The feature descriptions below document the referenced build; this page does not independently confirm current shop pricing or compatibility with every server setup.*
+
 ## What players experience
 
 | Feature | Documented behavior |
