@@ -1,8 +1,12 @@
 # ToneCustoms — Privacy & Data Handling
 
-**Status: Working outline, NOT an approved privacy notice.**
+**Status: Draft disclosure — owner confirmed no separate customer database, licensing-data store, or website analytics service outside Tebex and Discord (October 2026). Other platform and support practices remain subject to verification.**
 
 This document identifies the disclosures needed before publishing a definitive ToneCustoms privacy policy. **It does not claim that a specific collection, storage, transfer, or deletion practice is already in place.**
+
+## Confirmed current setup
+
+ToneCustoms has confirmed that it does **not** independently collect or store customer information in a separate database, licensing system, or website analytics service outside its use of Tebex and Discord. This statement describes ToneCustoms' own setup; it does not mean Tebex, Discord, GitHub Pages, or other infrastructure providers collect no data under their own policies.
 
 ## Practices to verify
 
@@ -24,7 +28,7 @@ Complete this review using the actual Tebex, Discord, documentation-hosting and 
 
 - [ ] Identify which personal information ToneCustoms receives from Tebex, distinct from data processed only by Tebex
 - [ ] Confirm whether Discord bots or support tickets store user IDs, messages, attachments or moderation logs
-- [ ] Confirm whether any script licensing or telemetry sends server or player identifiers to ToneCustoms
+- [x] Owner reports no separate ToneCustoms licensing-data store or website analytics service; verify again if the infrastructure changes
 - [ ] Identify third-party processors and links to their published privacy notices
 - [ ] Record where support records are stored, who can access them and how long they are retained
 - [ ] Identify the correct private contact route for privacy inquiries
