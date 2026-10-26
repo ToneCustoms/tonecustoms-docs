@@ -18,6 +18,20 @@ This document identifies the disclosures needed before publishing a definitive T
 | Security | Who can access records, what safeguards apply, and how are incidents handled? |
 | Retention | Define periods or objective retention criteria for each category of data |
 
+## Owner verification checklist
+
+Complete this review using the actual Tebex, Discord, documentation-hosting and support settings before approving a final public notice.
+
+- [ ] Identify which personal information ToneCustoms receives from Tebex, distinct from data processed only by Tebex
+- [ ] Confirm whether Discord bots or support tickets store user IDs, messages, attachments or moderation logs
+- [ ] Confirm whether any script licensing or telemetry sends server or player identifiers to ToneCustoms
+- [ ] Identify third-party processors and links to their published privacy notices
+- [ ] Record where support records are stored, who can access them and how long they are retained
+- [ ] Identify the correct private contact route for privacy inquiries
+- [ ] Check applicable legal and platform requirements before approval
+
+**Publication gate:** Leave this page marked as a working outline until these items are checked. Do not substitute assumed retention periods or data-collection claims for actual settings.
+
 ## Customer safety in the meantime
 
 Never publish passwords, API keys, webhook URLs, private license keys, payment information or personal server access details in public GitHub issues or Discussions.
