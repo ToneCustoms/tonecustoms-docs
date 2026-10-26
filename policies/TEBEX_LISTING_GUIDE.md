@@ -82,7 +82,9 @@ This page provides consistent wording for ToneCustoms product descriptions. It i
 
 | Documentation page | Video | Tebex package URL |
 | --- | --- | --- |
-| [Gun Jam](../products/gun-jam.md) | [Demo](https://youtu.be/kPniOo-VThw) | Not verified |
+| [Gun Jam](../products/gun-jam.md) | [Demo](https://youtu.be/kPniOo-VThw) | [Store category](https://tonecustoms.tebex.store/category/3419336) — confirm exact package at checkout |
+| [Family System](../products/family-system.md) | [Product guide](../products/family-system.md) | Exact package URL not verified |
+| [Window Cleaning](../products/window-cleaning.md) | [Product guide](../products/window-cleaning.md) | Exact package URL not verified |
 | [Queue](../products/queue.md) | [Demo](https://youtu.be/qhEbaAJHqpQ) | Not verified |
 | [Farming](../products/farming.md) | [Demo](https://youtu.be/MWF8Kgai5KA) | Not verified |
 | [Skills](../products/skills.md) | [Demo](https://youtu.be/TYk_jkLa8wM) | Not verified |
