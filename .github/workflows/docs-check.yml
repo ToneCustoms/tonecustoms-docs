@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Validate documentation links
         run: python3 tools/check_docs.py
       - name: Check for sensitive or restricted content
