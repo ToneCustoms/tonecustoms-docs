@@ -16,6 +16,19 @@ ToneCustoms Family System gives player families a dedicated management experienc
 
 [Browse Store](https://tonecustoms.tebex.store/) · [Installation Guide](family-system-installation.md) · [Join Discord Support](https://discord.gg/JdZ7NTG5KF)
 
+## Product at a glance
+
+| Detail | Information |
+| --- | --- |
+| Product classification | Store-listed FiveM resource |
+| Main gameplay | Family membership, ranks and group management |
+| Technical requirements | Confirm against the delivered build; specific framework versions are not verified here |
+| Getting started | [Installation](family-system-installation.md) · [Troubleshooting](family-system-troubleshooting.md) |
+| Purchasing | [Official ToneCustoms store](https://tonecustoms.tebex.store/); confirm current availability and terms |
+| Demonstration | No product-specific public video linked in this guide |
+
+*Features below are based on the documented listing, not a claim of independent testing of every configuration.*
+
 ## What your community can do
 
 | System | Store-described functionality |
