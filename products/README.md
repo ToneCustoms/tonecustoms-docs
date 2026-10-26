@@ -10,6 +10,22 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 
 > **Important:** A demonstration or development page is **not** proof that a script is released, for sale, supported on every framework, or ready to install. Only the [official ToneCustoms store](https://tonecustoms.tebex.store/) and explicit ToneCustoms announcements determine availability. All private source code and custom asset libraries remain private.
 
+## Find the right resource
+
+| What you're looking for | Start here | Availability information |
+| --- | --- | --- |
+| **Weapon handling & maintenance** | [Gun Jam details](gun-jam.md) · [Gameplay demo](https://youtu.be/kPniOo-VThw) | Store-listed; confirm checkout availability |
+| **Family and group roleplay** | [Family System details](family-system.md) | Store-listed; confirm checkout availability |
+| **Hands-on civilian work** | [Window Cleaning details](window-cleaning.md) | Store-listed; confirm checkout availability |
+| **Queue and access controls** | [Queue overview](queue.md) · [Gameplay demo](https://youtu.be/qhEbaAJHqpQ) | Development showcase; public release not confirmed |
+| **Farming activities** | [Farming overview](farming.md) · [Gameplay demo](https://youtu.be/MWF8Kgai5KA) | Demo/documentation; public release not confirmed |
+| **Character skill progression** | [Skills overview](skills.md) · [Gameplay demo](https://youtu.be/TYk_jkLa8wM) | Demo/documentation; public release not confirmed |
+| **3D /me and /do text** | [3D Roleplay Text overview](roleplay-text.md) · [Gameplay demo](https://youtu.be/i4d7FPA4Ces) | Demo/documentation; public release not confirmed |
+| **Multiple jobs** | [Multi Job overview](multi-job.md) · [Gameplay demo](https://youtu.be/WhsA_jp7LC4) | Demo/documentation; public release not confirmed |
+| **Pharmacy roleplay** | [Pharmacy overview](pharmacy.md) | In development; public release not confirmed |
+
+**Status guide:** **Store-listed** means a listing was documented, not that stock, pricing, or current purchase availability was checked today. **Development showcase** means you can learn about the project but should not assume an installable release exists. Visit the [official store](https://tonecustoms.tebex.store/) for current purchasing information.
+
 ## Store-listed scripts
 
 These products have been documented from ToneCustoms store listings. **Current availability, prices and purchase terms must be confirmed at [Tebex](https://tonecustoms.tebex.store/).**
