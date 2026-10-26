@@ -43,6 +43,9 @@ Explore the [Free FiveM Resources Directory](products/free-resources.md) for own
 | How should I install a new release? | [Updating a Script](UPDATE_GUIDE.md) |
 | How do I contact Tone or suggest an improvement? | [Contact & Feedback](CONTACT.md) |
 | What changed in these public guides? | [Documentation Changelog](DOCUMENTATION_CHANGELOG.md) |
+| Where can I find known issues for Gun Jam? | [Gun Jam Troubleshooting](products/gun-jam-troubleshooting.md) |
+| Where can I find Family System setup help? | [Family System Troubleshooting](products/family-system-troubleshooting.md) |
+| Where can I find Window Cleaning setup help? | [Window Cleaning Troubleshooting](products/window-cleaning-troubleshooting.md) |
 
 ## Featured Product — ToneCustoms Gun Jam
 
