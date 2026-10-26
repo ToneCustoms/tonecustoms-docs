@@ -16,6 +16,19 @@ ToneCustoms Window Cleaning turns ordinary civilian work into a playable activit
 
 [Browse Store](https://tonecustoms.tebex.store/) · [Installation Guide](window-cleaning-installation.md) · [Join Discord Support](https://discord.gg/JdZ7NTG5KF)
 
+## Product at a glance
+
+| Detail | Information |
+| --- | --- |
+| Product classification | Store-listed FiveM resource |
+| Main gameplay | Interactive window-cleaning contracts and equipment |
+| Technical requirements | Confirm against the delivered build; specific framework versions are not verified here |
+| Getting started | [Installation](window-cleaning-installation.md) · [Troubleshooting](window-cleaning-troubleshooting.md) |
+| Purchasing | [Official ToneCustoms store](https://tonecustoms.tebex.store/); confirm current availability and terms |
+| Demonstration | No product-specific public video linked in this guide |
+
+*Features below are based on the documented listing, not a claim of independent testing of every configuration.*
+
 ## What players experience
 
 | Feature | Store-described functionality |
