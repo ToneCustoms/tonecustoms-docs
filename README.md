@@ -10,7 +10,7 @@
 
 Official ToneCustoms product information, setup instructions, customer support and policies.
 
-**[Explore Products](products/README.md)** · **[Shop Tebex](https://tonecustoms.tebex.store/)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)** · **[Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)** · **[Follow on GitHub](https://github.com/tonyiswavy)**
+**[Open Documentation Website](https://tonyiswavy.github.io/tonecustoms-docs/)** · **[Explore Products](products/README.md)** · **[Shop Tebex](https://tonecustoms.tebex.store/)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)** · **[Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)** · **[Follow on GitHub](https://github.com/tonyiswavy)**
 
 </div>
 
@@ -44,7 +44,7 @@ Explore the [Free FiveM Resources Directory](products/free-resources.md) for own
 
 ## Featured Product — ToneCustoms Gun Jam
 
-**On the ToneCustoms Tebex storefront · Listed at $14.99**
+**Store-listed resource — check Tebex for current pricing and availability**
 
 Gun Jam adds firearm jamming, a default ten-shot cycle, weapon-specific tracking, and clearing/maintenance interactions for supported FiveM weapons using ox_inventory.
 
@@ -88,6 +88,7 @@ Price, availability and purchase terms are determined by the actual store listin
 
 | Destination | Link |
 | --- | --- |
+| Live Documentation | [ToneCustoms Documentation Website](https://tonyiswavy.github.io/tonecustoms-docs/) |
 | Official Store | [ToneCustoms Tebex](https://tonecustoms.tebex.store/) |
 | Support & Community | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Video Demonstrations | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
