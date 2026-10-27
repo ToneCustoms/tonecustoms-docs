@@ -10,7 +10,7 @@
 
 Official ToneCustoms product information, setup instructions, customer support and policies.
 
-**[Open Documentation Website](https://tonyiswavy.github.io/tonecustoms-docs/)** · **[Explore Products](products/README.md)** · **[Shop Tebex](https://tonecustoms.tebex.store/)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)** · **[Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)** · **[Follow on GitHub](https://github.com/tonyiswavy)**
+**[Open Documentation Website](https://tonecustoms.github.io/tonecustoms-docs/)** · **[Explore Products](products/README.md)** · **[Shop Tebex](https://tonecustoms.tebex.store/)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)** · **[Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)** · **[Follow on GitHub](https://github.com/tonyiswavy)**
 
 </div>
 
@@ -93,7 +93,7 @@ Price, availability and purchase terms are determined by the actual store listin
 
 | Destination | Link |
 | --- | --- |
-| Live Documentation | [ToneCustoms Documentation Website](https://tonyiswavy.github.io/tonecustoms-docs/) |
+| Live Documentation | [ToneCustoms Documentation Website](https://tonecustoms.github.io/tonecustoms-docs/) |
 | Official Store | [ToneCustoms Tebex](https://tonecustoms.tebex.store/) |
 | Support & Community | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Video Demonstrations | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
