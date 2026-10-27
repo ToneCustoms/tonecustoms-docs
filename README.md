@@ -21,10 +21,10 @@ Official ToneCustoms product information, setup instructions, customer support a
 | Section | Find what you need |
 | --- | --- |
 | **01 · About** | [Who we are, our mission and development approach](ABOUT.md) |
-| **02 · Products** | [Product catalog, videos, features and availability](products/README.md) |
-| **03 · Installation** | [Setup guides, dependencies and configuration](INSTALLATION.md) |
-| **04 · Updates** | [Released updates, version policy and access](policies/UPDATES.md) |
-| **05 · Support** | [Get installation help or report a problem](SUPPORT.md) |
+| **02 · Updates** | [Released updates, version policy and access](policies/UPDATES.md) |
+| **03 · Support** | [Get installation help or report a problem](SUPPORT.md) |
+| **04 · Products** | [Product catalog, videos, features and availability](products/README.md) |
+| **05 · Installation** | [Setup guides, dependencies and configuration](INSTALLATION.md) |
 | **06 · Policies** | [Licensing, purchasing, script swaps and customer information](policies/README.md) |
 
 **Privacy notice status:** [Privacy & Data Handling](policies/PRIVACY.md) is a working disclosure draft, not a finalized privacy policy. Customer-facing checkout terms remain those presented by the store.
@@ -87,7 +87,7 @@ Price, availability and purchase terms are determined by the actual store listin
 
 **Questions about purchases?** The [Customer Policy Center](policies/README.md) covers owner-defined licensing rules, optional comparable-value script swap requests, free updates when released, and information that must align with the actual checkout terms and applicable law.
 
-**Found a documentation issue?** Use [GitHub Issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose). Do not include license keys, passwords or private source files.
+**Found a documentation issue?** Use [GitHub Issues](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose). Do not include license keys, passwords or private source files.
 
 ## Community & Official Links
 
@@ -98,7 +98,7 @@ Price, availability and purchase terms are determined by the actual store listin
 | Support & Community | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Video Demonstrations | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
 | Developer Profile | [ToneCustoms GitHub](https://github.com/tonyiswavy) |
-| Announcements & Questions | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
+| Announcements & Questions | [GitHub Discussions](https://github.com/ToneCustoms/tonecustoms-docs/discussions) |
 | Documentation Contributions | [Contribution Guide](CONTRIBUTING.md) |
 | Development & Release Workflow | [Development Guide](development/README.md) · [Repository Organization](development/REPOSITORY_ORGANIZATION.md) · [Repository Checklist](development/RESOURCE_REPOSITORY_TEMPLATE.md) |
 | Security Reporting | [Security Policy](SECURITY.md) |
