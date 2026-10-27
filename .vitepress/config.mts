@@ -8,7 +8,7 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   appearance: 'dark',
-  sitemap: { hostname: 'https://tonyiswavy.github.io/tonecustoms-docs/' },
+  sitemap: { hostname: 'https://tonecustoms.github.io/tonecustoms-docs/' },
   head: [
     ['meta', { name: 'theme-color', content: '#10091a' }],
     ['meta', { property: 'og:title', content: 'ToneCustoms Documentation' }],
@@ -20,11 +20,11 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/ABOUT' },
+      { text: 'Updates', link: '/policies/UPDATES' },
+      { text: 'Support', link: '/SUPPORT' },
       { text: 'Products', link: '/products/' },
       { text: 'Free Scripts', link: '/products/free-resources' },
       { text: 'Installation', link: '/INSTALLATION' },
-      { text: 'Updates', link: '/policies/UPDATES' },
-      { text: 'Support', link: '/SUPPORT' },
       { text: 'Policies', link: '/policies/' },
       { text: 'Shop', link: 'https://tonecustoms.tebex.store/' }
     ],
@@ -109,12 +109,12 @@ export default defineConfig({
       }
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/tonyiswavy/tonecustoms-docs' },
+      { icon: 'github', link: 'https://github.com/ToneCustoms/tonecustoms-docs' },
       { icon: 'youtube', link: 'https://www.youtube.com/@tonyiswavy12' },
       { icon: 'discord', link: 'https://discord.gg/JdZ7NTG5KF' }
     ],
     editLink: {
-      pattern: 'https://github.com/tonyiswavy/tonecustoms-docs/edit/main/:path',
+      pattern: 'https://github.com/ToneCustoms/tonecustoms-docs/edit/main/:path',
       text: 'Suggest a documentation edit'
     },
     footer: {
