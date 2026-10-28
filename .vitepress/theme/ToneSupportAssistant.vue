@@ -7,6 +7,57 @@ const isOpen = ref(false)
 const topic = ref<Topic | null>(null)
 const dialog = ref<HTMLElement | null>(null)
 const trigger = ref<HTMLButtonElement | null>(null)
+type ProductId = 'gunjam' | 'family' | 'window' | 'other'
+type IssueId = 'startup' | 'interaction' | 'inventory' | 'ui' | 'saving' | 'other'
+const product = ref<ProductId | ''>('')
+const issue = ref<IssueId | ''>('')
+const description = ref('')
+const framework = ref('')
+const copied = ref(false)
+const products: { id: ProductId; name: string; troubleshooting: string; installation: string }[] = [
+  { id: 'gunjam', name: 'Gun Jam', troubleshooting: '/products/gun-jam-troubleshooting', installation: '/products/gun-jam-installation' },
+  { id: 'family', name: 'Family System', troubleshooting: '/products/family-system-troubleshooting', installation: '/products/family-system-installation' },
+  { id: 'window', name: 'Window Cleaning', troubleshooting: '/products/window-cleaning-troubleshooting', installation: '/products/window-cleaning-installation' },
+  { id: 'other', name: 'Other ToneCustoms script', troubleshooting: '/TROUBLESHOOTING', installation: '/INSTALLATION' }
+]
+const issues: { id: IssueId; name: string; advice: string }[] = [
+  { id: 'startup', name: 'Script will not start', advice: 'Check the first relevant server console error, the resource folder and fxmanifest.lua, then confirm documented dependencies start before the resource.' },
+  { id: 'interaction', name: 'Interaction or keybind is not working', advice: 'Check the configured interaction or keybind, player permissions and client console. Make sure the feature is available in the intended gameplay context.' },
+  { id: 'inventory', name: 'Inventory item is not working', advice: 'Confirm the item name and definition in ox_inventory, then check the delivered installation snippet and any required item-use integration.' },
+  { id: 'ui', name: 'Menu or interface will not open', advice: 'Check the client console for errors, UI files, permissions and required integrations. Check input focus if a menu opens but cannot be used.' },
+  { id: 'saving', name: 'Progress, changes or rewards not saving', advice: 'Review server console errors and the delivered instructions for persistence and framework requirements. Avoid running unverified SQL migrations.' },
+  { id: 'other', name: 'Something else', advice: 'Record how to reproduce the problem, the expected behavior and the first relevant redacted error message.' }
+]
+function resetFlow() {
+  product.value = ''
+  issue.value = ''
+  description.value = ''
+  framework.value = ''
+  copied.value = false
+}
+function chooseTopic(id: Topic) {
+  topic.value = id
+  resetFlow()
+}
+function supportSummary() {
+  return [
+    'ToneCustoms support request',
+    'Script: ' + (products.find(p => p.id === product.value)?.name || 'Not selected'),
+    'Help needed: ' + (topic.value === 'install' ? 'Installation' : 'Troubleshooting'),
+    'Issue: ' + (issues.find(i => i.id === issue.value)?.name || 'Not selected'),
+    'Framework: ' + (framework.value || 'Not specified'),
+    'Description: ' + (description.value.trim() || 'Not provided')
+  ].join('\n')
+}
+async function copySummary() {
+  try {
+    await navigator.clipboard.writeText(supportSummary())
+    copied.value = true
+  } catch {
+    copied.value = false
+  }
+}
+
 const topics: { id: Topic; icon: string; label: string }[] = [
   { id: 'install', icon: '⚙', label: 'Install a script' },
   { id: 'broken', icon: '🛠', label: 'My script is not working' },
@@ -72,11 +123,13 @@ const guidance: Record<Topic, { title: string; text: string; links: { label: str
 function open() {
   isOpen.value = true
   topic.value = null
+  resetFlow()
   nextTick(() => dialog.value?.focus())
 }
 function close() {
   isOpen.value = false
   topic.value = null
+  resetFlow()
   nextTick(() => trigger.value?.focus())
 }
 function handleKeydown(e: KeyboardEvent) {
@@ -105,12 +158,58 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
           <p class="tc-assistant-greeting">Welcome to ToneCustoms.</p>
           <p class="tc-assistant-intro">What do you need help with today?</p>
           <div class="tc-assistant-options">
-            <button v-for="item in topics" :key="item.id" type="button" class="tc-assistant-option" @click="topic = item.id">
+            <button v-for="item in topics" :key="item.id" type="button" class="tc-assistant-option" @click="chooseTopic(item.id)">
               <span class="tc-assistant-option-icon" aria-hidden="true">{{ item.icon }}</span>
               <span>{{ item.label }}</span>
               <span class="tc-assistant-chevron" aria-hidden="true">›</span>
             </button>
           </div>
+        </template>
+        <template v-else-if="topic === 'install' || topic === 'broken'">
+          <button class="tc-assistant-back" type="button" @click="topic = null; resetFlow()">← All help topics</button>
+          <h2 class="tc-assistant-topic-title">{{ topic === 'install' ? 'Let’s install your script' : 'Let’s troubleshoot your script' }}</h2>
+          <p class="tc-assistant-topic-copy">Choose your script and issue to see relevant checks. You can also prepare a support message.</p>
+          <label class="tc-assistant-field-label" for="tc-product">1. Which script?</label>
+          <select id="tc-product" v-model="product" class="tc-assistant-field" @change="issue = ''; copied = false">
+            <option value="" disabled>Select your script</option>
+            <option v-for="p in products" :key="p.id" :value="p.id">{{ p.name }}</option>
+          </select>
+          <template v-if="product">
+            <label class="tc-assistant-field-label" for="tc-issue">2. What is happening?</label>
+            <select id="tc-issue" v-model="issue" class="tc-assistant-field" @change="copied = false">
+              <option value="" disabled>Select the closest issue</option>
+              <option v-for="i in issues" :key="i.id" :value="i.id">{{ i.name }}</option>
+            </select>
+            <template v-if="issue">
+              <div class="tc-assistant-tip">
+                <strong>First checks</strong>
+                <p>{{ issues.find(i => i.id === issue)?.advice }}</p>
+                <p v-if="product === 'gunjam' && issue === 'interaction'">Gun Jam: the default jam-clearing key is J, and the supported weapon must be jammed.</p>
+                <p v-if="product === 'gunjam' && issue === 'inventory'">Gun Jam: use the delivered cleaning kit ox_inventory item-definition snippet.</p>
+                <p v-if="product === 'family' && issue === 'interaction'">Family System: check family rank and management permissions.</p>
+                <p v-if="product === 'window' && issue === 'ui'">Window Cleaning: check mouse input and focus during the cleaning interaction.</p>
+              </div>
+              <div class="tc-assistant-links">
+                <a :href="withBase(products.find(p => p.id === product)?.troubleshooting || '/TROUBLESHOOTING')" @click="close()">Product troubleshooting guide <span aria-hidden="true">↗</span></a>
+                <a :href="withBase(products.find(p => p.id === product)?.installation || '/INSTALLATION')" @click="close()">Installation guide <span aria-hidden="true">↗</span></a>
+              </div>
+              <label class="tc-assistant-field-label" for="tc-framework">3. Framework (optional)</label>
+              <select id="tc-framework" v-model="framework" class="tc-assistant-field" @change="copied = false">
+                <option value="">Not sure / other</option>
+                <option value="Qbox">Qbox</option>
+                <option value="QBCore">QBCore</option>
+                <option value="ESX">ESX</option>
+              </select>
+              <label class="tc-assistant-field-label" for="tc-description">4. Describe your issue (optional)</label>
+              <textarea id="tc-description" v-model="description" class="tc-assistant-field tc-assistant-textarea" maxlength="1200" rows="3" placeholder="What happened? What did you expect? Any redacted error?" @input="copied = false"></textarea>
+              <p class="tc-assistant-privacy">Do not include passwords, tokens, license keys, payment information or private source files.</p>
+              <button class="tc-assistant-copy" type="button" @click="copySummary">{{ copied ? '✓ Support summary copied' : 'Copy support summary' }}</button>
+              <p class="tc-assistant-privacy">Nothing is sent automatically. Copy the summary and share it privately with support.</p>
+              <div class="tc-assistant-links">
+                <a href="https://discord.gg/JdZ7NTG5KF" target="_blank" rel="noopener noreferrer">Open ToneCustoms Discord <span aria-hidden="true">↗</span></a>
+              </div>
+            </template>
+          </template>
         </template>
         <template v-else>
           <button class="tc-assistant-back" type="button" @click="topic = null">← All help topics</button>
