@@ -15,7 +15,7 @@ Customer → website support assistant → Cloudflare Turnstile → Cloudflare W
 
 ## Required owner setup
 
-1. Create a dedicated **private GitHub repository**, such as `ToneCustoms/tonecustoms-support`, and enable Issues. Do not use the public docs repository for tickets.
+1. The dedicated **private GitHub repository** has been created: [`ToneCustoms/tonecustoms-support`](https://github.com/ToneCustoms/tonecustoms-support). Verify that GitHub Issues is enabled. Do not use the public docs repository for tickets.
 2. Create a narrowly scoped GitHub fine-grained access token with access **only** to that private repository and **Issues: Read and write** and **Metadata: Read** permissions. Store it as a Worker secret, not in GitHub Pages or code.
 3. Create a Discord webhook in your private staff/support channel. Store its URL as a Worker secret.
 4. Create a Cloudflare Turnstile widget for `tonecustoms.github.io` and keep the **secret key** in the Worker. The **site key** is safe to use in the browser.
