@@ -25,9 +25,10 @@ Official ToneCustoms product information, setup instructions, customer support a
 | **01 · About** | [Who we are, our mission and development approach](ABOUT.md) |
 | **02 · Updates** | [Released updates, version policy and access](policies/UPDATES.md) |
 | **03 · Support** | [Get installation help or report a problem](SUPPORT.md) |
-| **04 · Products** | [Product catalog, videos, features and availability](products/README.md) |
-| **05 · Installation** | [Setup guides, dependencies and configuration](INSTALLATION.md) |
-| **06 · Policies** | [Licensing, purchasing, script swaps and customer information](policies/README.md) |
+| **04 · Partnerships** | [Collaborations, creator opportunities and proposals](PARTNERSHIPS.md) |
+| **05 · Products** | [Product catalog, videos, features and availability](products/README.md) |
+| **06 · Installation** | [Setup guides, dependencies and configuration](INSTALLATION.md) |
+| **07 · Policies** | [Licensing, purchasing, script swaps and customer information](policies/README.md) |
 
 **Privacy notice status:** [Privacy & Data Handling](policies/PRIVACY.md) is a working disclosure draft, not a finalized privacy policy. Customer-facing checkout terms remain those presented by the store.
 
