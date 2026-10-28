@@ -97,7 +97,8 @@ Price, availability and purchase terms are determined by the actual store listin
 | Official Store | [ToneCustoms Tebex](https://tonecustoms.tebex.store/) |
 | Support & Community | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Video Demonstrations | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
-| Developer Profile | [ToneCustoms GitHub](https://github.com/tonyiswavy) |
+| Business GitHub Organization | [ToneCustoms](https://github.com/ToneCustoms) |
+| Founder & Developer | [Tone](https://github.com/tonyiswavy) |
 | Announcements & Questions | [GitHub Discussions](https://github.com/ToneCustoms/tonecustoms-docs/discussions) |
 | Documentation Contributions | [Contribution Guide](CONTRIBUTING.md) |
 | Development & Release Workflow | [Development Guide](development/README.md) · [Repository Organization](development/REPOSITORY_ORGANIZATION.md) · [Repository Checklist](development/RESOURCE_REPOSITORY_TEMPLATE.md) |
