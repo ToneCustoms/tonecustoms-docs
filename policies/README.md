@@ -20,6 +20,7 @@ This section explains how customers can learn about ToneCustoms products, reques
 | Product updates, versions and compatibility | [Updates & Releases](UPDATES.md) | Free released updates documented; no promised schedule |
 | Customer support process and conduct | [Support](CUSTOMER_SUPPORT.md) | Published staffed hours; 24–48-hour response target, not a guarantee |
 | Partnerships and collaboration rules | [Partnerships](../PARTNERSHIPS.md) | Proposal rules published; separate agreement required for commitments |
+| Partnership agreement planning | [Agreement Template](../PARTNERSHIP_AGREEMENT_TEMPLATE.md) | Draft checklist; private negotiation and legal review needed |
 | Customer privacy and data handling | [Privacy](PRIVACY.md) | Draft — practices and legal review required |
 | Tebex listing and checkout consistency | [Tebex Listing Guide](TEBEX_LISTING_GUIDE.md) | Draft template — not live store terms |
 | Documentation and release checklist | [Release Standards](RELEASE_STANDARDS.md) | Internal publication checklist |
