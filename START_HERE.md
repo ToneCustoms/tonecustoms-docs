@@ -17,6 +17,8 @@ ToneCustoms is an independent FiveM development business creating interactive ro
 | **Prepare before purchasing** | [Customer Checklist](CUSTOMER_CHECKLIST.md) |
 | **Troubleshoot a resource** | [Troubleshooting Center](TROUBLESHOOTING.md) |
 | **Install a resource I already own** | [Installation Hub](INSTALLATION.md) |
+| **Join the ToneCustoms community** | [Community Hub](COMMUNITY.md) |
+| **Explore developer sneak peeks** | [Developer Insights](INSIGHTS.md) |
 | **Read official ToneCustoms announcements** | [Announcements](ANNOUNCEMENTS.md) |
 | **Find updates or release information** | [Updates Policy](policies/UPDATES.md) |
 | **Ask a question or get help** | [Customer Support](SUPPORT.md) |
