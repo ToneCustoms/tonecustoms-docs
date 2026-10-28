@@ -18,6 +18,8 @@ Use the links below to manage incoming support without another service. These ar
 | Partnership inquiries | [Partnership proposals](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+label%3Apartnership) |
 | Suggestions | [Feature requests](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+label%3Aenhancement) |
 
+Partnership inquiries are public, non-confidential summaries. Staff should move sensitive negotiations to an appropriate private channel and record only non-sensitive status updates on the issue.
+
 ## Status workflow
 
 **New → Investigating → Waiting on Customer (if needed) → Resolved**
