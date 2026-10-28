@@ -24,4 +24,4 @@ Redacted errors:
 What I've tried:
 ```
 
-[Official ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) · [Installation Guide](window-cleaning-installation.md) · [Release History](window-cleaning-changelog.md)
+[ToneCustoms GitHub Support](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) · [Installation Guide](window-cleaning-installation.md) · [Release History](window-cleaning-changelog.md)
