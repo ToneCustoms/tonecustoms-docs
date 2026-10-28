@@ -350,7 +350,7 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
               <textarea id="tc-description" v-model="description" class="tc-assistant-field tc-assistant-textarea" maxlength="1200" rows="3" placeholder="What happened? What did you expect? Any redacted error?" @input="copied = false"></textarea>
               <p class="tc-assistant-privacy">Do not include passwords, tokens, license keys, payment information or private source files.</p>
               <button class="tc-assistant-copy" type="button" @click="copySummary">{{ copied ? '✓ Support summary copied' : 'Copy support summary' }}</button>
-              <p class="tc-assistant-privacy">Nothing is sent automatically when you copy a summary. Share it privately with support.</p>
+              <p class="tc-assistant-privacy">Nothing is sent automatically. You can paste this summary into a public GitHub issue after removing any private information.</p>
               <template v-if="ticketEnabled">
                 <div class="tc-assistant-ticket">
                   <strong>Submit a private support ticket</strong>
@@ -368,7 +368,7 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
               <p v-else class="tc-assistant-privacy">Copy your summary, then open a GitHub support issue. Reports are public and require a GitHub account. Do not share secrets, order details, or private source files.</p>
               </template>
               <div class="tc-assistant-links">
-                <a href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose" target="_blank" rel="noopener noreferrer">Open ToneCustoms Discord <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose" target="_blank" rel="noopener noreferrer">Open GitHub Support Ticket <span aria-hidden="true">↗</span></a>
               </div>
             </template>
           </template>
