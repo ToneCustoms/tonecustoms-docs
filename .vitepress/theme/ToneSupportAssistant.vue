@@ -262,19 +262,18 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
                 <textarea id="tc-attempted" v-model="attempted" class="tc-assistant-field tc-assistant-textarea" maxlength="700" rows="2" placeholder="What did you check or change?" @input="copied = false"></textarea>
               </template>
               <template v-if="resolution === 'unresolved'">
-              <label class="tc-assistant-field-label" for="tc-framework">3. Framework (optional)</label>
+                <label class="tc-assistant-field-label" for="tc-framework">3. Framework (optional)</label>
               <select id="tc-framework" v-model="framework" class="tc-assistant-field" @change="copied = false">
                 <option value="">Not sure / other</option>
                 <option value="Qbox">Qbox</option>
                 <option value="QBCore">QBCore</option>
                 <option value="ESX">ESX</option>
               </select>
-              <label class="tc-assistant-field-label" for="tc-description">4. Describe your issue (optional)</label>
+                <label class="tc-assistant-field-label" for="tc-description">4. Describe your issue (optional)</label>
               <textarea id="tc-description" v-model="description" class="tc-assistant-field tc-assistant-textarea" maxlength="1200" rows="3" placeholder="What happened? What did you expect? Any redacted error?" @input="copied = false"></textarea>
-              <p class="tc-assistant-privacy">Do not include passwords, tokens, license keys, payment information or private source files.</p>
-              <button class="tc-assistant-copy" type="button" @click="copySummary">{{ copied ? '✓ Support summary copied' : 'Copy support summary' }}</button>
-              <p class="tc-assistant-privacy">Nothing is sent automatically. Copy your summary, remove private details, then paste it into your GitHub support issue.</p>
-              <p class="tc-assistant-privacy">Tickets are public and require a GitHub account. Remove private details before sharing your summary.</p>
+                <p class="tc-assistant-privacy">Do not include passwords, tokens, license keys, payment information or private source files.</p>
+                <button class="tc-assistant-copy" type="button" @click="copySummary">{{ copied ? '✓ Support summary copied' : 'Copy support summary' }}</button>
+                <p class="tc-assistant-privacy">Nothing is sent automatically. GitHub tickets are public and require a GitHub account. Copy the summary, remove private details, and paste it into your support issue.</p>
               </template>
               <div class="tc-assistant-links">
                 <a href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new?template=script-support.yml" target="_blank" rel="noopener noreferrer">Open GitHub Support Ticket <span aria-hidden="true">↗</span></a>
