@@ -61,6 +61,20 @@ jobs:
                 '*Built for Roleplay. Made with Purpose.*'
               ].join('\n');
             }
+            const statusLabels = [
+              { name: 'status: new', color: '7c3aed', description: 'New support request awaiting review' },
+              { name: 'status: investigating', color: '2563eb', description: 'ToneCustoms is reviewing the issue' },
+              { name: 'status: waiting-on-customer', color: 'd97706', description: 'More information is needed from the customer' },
+              { name: 'status: resolved', color: '15803d', description: 'Issue resolved or fix documented' }
+            ];
+            for (const label of statusLabels) {
+              try {
+                await github.rest.issues.getLabel({ ...repo, name: label.name });
+              } catch (error) {
+                if (error.status !== 404) throw error;
+                await github.rest.issues.createLabel({ ...repo, ...label });
+              }
+            }
             try {
               await github.rest.issues.getLabel({ ...repo, name: category });
             } catch (error) {
@@ -73,7 +87,7 @@ jobs:
               }
             }
             await github.rest.issues.addLabels({
-              ...repo, issue_number: issue.number, labels: [category]
+              ...repo, issue_number: issue.number, labels: [category, 'status: new']
             });
             await github.rest.issues.createComment({
               ...repo, issue_number: issue.number, body: message
