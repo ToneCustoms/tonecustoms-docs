@@ -16,6 +16,18 @@ ToneCustoms Family System gives player families a dedicated management experienc
 
 [Browse Store](https://tonecustoms.tebex.store/) · [Installation Guide](family-system-installation.md) · [Join Discord Support](https://discord.gg/JdZ7NTG5KF)
 
+
+## Quick links — features, updates and support
+
+| Customer question | Where to go |
+| --- | --- |
+| What features does this script include? | See the feature information on this page and the [Script Features Directory](../FEATURES.md) |
+| Has a new version or fix been released? | [Product release history](family-system-changelog.md) · [Script Updates Hub](../SCRIPT_UPDATES.md) |
+| Is it available to buy or download? | Check the [official ToneCustoms store](https://tonecustoms.tebex.store/); previews are not releases |
+| Where do I get technical help? | [Open a GitHub support ticket](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+| How do I follow development news? | [Announcements](../ANNOUNCEMENTS.md) · [Developer Insights](../INSIGHTS.md) |
+
+
 ## Product at a glance
 
 | Detail | Information |
