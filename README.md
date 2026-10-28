@@ -41,6 +41,10 @@ Official ToneCustoms product information, setup instructions, customer support a
 
 Explore the [Free FiveM Resources Directory](products/free-resources.md) for owner-approved free scripts, download links, installation guides and licensing information when they are released. No private or paid source is distributed through this directory.
 
+## Business Analytics
+
+[Analytics & Business Insights](ANALYTICS.md) defines the owner reporting plan for website performance, script interest, customer support and private sales metrics. It is a measurement plan, not a live public dashboard.
+
 ## How We Work
 
 ToneCustoms is built around purposeful FiveM development, practical server integration, and clear customer information. Read [Our Development Process](OUR_PROCESS.md) for the principles behind our gameplay design, project reviews, documentation, and approved releases.
