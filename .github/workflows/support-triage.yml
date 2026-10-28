@@ -2,7 +2,7 @@ name: ToneCustoms Support Triage
 
 on:
   issues:
-    types: [opened, reopened, closed]
+    types: [opened, reopened, closed, assigned]
 
 permissions:
   issues: write
@@ -78,6 +78,19 @@ jobs:
                 '*Built for Roleplay. Made with Purpose.*'
               ].join('\n');
             }
+            const managementLabels = [
+              { name: 'priority: high', color: 'b91c1c', description: 'Urgent customer-impacting issue requiring review' },
+              { name: 'priority: normal', color: '64748b', description: 'Standard support priority' },
+              { name: 'priority: low', color: '0e7490', description: 'Non-urgent support or documentation request' }
+            ];
+            for (const label of managementLabels) {
+              try {
+                await github.rest.issues.getLabel({ ...repo, name: label.name });
+              } catch (error) {
+                if (error.status !== 404) throw error;
+                await github.rest.issues.createLabel({ ...repo, ...label });
+              }
+            }
             const statusLabels = [
               { name: 'status: new', color: '7c3aed', description: 'New support request awaiting review' },
               { name: 'status: investigating', color: '2563eb', description: 'ToneCustoms is reviewing the issue' },
@@ -103,6 +116,14 @@ jobs:
                 throw error;
               }
             }
+            if (action === 'assigned') {
+              const labels = (issue.labels || []).map(label => typeof label === 'string' ? label : label.name);
+              if (labels.includes('status: new')) {
+                await github.rest.issues.removeLabel({ ...repo, issue_number: issue.number, name: 'status: new' });
+                await github.rest.issues.addLabels({ ...repo, issue_number: issue.number, labels: ['status: investigating'] });
+              }
+              return;
+            }
             const oldStatus = (issue.labels || [])
               .map(label => typeof label === 'string' ? label : label.name)
               .filter(name => name && name.startsWith('status: '));
@@ -122,6 +143,17 @@ jobs:
             await github.rest.issues.addLabels({
               ...repo, issue_number: issue.number, labels: [category, nextStatus]
             });
+            if (action === 'opened') {
+              const existingPriority = (issue.labels || []).some(label => {
+                const name = typeof label === 'string' ? label : label.name;
+                return name.startsWith('priority: ');
+              });
+              if (!existingPriority) {
+                await github.rest.issues.addLabels({
+                  ...repo, issue_number: issue.number, labels: ['priority: normal']
+                });
+              }
+            }
             if (action === 'opened') {
               await github.rest.issues.createComment({
                 ...repo, issue_number: issue.number, body: message
