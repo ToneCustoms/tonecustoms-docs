@@ -49,49 +49,35 @@ const customerContact = ref('')
 const ticketResult = ref('')
 const submitError = ref('')
 const submitting = ref(false)
-const challengeToken = ref('')
-const challengeEl = ref<HTMLElement | null>(null)
-const ticketEnabled = Boolean(supportConfig.endpoint && supportConfig.turnstileSiteKey)
-type TurnstileApi = { render: (element: HTMLElement, options: Record<string, unknown>) => string }
-function turnstileApi(): TurnstileApi | undefined {
-  return (window as unknown as { turnstile?: TurnstileApi }).turnstile
-}
-let challengeRendered = false
-async function renderChallenge() {
-  if (!ticketEnabled || !challengeEl.value || challengeRendered) return
-  if (!turnstileApi()) {
-    const existing = document.querySelector('script[data-tc-turnstile]')
-    if (!existing) {
-      const script = document.createElement('script')
-      script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
-      script.async = true
-      script.defer = true
-      script.dataset.tcTurnstile = 'true'
-      document.head.appendChild(script)
-    }
-    for (let n = 0; n < 30 && !turnstileApi(); n++) {
-      await new Promise(resolve => setTimeout(resolve, 200))
-    }
-  }
-  if (turnstileApi() && challengeEl.value && !challengeRendered) {
-    challengeRendered = true
-    turnstileApi()!.render(challengeEl.value, {
-      sitekey: supportConfig.turnstileSiteKey,
-      theme: 'dark',
-      callback: (token: string) => { challengeToken.value = token },
-      'expired-callback': () => { challengeToken.value = '' },
-      'error-callback': () => { challengeToken.value = '' }
-    })
+const challengeAnswer = ref('')
+const challengeQuestion = ref('')
+const challengePayload = ref('')
+const challengeSignature = ref('')
+const challengeError = ref('')
+const ticketEnabled = Boolean(supportConfig.endpoint)
+async function loadChallenge() {
+  if (!ticketEnabled) return
+  challengeQuestion.value = ''
+  challengeAnswer.value = ''
+  challengeError.value = ''
+  try {
+    const response = await fetch(supportConfig.endpoint.replace(/[/]$/, '') + '/challenge')
+    if (!response.ok) throw new Error('Verification unavailable')
+    const data = await response.json() as { question: string; payload: string; signature: string }
+    challengeQuestion.value = data.question
+    challengePayload.value = data.payload
+    challengeSignature.value = data.signature
+  } catch {
+    challengeError.value = 'Could not load verification. Please use Discord support.'
   }
 }
-watch([product, issue, isOpen], async () => {
-  await nextTick()
-  if (isOpen.value && product.value && issue.value) await renderChallenge()
+watch([resolution, isOpen], async () => {
+  if (isOpen.value && resolution.value === 'unresolved' && ticketEnabled) await loadChallenge()
 })
 async function submitTicket() {
   if (!ticketEnabled || submitting.value || !product.value || !issue.value) return
-  if (description.value.trim().length < 15 || !customerContact.value.trim() || !challengeToken.value) {
-    submitError.value = 'Add a contact, describe the issue (at least 15 characters), and complete verification.'
+  if (description.value.trim().length < 15 || !customerContact.value.trim() || !challengeAnswer.value || !challengePayload.value) {
+    submitError.value = 'Add your contact, describe the issue (at least 15 characters), and answer verification.'
     return
   }
   submitting.value = true
@@ -107,7 +93,11 @@ async function submitTicket() {
         framework: framework.value,
         description: description.value,
         contact: customerContact.value,
-        turnstileToken: challengeToken.value
+        attempted: attempted.value,
+        challengeAnswer: challengeAnswer.value,
+        challengePayload: challengePayload.value,
+        challengeSignature: challengeSignature.value,
+        website: ''
       })
     })
     const result = await response.json() as { ticketId?: string; error?: string }
@@ -117,7 +107,8 @@ async function submitTicket() {
     submitError.value = error instanceof Error ? error.message : 'Could not submit your ticket.'
   } finally {
     submitting.value = false
-    challengeToken.value = ''
+    challengeAnswer.value = ''
+    if (!ticketResult.value) await loadChallenge()
   }
 }
 
@@ -142,11 +133,15 @@ function resetFlow() {
   description.value = ''
   framework.value = ''
   copied.value = false
-  challengeRendered = false
+  challengeQuestion.value = ''
+  challengeAnswer.value = ''
+  challengePayload.value = ''
+  challengeSignature.value = ''
+  challengeError.value = ''
   customerContact.value = ''
   ticketResult.value = ''
   submitError.value = ''
-  challengeToken.value = ''
+  challengeAnswer.value = ''
 }
 function chooseTopic(id: Topic) {
   topic.value = id
@@ -362,7 +357,9 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
                   <p>Creates a private GitHub support issue and alerts ToneCustoms staff on Discord.</p>
                   <label class="tc-assistant-field-label" for="tc-contact">How can staff contact you?</label>
                   <input id="tc-contact" v-model="customerContact" class="tc-assistant-field" maxlength="120" placeholder="Discord username or email" autocomplete="off" />
-                  <div ref="challengeEl" class="tc-assistant-challenge"></div>
+                  <label class="tc-assistant-field-label" for="tc-challenge">{{ challengeQuestion || 'Verification question loading…' }}</label>
+                  <input id="tc-challenge" v-model="challengeAnswer" class="tc-assistant-field" inputmode="numeric" maxlength="3" placeholder="Your answer" autocomplete="off" />
+                  <p v-if="challengeError" class="tc-assistant-error" role="alert">{{ challengeError }}</p>
                   <p v-if="submitError" class="tc-assistant-error" role="alert">{{ submitError }}</p>
                   <p v-if="ticketResult" class="tc-assistant-success" role="status">Ticket submitted! Your reference: <strong>{{ ticketResult }}</strong>. Keep this reference for follow-up.</p>
                   <button v-if="!ticketResult" class="tc-assistant-copy" type="button" :disabled="submitting" @click="submitTicket">{{ submitting ? 'Submitting…' : 'Submit private ticket' }}</button>
