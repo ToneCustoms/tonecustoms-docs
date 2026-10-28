@@ -78,6 +78,9 @@ No. Partnerships concern collaboration between parties. Commissioned FiveM work 
 
 ## Contact and security
 
+For a consolidated overview of customer conduct, script use, support, and partnerships, see [Rules & Regulations](RULES_AND_REGULATIONS.md).
+
+
 ### How can I report a bug?
 Use the [Contact & Feedback Guide](CONTACT.md). Include product name, framework, expected/actual behavior and redacted logs.
 
