@@ -2,7 +2,7 @@ name: ToneCustoms Support Triage
 
 on:
   issues:
-    types: [opened, reopened, closed, assigned]
+    types: [opened, reopened, closed, assigned, unassigned]
 
 permissions:
   issues: write
@@ -116,11 +116,56 @@ jobs:
                 throw error;
               }
             }
+            // Only trusted GitHub accounts are presented as official ToneCustoms representatives.
+            // Add verified staff usernames here after approval; never infer roles from comments.
+            const verifiedRoles = {
+              'tonyiswavy': 'ToneCustoms Founder'
+            };
             if (action === 'assigned') {
+              const assignee = context.payload.assignee?.login;
+              if (!assignee) return;
+              const officialRole = verifiedRoles[assignee.toLowerCase()];
+              const identity = officialRole
+                ? '**Official ' + officialRole + '**'
+                : '**Assigned ticket handler (role not verified)**';
+              await github.rest.issues.createComment({
+                ...repo, issue_number: issue.number,
+                body: [
+                  '### ToneCustoms support ownership',
+                  '',
+                  '@' + assignee + ' is now assigned to this ticket.',
+                  '**Role:** ' + identity,
+                  '**Status:** Investigating',
+                  '',
+                  officialRole
+                    ? 'This account is listed as an official ToneCustoms representative in the support workflow.'
+                    : 'Assignment alone does not verify official ToneCustoms staff status. Check with the Founder before treating this person as official support.',
+                  '',
+                  'Please keep troubleshooting updates in this issue. Do not post credentials, license keys, or purchase details.'
+                ].join('\\n')
+              });
+
               const labels = (issue.labels || []).map(label => typeof label === 'string' ? label : label.name);
               if (labels.includes('status: new')) {
                 await github.rest.issues.removeLabel({ ...repo, issue_number: issue.number, name: 'status: new' });
                 await github.rest.issues.addLabels({ ...repo, issue_number: issue.number, labels: ['status: investigating'] });
+              }
+              return;
+            }
+            if (action === 'unassigned') {
+              const remaining = (issue.assignees || []).filter(a => a.login !== context.payload.assignee?.login);
+              if (remaining.length === 0 && issue.state === 'open') {
+                for (const label of (issue.labels || [])) {
+                  const name = typeof label === 'string' ? label : label.name;
+                  if (name === 'status: investigating') {
+                    await github.rest.issues.removeLabel({ ...repo, issue_number: issue.number, name });
+                  }
+                }
+                await github.rest.issues.addLabels({ ...repo, issue_number: issue.number, labels: ['status: new'] });
+                await github.rest.issues.createComment({
+                  ...repo, issue_number: issue.number,
+                  body: '### ToneCustoms support ownership\\n\\nThis ticket is currently **unassigned** and awaiting a support handler.'
+                });
               }
               return;
             }
