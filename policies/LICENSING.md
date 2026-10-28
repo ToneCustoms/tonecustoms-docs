@@ -39,6 +39,7 @@ For details still subject to final purchase terms, see [Purchases & Refunds](PUR
 ## Official channels
 
 - [ToneCustoms Tebex](https://tonecustoms.tebex.store/)
-- [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF)
+- [GitHub Support Center](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose)
+- [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) — community
 
 [← Policy center](README.md)
