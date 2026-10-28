@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, nextTick } from 'vue'
+import { ref, onMounted, onUnmounted, nextTick, watch } from 'vue'
+import { supportConfig } from './support-config'
 import { withBase } from 'vitepress'
 
 type Topic = 'install' | 'broken' | 'purchase' | 'custom' | 'bug' | 'contact'
@@ -14,6 +15,82 @@ const issue = ref<IssueId | ''>('')
 const description = ref('')
 const framework = ref('')
 const copied = ref(false)
+const customerContact = ref('')
+const ticketResult = ref('')
+const submitError = ref('')
+const submitting = ref(false)
+const challengeToken = ref('')
+const challengeEl = ref<HTMLElement | null>(null)
+const ticketEnabled = Boolean(supportConfig.endpoint && supportConfig.turnstileSiteKey)
+type TurnstileApi = { render: (element: HTMLElement, options: Record<string, unknown>) => string }
+function turnstileApi(): TurnstileApi | undefined {
+  return (window as unknown as { turnstile?: TurnstileApi }).turnstile
+}
+let challengeRendered = false
+async function renderChallenge() {
+  if (!ticketEnabled || !challengeEl.value || challengeRendered) return
+  if (!turnstileApi()) {
+    const existing = document.querySelector('script[data-tc-turnstile]')
+    if (!existing) {
+      const script = document.createElement('script')
+      script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
+      script.async = true
+      script.defer = true
+      script.dataset.tcTurnstile = 'true'
+      document.head.appendChild(script)
+    }
+    for (let n = 0; n < 30 && !turnstileApi(); n++) {
+      await new Promise(resolve => setTimeout(resolve, 200))
+    }
+  }
+  if (turnstileApi() && challengeEl.value && !challengeRendered) {
+    challengeRendered = true
+    turnstileApi()!.render(challengeEl.value, {
+      sitekey: supportConfig.turnstileSiteKey,
+      theme: 'dark',
+      callback: (token: string) => { challengeToken.value = token },
+      'expired-callback': () => { challengeToken.value = '' },
+      'error-callback': () => { challengeToken.value = '' }
+    })
+  }
+}
+watch([product, issue, isOpen], async () => {
+  await nextTick()
+  if (isOpen.value && product.value && issue.value) await renderChallenge()
+})
+async function submitTicket() {
+  if (!ticketEnabled || submitting.value || !product.value || !issue.value) return
+  if (description.value.trim().length < 15 || !customerContact.value.trim() || !challengeToken.value) {
+    submitError.value = 'Add a contact, describe the issue (at least 15 characters), and complete verification.'
+    return
+  }
+  submitting.value = true
+  submitError.value = ''
+  ticketResult.value = ''
+  try {
+    const response = await fetch(supportConfig.endpoint.replace(/\\/$/, '') + '/ticket', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        product: products.find(p => p.id === product.value)?.name,
+        issue: issues.find(i => i.id === issue.value)?.name,
+        framework: framework.value,
+        description: description.value,
+        contact: customerContact.value,
+        turnstileToken: challengeToken.value
+      })
+    })
+    const result = await response.json() as { ticketId?: string; error?: string }
+    if (!response.ok || !result.ticketId) throw new Error(result.error || 'Ticket submission failed.')
+    ticketResult.value = result.ticketId
+  } catch (error) {
+    submitError.value = error instanceof Error ? error.message : 'Could not submit your ticket.'
+  } finally {
+    submitting.value = false
+    challengeToken.value = ''
+  }
+}
+
 const products: { id: ProductId; name: string; troubleshooting: string; installation: string }[] = [
   { id: 'gunjam', name: 'Gun Jam', troubleshooting: '/products/gun-jam-troubleshooting', installation: '/products/gun-jam-installation' },
   { id: 'family', name: 'Family System', troubleshooting: '/products/family-system-troubleshooting', installation: '/products/family-system-installation' },
@@ -34,6 +111,10 @@ function resetFlow() {
   description.value = ''
   framework.value = ''
   copied.value = false
+  customerContact.value = ''
+  ticketResult.value = ''
+  submitError.value = ''
+  challengeToken.value = ''
 }
 function chooseTopic(id: Topic) {
   topic.value = id
@@ -204,7 +285,20 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
               <textarea id="tc-description" v-model="description" class="tc-assistant-field tc-assistant-textarea" maxlength="1200" rows="3" placeholder="What happened? What did you expect? Any redacted error?" @input="copied = false"></textarea>
               <p class="tc-assistant-privacy">Do not include passwords, tokens, license keys, payment information or private source files.</p>
               <button class="tc-assistant-copy" type="button" @click="copySummary">{{ copied ? '✓ Support summary copied' : 'Copy support summary' }}</button>
-              <p class="tc-assistant-privacy">Nothing is sent automatically. Copy the summary and share it privately with support.</p>
+              <p class="tc-assistant-privacy">Nothing is sent automatically when you copy a summary. Share it privately with support.</p>
+              <template v-if="ticketEnabled">
+                <div class="tc-assistant-ticket">
+                  <strong>Submit a private support ticket</strong>
+                  <p>Creates a private GitHub support issue and alerts ToneCustoms staff on Discord.</p>
+                  <label class="tc-assistant-field-label" for="tc-contact">How can staff contact you?</label>
+                  <input id="tc-contact" v-model="customerContact" class="tc-assistant-field" maxlength="120" placeholder="Discord username or email" autocomplete="off" />
+                  <div ref="challengeEl" class="tc-assistant-challenge"></div>
+                  <p v-if="submitError" class="tc-assistant-error" role="alert">{{ submitError }}</p>
+                  <p v-if="ticketResult" class="tc-assistant-success" role="status">Ticket submitted! Your reference: <strong>{{ ticketResult }}</strong>. Keep this reference for follow-up.</p>
+                  <button v-if="!ticketResult" class="tc-assistant-copy" type="button" :disabled="submitting" @click="submitTicket">{{ submitting ? 'Submitting…' : 'Submit private ticket' }}</button>
+                </div>
+              </template>
+              <p v-else class="tc-assistant-privacy">Private ticket submission is being configured. For now, copy your summary and contact support on Discord.</p>
               <div class="tc-assistant-links">
                 <a href="https://discord.gg/JdZ7NTG5KF" target="_blank" rel="noopener noreferrer">Open ToneCustoms Discord <span aria-hidden="true">↗</span></a>
               </div>
