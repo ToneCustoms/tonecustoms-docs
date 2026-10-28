@@ -16,6 +16,8 @@ Official ToneCustoms product information, setup instructions, customer support a
 
 ---
 
+**New here?** Begin with the [ToneCustoms Start Here Guide](START_HERE.md) to explore resources, check availability, find installation help, and contact support.
+
 ## Documentation Navigation
 
 | Section | Find what you need |
