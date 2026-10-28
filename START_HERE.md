@@ -4,6 +4,8 @@
 
 ToneCustoms is an independent FiveM development business creating interactive roleplay systems, civilian activities, weapon mechanics, and server-management resources.
 
+**Follow the complete customer path:** [ToneCustoms Customer Journey](CUSTOMER_JOURNEY.md).
+
 ## Choose your next step
 
 | I want to... | Go to |
