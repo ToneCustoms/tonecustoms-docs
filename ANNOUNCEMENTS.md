@@ -23,6 +23,8 @@ This is the official announcement hub for ToneCustoms. Announcements are publish
 
 ## Where to find related information
 
+- [Community Hub](COMMUNITY.md) — community and discussion links
+- [Developer Insights](INSIGHTS.md) — sneak peeks and behind-the-scenes notes
 - [Product Catalog](products/README.md) — features, demonstrations and release status
 - [Updates & Releases](policies/UPDATES.md) — update policy; no fixed release schedule
 - [Documentation Changelog](DOCUMENTATION_CHANGELOG.md) — website/documentation changes, not script releases
