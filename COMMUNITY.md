@@ -11,6 +11,7 @@ Welcome to the ToneCustoms community hub. Follow new FiveM script news, see behi
 | New script versions, bug fixes and upgrade notes | [Script Updates](SCRIPT_UPDATES.md) |
 | Script functionality, showcases and development status | [Script Features](FEATURES.md) |
 | Official news and notices | [Announcements](ANNOUNCEMENTS.md) |
+| Where to receive notifications and track updates | [Customer Notifications](NOTIFICATIONS.md) |
 | Sneak peeks and behind-the-scenes development | [Developer Insights](INSIGHTS.md) |
 | Technical help and ticket status | [Support Center](SUPPORT.md) |
 | Suggest a new feature | [Feature request form](https://github.com/ToneCustoms/tonecustoms-docs/issues/new?template=feature-request.yml) |
