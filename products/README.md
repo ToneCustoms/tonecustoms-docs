@@ -10,6 +10,8 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 
 > **Important:** A demonstration or development page is **not** proof that a script is released, for sale, supported on every framework, or ready to install. Only the [official ToneCustoms store](https://tonecustoms.tebex.store/) and explicit ToneCustoms announcements determine availability. All private source code and custom asset libraries remain private.
 
+**Not sure where to start?** Use the [Find the Right ToneCustoms Script](../CHOOSE_A_SCRIPT.md) guide to compare gameplay goals and review the best match for your server.
+
 ## Find the right resource
 
 | What you're looking for | Start here | Availability information |
