@@ -1,23 +1,47 @@
-name: "Documentation Bug"
-description: "Report a broken link or incorrect documentation"
-title: "[Docs Bug] "
+name: "📖 ToneCustoms | Documentation Issue"
+description: "Broken links, missing details, or incorrect documentation"
+title: "[ToneCustoms Docs] "
 labels: ["documentation"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## TONECUSTOMS / DOCUMENTATION FEEDBACK
+        Help us keep the official ToneCustoms guides accurate and easy to follow. Reports are public.
   - type: input
     id: page
     attributes:
-      label: Page or URL
-      placeholder: "https://tonecustoms.github.io/tonecustoms-docs/..."
+      label: "01 / Documentation page"
+      placeholder: "Paste the page URL or title"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: "02 / Issue type"
+      options:
+        - Broken link
+        - Incorrect instruction
+        - Missing installation step
+        - Outdated information
+        - Formatting / readability
+        - Other
     validations:
       required: true
   - type: textarea
-    id: problem
+    id: issue
     attributes:
-      label: What's wrong?
-      description: Describe the error or missing information.
+      label: "03 / What needs fixing?"
     validations:
       required: true
   - type: textarea
-    id: suggestion
+    id: correction
     attributes:
-      label: Suggested correction
+      label: "04 / Suggested correction (optional)"
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy"
+      options:
+        - label: "This public report contains no credentials, license keys, or private information."
+          required: true
