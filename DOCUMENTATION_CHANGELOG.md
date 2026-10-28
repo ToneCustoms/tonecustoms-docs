@@ -44,6 +44,15 @@ This page tracks material **changes to public guides and documentation**. It is 
 
 These are **business presentation and documentation changes**, not new product releases, custom development commitments, or changes to existing customer entitlements.
 
+## October 28, 2026 — Customer support experience
+
+- Added a centralized **Troubleshooting Center** for common FiveM resource startup, targeting, inventory, UI, database, permission, and update issues.
+- Added a **Customer Checklist** covering pre-purchase decisions, delivery, installation, updating, and support requests.
+- Linked both guides from the documentation sidebar, documentation homepage, Start Here page, Support page, and public ToneCustoms organization profile.
+- Redirected community questions from unconfigured GitHub Discussions links to the official ToneCustoms Discord.
+
+No customer software releases, checkout policies, or private resource files were changed.
+
 ## Keeping this history accurate
 
 When updating this page, record:
