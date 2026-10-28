@@ -12,6 +12,16 @@ This catalog helps FiveM server owners understand what ToneCustoms is developing
 
 **Not sure where to start?** Use the [Find the Right ToneCustoms Script](../CHOOSE_A_SCRIPT.md) guide to compare gameplay goals and review the best match for your server.
 
+## Customer shortcuts
+
+| Need | Open |
+| --- | --- |
+| Compare script features and watch showcases | [Script Features Directory](../FEATURES.md) |
+| Review confirmed version histories and fixes | [Script Updates Hub](../SCRIPT_UPDATES.md) |
+| See official announcements | [Announcements](../ANNOUNCEMENTS.md) |
+| Follow previews and development notes | [Developer Insights](../INSIGHTS.md) |
+| Get help with a script | [Open a GitHub support ticket](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+
 ## Find the right resource
 
 | What you're looking for | Start here | Availability information |
