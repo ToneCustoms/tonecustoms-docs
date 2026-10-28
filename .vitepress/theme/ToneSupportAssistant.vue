@@ -185,7 +185,7 @@ const guidance: Record<Topic, { title: string; text: string; links: { label: str
     links: [
       { label: 'Installation hub', href: '/INSTALLATION' },
       { label: 'Customer checklist', href: '/CUSTOMER_CHECKLIST' },
-      { label: 'Ask on Discord', href: 'https://discord.gg/JdZ7NTG5KF', external: true }
+      { label: 'Open GitHub support', href: 'https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose', external: true }
     ]
   },
   broken: {
@@ -194,7 +194,7 @@ const guidance: Record<Topic, { title: string; text: string; links: { label: str
     links: [
       { label: 'Troubleshooting center', href: '/TROUBLESHOOTING' },
       { label: 'Product guides', href: '/products/' },
-      { label: 'Contact technical support', href: 'https://discord.gg/JdZ7NTG5KF', external: true }
+      { label: 'Open GitHub support', href: 'https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose', external: true }
     ]
   },
   purchase: {
@@ -211,7 +211,7 @@ const guidance: Record<Topic, { title: string; text: string; links: { label: str
     text: 'Tell us what players or server staff should be able to do, your framework, dependencies and the essential gameplay features. Availability and terms are confirmed individually.',
     links: [
       { label: 'Custom development guide', href: '/CUSTOM_DEVELOPMENT' },
-      { label: 'Contact ToneCustoms', href: 'https://discord.gg/JdZ7NTG5KF', external: true }
+      { label: 'Contact ToneCustoms', href: 'https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose', external: true }
     ]
   },
   bug: {
@@ -226,7 +226,7 @@ const guidance: Record<Topic, { title: string; text: string; links: { label: str
     title: 'Contact ToneCustoms support',
     text: 'For resource setup and technical questions, join the official Discord. For billing and order disputes, reply through your existing Tebex order-support thread.',
     links: [
-      { label: 'Join Discord support', href: 'https://discord.gg/JdZ7NTG5KF', external: true },
+      { label: 'Join Discord support', href: 'https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose', external: true },
       { label: 'Support information', href: '/SUPPORT' },
       { label: 'Frequently asked questions', href: '/FAQ' }
     ]
@@ -365,10 +365,10 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
                   <button v-if="!ticketResult" class="tc-assistant-copy" type="button" :disabled="submitting" @click="submitTicket">{{ submitting ? 'Submitting…' : 'Submit private ticket' }}</button>
                 </div>
               </template>
-              <p v-else class="tc-assistant-privacy">Private ticket submission is being configured. For now, copy your summary and contact support on Discord.</p>
+              <p v-else class="tc-assistant-privacy">Copy your summary, then open a GitHub support issue. Reports are public and require a GitHub account. Do not share secrets, order details, or private source files.</p>
               </template>
               <div class="tc-assistant-links">
-                <a href="https://discord.gg/JdZ7NTG5KF" target="_blank" rel="noopener noreferrer">Open ToneCustoms Discord <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose" target="_blank" rel="noopener noreferrer">Open ToneCustoms Discord <span aria-hidden="true">↗</span></a>
               </div>
             </template>
           </template>
