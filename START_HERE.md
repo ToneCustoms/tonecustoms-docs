@@ -20,7 +20,10 @@ ToneCustoms is an independent FiveM development business creating interactive ro
 | **Join the ToneCustoms community** | [Community Hub](COMMUNITY.md) |
 | **Explore developer sneak peeks** | [Developer Insights](INSIGHTS.md) |
 | **Read official ToneCustoms announcements** | [Announcements](ANNOUNCEMENTS.md) |
-| **Find updates or release information** | [Updates Policy](policies/UPDATES.md) |
+| **Find confirmed script updates and fixes** | [Script Updates](SCRIPT_UPDATES.md) |
+| **Explore features and development status** | [Script Features](FEATURES.md) |
+| **Understand notifications and how to follow news** | [Customer Notifications](NOTIFICATIONS.md) |
+| **Understand the updates policy** | [Updates Policy](policies/UPDATES.md) |
 | **Ask a question or get help** | [Customer Support](SUPPORT.md) |
 | **Review business and community rules** | [Rules & Regulations](RULES_AND_REGULATIONS.md) |
 | **Review licensing and purchasing information** | [Customer Policy Center](policies/README.md) |
