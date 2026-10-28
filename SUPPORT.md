@@ -10,6 +10,12 @@ This repository hosts documentation and community information for ToneCustoms, a
 
 For common purchase and setup questions, read the [FAQ](FAQ.md). For common technical issues, start with the [Troubleshooting Center](TROUBLESHOOTING.md). For support routing and suggestions, see [Contact & Feedback](CONTACT.md).
 
+## On-site Support Assistant
+
+Look for the purple **Need help?** button in the bottom-right corner of the [ToneCustoms documentation website](https://tonecustoms.github.io/tonecustoms-docs/). It opens a guided help panel for installation, troubleshooting, purchase and delivery questions, custom development inquiries, documentation feedback, and direct support links.
+
+The assistant is an interactive navigation tool. It does **not** send messages, open private tickets, or connect you to a live agent. For a conversation with support, use the official Discord or the appropriate Tebex order-support channel.
+
 ## Where to Get Help
 
 | Your request | Recommended channel |
