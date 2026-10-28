@@ -10,7 +10,7 @@
 
 Official ToneCustoms product information, setup instructions, customer support and policies.
 
-**[Open Documentation Website](https://tonecustoms.github.io/tonecustoms-docs/)** · **[Explore Products](products/README.md)** · **[Shop Tebex](https://tonecustoms.tebex.store/)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)** · **[Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)** · **[Follow on GitHub](https://github.com/tonyiswavy)**
+**[Open Documentation Website](https://tonecustoms.github.io/tonecustoms-docs/)** · **[Explore Products](products/README.md)** · **[Shop Tebex](https://tonecustoms.tebex.store/)** · **[Join Discord](https://discord.gg/JdZ7NTG5KF)** · **[Subscribe on YouTube](https://www.youtube.com/@tonyiswavy12)** · **[ToneCustoms GitHub](https://github.com/ToneCustoms)** · **[Founder](https://github.com/tonyiswavy)**
 
 </div>
 
