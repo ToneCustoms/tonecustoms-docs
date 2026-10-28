@@ -2,6 +2,14 @@
 
 This page tracks material **changes to public guides and documentation**. It is **not** a script release log. Product versions and customer-facing software releases are recorded separately on the appropriate product changelog.
 
+## October 28, 2026 — Rules and customer policy integration
+
+- Published a consolidated **Rules & Regulations** guide for permitted script use, purchasing, support conduct, privacy boundaries, partnerships, branding and custom development.
+- Linked the guide from the website navigation and sidebar, homepage, policy center, Start Here, partnerships, support and FAQ.
+- Corrected customer support routing in licensing and refund guidance: public GitHub Issues for technical support; private Tebex support for billing and order verification.
+- Preserved the distinction between owner-defined draft license terms, published guidelines, checkout agreements and applicable legal rights.
+- No script source, product pricing, entitlements or Tebex checkout settings were changed by these documentation commits.
+
 ## October 24, 2026 — Documentation organization and customer guides
 
 - Reorganized the main documentation into About, Products, Installation, Updates, Support and Policies.
