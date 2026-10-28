@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, nextTick, watch } from 'vue'
-import { supportConfig } from './support-config'
+import { ref, onMounted, onUnmounted, nextTick } from 'vue'
 import { withBase } from 'vitepress'
 
 type Topic = 'install' | 'broken' | 'purchase' | 'custom' | 'bug' | 'contact'
@@ -45,73 +44,6 @@ function chooseResolution(answer: Resolution) {
   copied.value = false
 }
 
-const customerContact = ref('')
-const ticketResult = ref('')
-const submitError = ref('')
-const submitting = ref(false)
-const challengeAnswer = ref('')
-const challengeQuestion = ref('')
-const challengePayload = ref('')
-const challengeSignature = ref('')
-const challengeError = ref('')
-const ticketEnabled = Boolean(supportConfig.endpoint)
-async function loadChallenge() {
-  if (!ticketEnabled) return
-  challengeQuestion.value = ''
-  challengeAnswer.value = ''
-  challengeError.value = ''
-  try {
-    const response = await fetch(supportConfig.endpoint.replace(/[/]$/, '') + '/challenge')
-    if (!response.ok) throw new Error('Verification unavailable')
-    const data = await response.json() as { question: string; payload: string; signature: string }
-    challengeQuestion.value = data.question
-    challengePayload.value = data.payload
-    challengeSignature.value = data.signature
-  } catch {
-    challengeError.value = 'Could not load verification. Please use Discord support.'
-  }
-}
-watch([resolution, isOpen], async () => {
-  if (isOpen.value && resolution.value === 'unresolved' && ticketEnabled) await loadChallenge()
-})
-async function submitTicket() {
-  if (!ticketEnabled || submitting.value || !product.value || !issue.value) return
-  if (description.value.trim().length < 15 || !customerContact.value.trim() || !challengeAnswer.value || !challengePayload.value) {
-    submitError.value = 'Add your contact, describe the issue (at least 15 characters), and answer verification.'
-    return
-  }
-  submitting.value = true
-  submitError.value = ''
-  ticketResult.value = ''
-  try {
-    const response = await fetch(supportConfig.endpoint.replace(/[/]$/, '') + '/ticket', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        product: products.find(p => p.id === product.value)?.name,
-        issue: issues.find(i => i.id === issue.value)?.name,
-        framework: framework.value,
-        description: description.value,
-        contact: customerContact.value,
-        attempted: attempted.value,
-        challengeAnswer: challengeAnswer.value,
-        challengePayload: challengePayload.value,
-        challengeSignature: challengeSignature.value,
-        website: ''
-      })
-    })
-    const result = await response.json() as { ticketId?: string; error?: string }
-    if (!response.ok || !result.ticketId) throw new Error(result.error || 'Ticket submission failed.')
-    ticketResult.value = result.ticketId
-  } catch (error) {
-    submitError.value = error instanceof Error ? error.message : 'Could not submit your ticket.'
-  } finally {
-    submitting.value = false
-    challengeAnswer.value = ''
-    if (!ticketResult.value) await loadChallenge()
-  }
-}
-
 const products: { id: ProductId; name: string; troubleshooting: string; installation: string }[] = [
   { id: 'gunjam', name: 'Gun Jam', troubleshooting: '/products/gun-jam-troubleshooting', installation: '/products/gun-jam-installation' },
   { id: 'family', name: 'Family System', troubleshooting: '/products/family-system-troubleshooting', installation: '/products/family-system-installation' },
@@ -133,15 +65,6 @@ function resetFlow() {
   description.value = ''
   framework.value = ''
   copied.value = false
-  challengeQuestion.value = ''
-  challengeAnswer.value = ''
-  challengePayload.value = ''
-  challengeSignature.value = ''
-  challengeError.value = ''
-  customerContact.value = ''
-  ticketResult.value = ''
-  submitError.value = ''
-  challengeAnswer.value = ''
 }
 function chooseTopic(id: Topic) {
   topic.value = id
@@ -211,7 +134,7 @@ const guidance: Record<Topic, { title: string; text: string; links: { label: str
     text: 'Tell us what players or server staff should be able to do, your framework, dependencies and the essential gameplay features. Availability and terms are confirmed individually.',
     links: [
       { label: 'Custom development guide', href: '/CUSTOM_DEVELOPMENT' },
-      { label: 'Contact ToneCustoms', href: 'https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose', external: true }
+      { label: 'Open GitHub support', href: 'https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose', external: true }
     ]
   },
   bug: {
@@ -224,9 +147,9 @@ const guidance: Record<Topic, { title: string; text: string; links: { label: str
   },
   contact: {
     title: 'Contact ToneCustoms support',
-    text: 'For resource setup and technical questions, join the official Discord. For billing and order disputes, reply through your existing Tebex order-support thread.',
+    text: 'For installation and technical questions, open a public GitHub support issue. For billing and order disputes, use your original private Tebex order-support thread.',
     links: [
-      { label: 'Join Discord support', href: 'https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose', external: true },
+      { label: 'Open GitHub support', href: 'https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose', external: true },
       { label: 'Support information', href: '/SUPPORT' },
       { label: 'Frequently asked questions', href: '/FAQ' }
     ]
@@ -350,25 +273,11 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
               <textarea id="tc-description" v-model="description" class="tc-assistant-field tc-assistant-textarea" maxlength="1200" rows="3" placeholder="What happened? What did you expect? Any redacted error?" @input="copied = false"></textarea>
               <p class="tc-assistant-privacy">Do not include passwords, tokens, license keys, payment information or private source files.</p>
               <button class="tc-assistant-copy" type="button" @click="copySummary">{{ copied ? '✓ Support summary copied' : 'Copy support summary' }}</button>
-              <p class="tc-assistant-privacy">Nothing is sent automatically. You can paste this summary into a public GitHub issue after removing any private information.</p>
-              <template v-if="ticketEnabled">
-                <div class="tc-assistant-ticket">
-                  <strong>Submit a private support ticket</strong>
-                  <p>Creates a private GitHub support issue and alerts ToneCustoms staff on Discord.</p>
-                  <label class="tc-assistant-field-label" for="tc-contact">How can staff contact you?</label>
-                  <input id="tc-contact" v-model="customerContact" class="tc-assistant-field" maxlength="120" placeholder="Discord username or email" autocomplete="off" />
-                  <label class="tc-assistant-field-label" for="tc-challenge">{{ challengeQuestion || 'Verification question loading…' }}</label>
-                  <input id="tc-challenge" v-model="challengeAnswer" class="tc-assistant-field" inputmode="numeric" maxlength="3" placeholder="Your answer" autocomplete="off" />
-                  <p v-if="challengeError" class="tc-assistant-error" role="alert">{{ challengeError }}</p>
-                  <p v-if="submitError" class="tc-assistant-error" role="alert">{{ submitError }}</p>
-                  <p v-if="ticketResult" class="tc-assistant-success" role="status">Ticket submitted! Your reference: <strong>{{ ticketResult }}</strong>. Keep this reference for follow-up.</p>
-                  <button v-if="!ticketResult" class="tc-assistant-copy" type="button" :disabled="submitting" @click="submitTicket">{{ submitting ? 'Submitting…' : 'Submit private ticket' }}</button>
-                </div>
-              </template>
-              <p v-else class="tc-assistant-privacy">Copy your summary, then open a GitHub support issue. Reports are public and require a GitHub account. Do not share secrets, order details, or private source files.</p>
+              <p class="tc-assistant-privacy">Nothing is sent automatically. Copy your summary, remove private details, then paste it into your GitHub support issue.</p>
+              <p class="tc-assistant-privacy">Tickets are public and require a GitHub account. Remove private details before sharing your summary.</p>
               </template>
               <div class="tc-assistant-links">
-                <a href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose" target="_blank" rel="noopener noreferrer">Open GitHub Support Ticket <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new?template=script-support.yml" target="_blank" rel="noopener noreferrer">Open GitHub Support Ticket <span aria-hidden="true">↗</span></a>
               </div>
             </template>
           </template>
