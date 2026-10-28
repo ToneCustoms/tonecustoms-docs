@@ -25,7 +25,8 @@ Official ToneCustoms product information, setup instructions, customer support a
 | **01 · About** | [Who we are, our mission and development approach](ABOUT.md) |
 | **02 · Community** | [Community Hub](COMMUNITY.md) · [Developer Insights](INSIGHTS.md) |
 | **03 · Announcements** | [Official news, releases, giveaways and community notices](ANNOUNCEMENTS.md) |
-| **03 · Updates** | [Released updates, version policy and access](policies/UPDATES.md) |
+| **03 · Script Updates** | [Version histories, fixes and upgrade guidance](SCRIPT_UPDATES.md) |
+| **03 · Script Features** | [Feature directory, demonstrations and development status](FEATURES.md) |
 | **03 · Support** | [Get installation help or report a problem](SUPPORT.md) |
 | **04 · Partnerships** | [Collaborations, creator opportunities and proposals](PARTNERSHIPS.md) |
 | **05 · Products** | [Product catalog, videos, features and availability](products/README.md) |
