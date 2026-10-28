@@ -1,0 +1,77 @@
+name: Publish ToneCustoms Community Post
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_type:
+        description: 'Where should the post appear?'
+        required: true
+        type: choice
+        options:
+          - announcement
+          - insight
+      title:
+        description: 'Post title'
+        required: true
+        type: string
+      category:
+        description: 'Announcement category or insight status'
+        required: true
+        type: choice
+        options:
+          - Community
+          - Website
+          - New release
+          - Script update
+          - Giveaway
+          - Support notice
+          - Partnership
+          - Concept
+          - In development
+          - Preview
+          - Released
+      message:
+        description: 'Post message (plain text; no private information)'
+        required: true
+        type: string
+      link:
+        description: 'Optional official HTTPS link'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tonecustoms-community-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Create post
+        env:
+          POST_TYPE: ${{ inputs.post_type }}
+          POST_TITLE: ${{ inputs.title }}
+          POST_CATEGORY: ${{ inputs.category }}
+          POST_MESSAGE: ${{ inputs.message }}
+          POST_LINK: ${{ inputs.link }}
+        run: python3 tools/publish_community_post.py
+      - name: Validate documentation links
+        run: python3 tools/check_docs.py
+      - name: Reject sensitive or restricted files
+        run: python3 tools/check_public_safety.py
+      - name: Commit and publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ANNOUNCEMENTS.md INSIGHTS.md
+          git commit -m "community: publish ${{ inputs.post_type }} post"
+          git pull --rebase origin main
+          git push origin HEAD:main
