@@ -8,7 +8,7 @@ Welcome to the official **ToneCustoms** support information page.
 
 This repository hosts documentation and community information for ToneCustoms, an independent FiveM development brand. For assistance, choose the channel that best matches your request.
 
-For common purchase and setup questions, read the [FAQ](FAQ.md). For support routing and suggestions, see [Contact & Feedback](CONTACT.md).
+For common purchase and setup questions, read the [FAQ](FAQ.md). For common technical issues, start with the [Troubleshooting Center](TROUBLESHOOTING.md). For support routing and suggestions, see [Contact & Feedback](CONTACT.md).
 
 ## Where to Get Help
 
