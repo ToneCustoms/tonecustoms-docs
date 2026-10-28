@@ -24,7 +24,7 @@ Tebex describes its default no-refunds approach as having exceptions where the p
 
 ## Support, returns and order problems
 
-1. For technical installation and configuration support, contact [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF).
+1. For technical installation and configuration support, use the [public GitHub Support Center](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose).
 2. For billing/refund questions, use the order's official Tebex buyer-support route and follow any existing support thread.
 3. If you open an order-related case with Tebex, keep relevant replies within that Tebex support thread so the platform can review them.
 4. Share order references **only in an appropriate private channel**. Never publish payment information, login credentials, license keys or private protected source code.
