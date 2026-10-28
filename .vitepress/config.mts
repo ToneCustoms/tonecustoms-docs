@@ -81,6 +81,7 @@ export default defineConfig({
           { text: 'Contact & Feedback', link: '/CONTACT' },
           { text: 'Custom Development Inquiries', link: '/CUSTOM_DEVELOPMENT' },
           { text: 'Support', link: '/SUPPORT' },
+          { text: 'Partnerships & Collaborations', link: '/PARTNERSHIPS' },
           { text: 'Known Issues & Fixes', link: '/KNOWN_ISSUES' },
           { text: 'Support Dashboard', link: '/SUPPORT_DASHBOARD' }
         ]
