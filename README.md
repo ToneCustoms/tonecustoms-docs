@@ -43,6 +43,8 @@ ToneCustoms is built around purposeful FiveM development, practical server integ
 
 | Question | Start here |
 | --- | --- |
+| What should I check before and after purchasing? | [Customer Checklist](CUSTOMER_CHECKLIST.md) |
+| How can I fix a script issue? | [Troubleshooting Center](TROUBLESHOOTING.md) |
 | Common questions about purchases, licenses and support | [Frequently Asked Questions](FAQ.md) |
 | Which FiveM framework and dependencies work? | [Compatibility Guide](COMPATIBILITY.md) |
 | How do I access my order? | [Purchase & Delivery](PURCHASE_AND_DELIVERY.md) |
