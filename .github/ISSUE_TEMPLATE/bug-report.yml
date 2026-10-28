@@ -1,0 +1,23 @@
+name: "Documentation Bug"
+description: "Report a broken link or incorrect documentation"
+title: "[Docs Bug] "
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+      placeholder: "https://tonecustoms.github.io/tonecustoms-docs/..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Describe the error or missing information.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction
