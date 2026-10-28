@@ -32,6 +32,9 @@ Welcome to the official ToneCustoms community\! Stay connected for new FiveM scr
 
 ## Where to find related information
 
+- [Script Updates](SCRIPT_UPDATES.md) — version history, verified fixes and update instructions
+- [Script Features](FEATURES.md) — features, demonstrations and development status
+
 - [Community Hub](COMMUNITY.md) — community and discussion links
 - [Developer Insights](INSIGHTS.md) — sneak peeks and behind-the-scenes notes
 - [Product Catalog](products/README.md) — features, demonstrations and release status
