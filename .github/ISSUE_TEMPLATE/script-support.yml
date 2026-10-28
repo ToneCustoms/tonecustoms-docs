@@ -1,16 +1,22 @@
-name: "Script Support"
-description: "Get help with a ToneCustoms FiveM resource (public report)"
-title: "[Support] "
+name: "🛠️ ToneCustoms | Script Support"
+description: "Installation help, resource errors, inventory integration, or gameplay problems"
+title: "[ToneCustoms Support] "
 labels: ["support"]
 body:
   - type: markdown
     attributes:
       value: |
-        This issue will be PUBLIC. Do not post license keys, order details, credentials, private source code, or personal information. GitHub sign-in is required.
+        ## TONECUSTOMS / TECHNICAL SUPPORT
+        **Built for Roleplay. Made with Purpose.**
+
+        Thanks for contacting ToneCustoms. Please complete the details below so we can understand your issue without repeating basic questions.
+
+        **PUBLIC REPORT:** Anyone can view this GitHub issue. Never share purchase information, license keys, passwords, tokens, private source code, server identifiers, or personal details. For billing and order verification, use your original private Tebex support thread.
   - type: dropdown
-    id: script
+    id: product
     attributes:
-      label: ToneCustoms script
+      label: "01 / ToneCustoms resource"
+      description: "Which resource needs support?"
       options:
         - Gun Jam
         - Family System
@@ -21,53 +27,90 @@ body:
         - 3D Roleplay Text
         - Multi Job
         - Pharmacy
-        - Other
+        - Other ToneCustoms resource
     validations:
       required: true
   - type: dropdown
     id: framework
     attributes:
-      label: Framework
+      label: "02 / Framework"
       options:
-        - Qbox
+        - Qbox / QBX
         - QBCore
-        - ESX
+        - ESX Legacy
+        - Standalone
         - Other / Not sure
     validations:
       required: true
   - type: input
     id: version
     attributes:
-      label: Script version (if known)
-      placeholder: "e.g. 1.0.0"
+      label: "03 / Resource version"
+      placeholder: "Version number if known"
   - type: input
-    id: inventory
+    id: dependencies
     attributes:
-      label: Inventory and relevant dependencies (if applicable)
-      placeholder: "e.g. ox_inventory, ox_lib, ox_target"
+      label: "04 / Relevant dependencies"
+      description: "For example, ox_inventory, ox_lib, ox_target, oxmysql."
+      placeholder: "Dependencies and inventory system"
+  - type: dropdown
+    id: category
+    attributes:
+      label: "05 / Problem category"
+      options:
+        - Resource does not start
+        - Script error in console
+        - Interaction / keybind not working
+        - Inventory item issue
+        - UI / menu issue
+        - Database / saving issue
+        - Unexpected gameplay behavior
+        - Installation / configuration question
+        - Other
+    validations:
+      required: true
   - type: textarea
-    id: issue
+    id: actual
     attributes:
-      label: What is happening?
-      description: Describe what happened and what you expected.
-      placeholder: "Describe the issue and how to reproduce it."
+      label: "06 / What happened?"
+      description: "Explain the problem clearly."
+      placeholder: "Describe what you see and when the problem occurs."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "07 / What should happen?"
+      placeholder: "Describe the expected result."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "08 / Steps to reproduce"
+      placeholder: |
+        1. Start the resource...
+        2. Use the interaction...
+        3. Observe the issue...
     validations:
       required: true
   - type: textarea
     id: errors
     attributes:
-      label: Relevant errors (redacted)
-      description: Remove credentials, identifiers, license keys, and private data before posting.
-      render: text
+      label: "09 / Console errors or screenshots"
+      description: "Paste redacted errors or attach screenshots. Remove all sensitive data."
+      placeholder: "Paste the first relevant redacted error, if available."
   - type: textarea
     id: tried
     attributes:
-      label: What have you already tried?
-      description: List troubleshooting steps and results.
+      label: "10 / Troubleshooting already attempted"
+      placeholder: "What have you checked, changed, or tried?"
   - type: checkboxes
-    id: privacy
+    id: confirm
     attributes:
-      label: Public issue confirmation
+      label: "Before submitting"
       options:
-        - label: I understand this report is public and contains no private information.
+        - label: "I understand this is a public GitHub issue and have removed all private information."
+          required: true
+        - label: "I have checked the available ToneCustoms documentation and troubleshooting guides."
           required: true
