@@ -36,6 +36,8 @@ ToneCustoms evaluates proposals based on relevance to FiveM roleplay, credibilit
 
 Partnership arrangements, including deliverables, permissions, promotion, compensation and timelines, require explicit agreement before any commitment exists. ToneCustoms script licensing and redistribution rules continue to apply unless separately authorized.
 
+For the broader customer, community and business standards, see the [ToneCustoms Rules & Regulations](RULES_AND_REGULATIONS.md).
+
 ## Partnership rules and regulations
 
 These guidelines apply to partnership inquiries and proposed collaborations. Any final arrangement must be separately agreed in writing and must comply with applicable law, FiveM/Cfx.re rules, platform policies and third-party rights.
