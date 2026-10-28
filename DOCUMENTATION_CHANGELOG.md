@@ -2,6 +2,14 @@
 
 This page tracks material **changes to public guides and documentation**. It is **not** a script release log. Product versions and customer-facing software releases are recorded separately on the appropriate product changelog.
 
+## October 28, 2026 — Support operations and priority management
+
+- Confirmed public support issue #20 received automatic category/status labels and a GitHub Actions acknowledgment comment.
+- Added high, normal and low support-priority labels, with normal priority on new tickets.
+- Added an assignment event to transition new issues to investigating when staff take ownership.
+- Added dashboard views for high-priority, normal-priority and unassigned tickets.
+- Staff assignment remains manual. New automation behavior awaits a subsequent issue/assignment event for live verification.
+
 ## October 28, 2026 — Rules and customer policy integration
 
 - Published a consolidated **Rules & Regulations** guide for permitted script use, purchasing, support conduct, privacy boundaries, partnerships, branding and custom development.
