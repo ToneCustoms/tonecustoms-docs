@@ -41,6 +41,10 @@ Each resource has its own requirements and compatibility. Product pages explain 
 
 **Listen and improve.** Feedback helps guide fixes and future ideas. Updates to purchased scripts are free when released, without a fixed release schedule.
 
+## How we work
+
+Our development process starts with the intended player experience, defines the resource's configuration and dependencies, and continues through implementation, review, documentation, and owner-approved publication. Read the full [ToneCustoms Development Process](OUR_PROCESS.md) for a closer look.
+
 ## Explore ToneCustoms
 
 - [Browse resources and showcases](products/README.md)
