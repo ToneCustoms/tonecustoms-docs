@@ -6,14 +6,16 @@ Choose the appropriate channel so questions, product issues and suggestions reac
 
 | Request | Best channel |
 | --- | --- |
-| Help with purchased script installation/configuration | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
-| Product bugs and gameplay issues | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
-| Order access, delivery or purchase verification | Private support through your order or [Discord](https://discord.gg/JdZ7NTG5KF) |
+| Help with purchased script installation/configuration | [GitHub Support Issues](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+| Product bugs and gameplay issues | [GitHub Support Issues](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+| Order access, delivery or purchase verification | Your original private Tebex order-support thread |
 | Documentation error or broken link | [GitHub documentation issue](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
-| Documentation improvement ideas | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+| Documentation improvement ideas | [GitHub Support Issues](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
 | Sensitive security reports | [Security Policy](SECURITY.md) |
 | Demos and development videos | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
 | Current products | [Official Tebex Store](https://tonecustoms.tebex.store/) |
+
+GitHub Issues are public and require a GitHub account. For sensitive order details or payment concerns, use your original private Tebex support thread.
 
 ## Reporting a product problem
 
@@ -35,7 +37,7 @@ Explain the problem or roleplay scenario, describe the desired outcome, and iden
 ## Privacy and support expectations
 
 - **Never publish** passwords, API tokens, license keys, payment details, private order references or protected source code.
-- Use private support channels for purchase verification or sensitive information.
+- Use your private Tebex order-support thread for purchase verification or sensitive information.
 - ToneCustoms provides free product installation, configuration and troubleshooting assistance without a 24/7 or guaranteed response-time promise.
 
 [Home](README.md) · [FAQ](FAQ.md) · [Support](SUPPORT.md) · [Policies](policies/README.md)
