@@ -48,7 +48,8 @@ Already opened a request? [View open support tickets](https://github.com/ToneCus
 
 1. **Search first.** Check the [FAQ](./FAQ), [Installation Hub](./INSTALLATION), and [Troubleshooting Center](./TROUBLESHOOTING).
 2. **Open a GitHub issue.** Select the right support form and include the script, framework, version, error, and steps already tried.
-3. **Work with ToneCustoms.** Follow the issue for replies and updates. Once resolved, the issue can be closed.
+3. **Receive confirmation.** GitHub Actions is configured to acknowledge new requests and apply a support category label.
+4. **Work with ToneCustoms.** Follow the issue for replies and updates. Once resolved, the issue can be closed.
 
 You can also use the purple **Need help?** assistant at the bottom-right of this website. It walks through common FiveM issues and prepares a summary you can copy into a GitHub support request.
 
