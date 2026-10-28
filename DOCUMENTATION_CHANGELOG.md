@@ -32,6 +32,18 @@ This page tracks material **changes to public guides and documentation**. It is 
 - Kept script source repositories and Discord bot projects unchanged.
 - This was a documentation-only change; it did not publish a new script or alter product versions.
 
+## October 28, 2026 — Business identity and customer navigation
+
+- Expanded the ToneCustoms organization profile with the founder's vision, development approach, product categories, customer commitments, and official business channels.
+- Added a **Start Here** guide for new visitors and customers.
+- Published a dedicated **How ToneCustoms Works** guide explaining resource design, review, documentation, and owner-approved releases.
+- Added a **Custom Development** inquiry guide with transparent scope and availability expectations.
+- Connected the new customer and business pages to the live VitePress navigation and relevant About/profile pages.
+- Corrected stale repository ownership references in the repository-organization guide.
+- Updated organization-wide brand and release standards in the public `.github` repository.
+
+These are **business presentation and documentation changes**, not new product releases, custom development commitments, or changes to existing customer entitlements.
+
 ## Keeping this history accurate
 
 When updating this page, record:
