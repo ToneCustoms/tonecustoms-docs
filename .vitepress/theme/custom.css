@@ -346,3 +346,40 @@
   .tc-quick-grid { grid-template-columns: 1fr; }
   .tc-support-strip { align-items: stretch; flex-direction: column; }
 }
+
+/* ToneCustoms floating customer support assistant */
+.tc-assistant { position: fixed; z-index: 100; right: 24px; bottom: 22px; font-family: var(--vp-font-family-base); }
+.tc-assistant-trigger { display: flex; align-items: center; gap: 10px; border: 1px solid rgba(218,173,255,.35); border-radius: 999px; background: linear-gradient(135deg,#9d4ae8,#6420a5); color: #fff; padding: 13px 18px; box-shadow: 0 12px 34px rgba(37,7,67,.38); cursor: pointer; font-size: 14px; font-weight: 800; transition: transform .15s, box-shadow .15s; }
+.tc-assistant-trigger:hover { transform: translateY(-2px); box-shadow: 0 15px 40px rgba(71,21,112,.5); }
+.tc-assistant-trigger:focus-visible, .tc-assistant-panel button:focus-visible, .tc-assistant-panel a:focus-visible { outline: 3px solid #dfbaff; outline-offset: 3px; }
+.tc-assistant-trigger-label { white-space: nowrap; }
+.tc-assistant-x { font-size: 25px; line-height: 24px; font-weight: 400; }
+.tc-assistant-panel { position: absolute; right: 0; bottom: calc(100% + 13px); width: min(390px, calc(100vw - 28px)); max-height: min(650px, calc(100dvh - 115px)); display: flex; flex-direction: column; overflow: hidden; border: 1px solid rgba(192,126,251,.34); border-radius: 19px; background: #140e20; color: #f9f4ff; box-shadow: 0 24px 70px rgba(6,3,13,.55); }
+.tc-assistant-header { display: flex; align-items: center; gap: 12px; padding: 17px 18px; background: linear-gradient(110deg,#49216d,#24112f); border-bottom: 1px solid rgba(201,150,255,.23); }
+.tc-assistant-avatar { display: grid; place-items: center; width: 39px; height: 39px; border: 1px solid #ba84f6; border-radius: 11px; background: #8d39d2; font-size: 14px; font-weight: 900; }
+.tc-assistant-heading { display: flex; flex: 1; flex-direction: column; gap: 2px; min-width: 0; }
+.tc-assistant-heading strong { font-size: 14px; }
+.tc-assistant-heading span { font-size: 11px; color: #d8baf4; }
+.tc-assistant-close { border: 0; background: transparent; color: #f7edff; font-size: 26px; cursor: pointer; padding: 2px 7px; }
+.tc-assistant-content { overflow-y: auto; padding: 22px 18px 18px; }
+.tc-assistant-greeting { font-weight: 800; font-size: 17px; margin: 0 0 5px; }
+.tc-assistant-intro { font-size: 13px; color: #d3c2e5; margin: 0 0 18px; }
+.tc-assistant-options { display: grid; gap: 8px; }
+.tc-assistant-option { display: flex; align-items: center; gap: 11px; width: 100%; padding: 12px; border: 1px solid rgba(180,120,242,.25); border-radius: 11px; background: #22162f; color: #f7f0ff; font: inherit; font-size: 13px; text-align: left; cursor: pointer; transition: border-color .15s, background .15s; }
+.tc-assistant-option:hover { border-color: #ba83f6; background: #302040; }
+.tc-assistant-option-icon { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 7px; background: #3a2253; color: #dfbbff; font-size: 16px; }
+.tc-assistant-chevron { margin-left: auto; color: #c69aea; font-size: 22px; }
+.tc-assistant-back { border: 0; padding: 0; background: transparent; color: #cf9eff; cursor: pointer; font-weight: 700; font-size: 12px; }
+.tc-assistant-topic-title { font-size: 18px; line-height: 1.3; font-weight: 800; margin: 19px 0 11px; color: #fff; border: 0; }
+.tc-assistant-topic-copy { font-size: 13px; line-height: 1.7; color: #ddcee9; margin: 0 0 20px; }
+.tc-assistant-links { display: grid; gap: 9px; }
+.tc-assistant-links a { display: flex; justify-content: space-between; gap: 10px; align-items: center; border: 1px solid rgba(180,120,242,.3); border-radius: 10px; background: #2b1b3d; color: #f3dcff; padding: 12px 13px; font-size: 13px; font-weight: 750; text-decoration: none; }
+.tc-assistant-links a:hover { background: #3b2454; border-color: #b97ff2; }
+.tc-assistant-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 5px 12px; padding: 12px 18px; border-top: 1px solid rgba(201,150,255,.16); color: #aa93bc; font-size: 10px; }
+.tc-assistant-note { color: #bca6ce; }
+@media (max-width: 600px) {
+  .tc-assistant { right: 13px; bottom: max(12px, env(safe-area-inset-bottom)); }
+  .tc-assistant-trigger { padding: 12px 14px; }
+  .tc-assistant-panel { max-height: min(610px, calc(100dvh - 100px)); }
+}
+@media (prefers-reduced-motion: reduce) { .tc-assistant-trigger, .tc-assistant-option { transition: none; } }
