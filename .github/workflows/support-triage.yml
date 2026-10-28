@@ -1,0 +1,80 @@
+name: ToneCustoms Support Triage
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  welcome-and-organize:
+    if: github.event.issue.pull_request == null
+    runs-on: ubuntu-latest
+    steps:
+      - name: Organize incoming ToneCustoms support requests
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const title = issue.title || '';
+            const repo = context.repo;
+            let category = 'support';
+            let labelColor = '8e44ad';
+            let description = 'ToneCustoms customer support';
+            let message = [
+              'Thanks for reaching out to **ToneCustoms Support**.',
+              '',
+              'Your request has been received through GitHub Issues. A ToneCustoms team member can review and reply here.',
+              '',
+              '**While you wait:**',
+              '- Check the [ToneCustoms troubleshooting guides](https://tonecustoms.github.io/tonecustoms-docs/TROUBLESHOOTING).',
+              '- Keep relevant console errors and reproduction steps available.',
+              '- Do not post license keys, credentials, payment details, order information, or private source files in this public issue.',
+              '',
+              'Please follow this issue for replies and updates.',
+              '',
+              '*Built for Roleplay. Made with Purpose.*'
+            ].join('\n');
+            if (title.startsWith('[ToneCustoms Docs]') || title.startsWith('[Docs Bug]')) {
+              category = 'documentation';
+              labelColor = '277da1';
+              description = 'Documentation fixes and corrections';
+              message = [
+                'Thanks for helping improve **ToneCustoms Documentation**.',
+                '',
+                'Your report is logged here. Please include the page URL and the exact instruction or link that needs correction.',
+                '',
+                'A team member can follow up in this issue. Avoid posting any private information.',
+                '',
+                '*Built for Roleplay. Made with Purpose.*'
+              ].join('\n');
+            } else if (title.startsWith('[ToneCustoms Idea]') || title.startsWith('[Suggestion]')) {
+              category = 'enhancement';
+              labelColor = 'a371f7';
+              description = 'Suggestions and improvements';
+              message = [
+                'Thanks for sharing an idea with **ToneCustoms**.',
+                '',
+                'Your suggestion is now recorded. Feature ideas are reviewed individually and do not guarantee a release or implementation date.',
+                '',
+                '*Built for Roleplay. Made with Purpose.*'
+              ].join('\n');
+            }
+            try {
+              await github.rest.issues.getLabel({ ...repo, name: category });
+            } catch (error) {
+              if (error.status === 404) {
+                await github.rest.issues.createLabel({
+                  ...repo, name: category, color: labelColor, description
+                });
+              } else {
+                throw error;
+              }
+            }
+            await github.rest.issues.addLabels({
+              ...repo, issue_number: issue.number, labels: [category]
+            });
+            await github.rest.issues.createComment({
+              ...repo, issue_number: issue.number, body: message
+            });
