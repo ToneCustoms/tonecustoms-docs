@@ -13,6 +13,9 @@ hero:
       text: Explore Products
       link: /products/
     - theme: alt
+      text: Find the Right Script
+      link: /CHOOSE_A_SCRIPT
+    - theme: alt
       text: Installation Guides
       link: /INSTALLATION
     - theme: alt
