@@ -23,7 +23,8 @@ Official ToneCustoms product information, setup instructions, customer support a
 | Section | Find what you need |
 | --- | --- |
 | **01 · About** | [Who we are, our mission and development approach](ABOUT.md) |
-| **02 · Updates** | [Released updates, version policy and access](policies/UPDATES.md) |
+| **02 · Announcements** | [Official news, releases, giveaways and community notices](ANNOUNCEMENTS.md) |
+| **03 · Updates** | [Released updates, version policy and access](policies/UPDATES.md) |
 | **03 · Support** | [Get installation help or report a problem](SUPPORT.md) |
 | **04 · Partnerships** | [Collaborations, creator opportunities and proposals](PARTNERSHIPS.md) |
 | **05 · Products** | [Product catalog, videos, features and availability](products/README.md) |
