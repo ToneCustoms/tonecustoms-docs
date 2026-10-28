@@ -47,6 +47,9 @@ ToneCustoms is built around purposeful FiveM development, practical server integ
 
 ## Customer Help & Resources
 
+**New customer?** [Follow the complete customer journey](CUSTOMER_JOURNEY.md) from choosing a script through support and future updates.
+
+
 | Question | Start here |
 | --- | --- |
 | What should I check before and after purchasing? | [Customer Checklist](CUSTOMER_CHECKLIST.md) |
