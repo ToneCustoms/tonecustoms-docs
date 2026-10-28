@@ -91,7 +91,7 @@ Price, availability and purchase terms are determined by the actual store listin
 
 ## Customer Help
 
-**Already purchased a script?** Start with the [Installation Guides](INSTALLATION.md). For installation, configuration and product issues, visit [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF). Customer support for these matters is free, without a guaranteed 24/7 response time.
+**Already purchased a script?** Start with the [Installation Guides](INSTALLATION.md). For installation, configuration and product issues, [open a GitHub support issue](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose). Reports are public and require a GitHub account; do not post order details, credentials, or private source files. Customer support for these matters is free, without a guaranteed 24/7 response time.
 
 **Questions about purchases?** The [Customer Policy Center](policies/README.md) covers owner-defined licensing rules, optional comparable-value script swap requests, free updates when released, and information that must align with the actual checkout terms and applicable law.
 
@@ -103,7 +103,8 @@ Price, availability and purchase terms are determined by the actual store listin
 | --- | --- |
 | Live Documentation | [ToneCustoms Documentation Website](https://tonecustoms.github.io/tonecustoms-docs/) |
 | Official Store | [ToneCustoms Tebex](https://tonecustoms.tebex.store/) |
-| Support & Community | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+| Customer Support | [GitHub Support Issues](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+| Community | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Video Demonstrations | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
 | Business GitHub Organization | [ToneCustoms](https://github.com/ToneCustoms) |
 | Founder & Developer | [Tone](https://github.com/tonyiswavy) |
