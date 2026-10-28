@@ -53,6 +53,15 @@ These are **business presentation and documentation changes**, not new product r
 
 No customer software releases, checkout policies, or private resource files were changed.
 
+## October 28, 2026 — Script discovery and customer feedback
+
+- Added a **Find the Right Script** comparison guide and linked it from the documentation website, product catalog, Start Here page, and GitHub organization profile.
+- Corrected an outdated personal-account link in the customer support policy.
+- Replaced outdated issue-picker destinations with product support, troubleshooting, order help, and security guidance.
+- Added two structured GitHub issue forms for public documentation errors and improvement suggestions, with privacy reminders.
+
+These updates improve customer navigation and documentation feedback. No script releases, prices, or product terms were changed.
+
 ## Keeping this history accurate
 
 When updating this page, record:
