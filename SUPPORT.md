@@ -14,16 +14,16 @@ For common purchase and setup questions, read the [FAQ](FAQ.md). For common tech
 
 Look for the purple **Need help?** button in the bottom-right corner of the [ToneCustoms documentation website](https://tonecustoms.github.io/tonecustoms-docs/). It opens a guided help panel for installation, troubleshooting, purchase and delivery questions, custom development inquiries, documentation feedback, and direct support links.
 
-The assistant also walks customers through script-specific troubleshooting with follow-up questions, checks whether the issue was resolved, and helps prepare a support summary for unresolved problems. It is a **guided conversational assistant**, not an AI model or a live agent. Automatic private ticket submission and Discord staff alerts are **not yet enabled**; until those connections are configured, customers can copy their support summary and contact the official Discord. For billing cases, use the original Tebex order-support channel.
+The assistant also walks customers through script-specific troubleshooting with follow-up questions, checks whether the issue was resolved, and helps prepare a support summary for unresolved problems. It is a **guided conversational assistant**, not an AI model or a live agent. Customers can copy their troubleshooting summary and [open a public GitHub support issue](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose). GitHub sign-in is required. Never include secrets, order details, or private source code in a public issue. For billing cases, use the original Tebex order-support channel.
 
 ## Where to Get Help
 
 | Your request | Recommended channel |
 | --- | --- |
 | Billing disputes, refund requests or ongoing Tebex order cases | Use the official Tebex support route on the order and reply within the original Tebex support thread |
-| Questions about ToneCustoms or a resource | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+| Script installation, configuration, and technical problems | [Open a GitHub support issue](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
 | Documentation errors, outdated information, or broken links | [Documentation Issue Templates](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
-| Documentation suggestions and general community discussions | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+| Feature suggestions and documentation improvements | [GitHub issue forms](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
 | Store information and available listings | [ToneCustoms Tebex Store](https://tonecustoms.tebex.store/) |
 | Videos and previews | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
 | Sensitive security concerns | [Security Policy](SECURITY.md) |
