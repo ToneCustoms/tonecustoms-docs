@@ -28,6 +28,7 @@ export default defineConfig({
       { text: 'Support', link: '/SUPPORT' },
       { text: 'Partnerships', link: '/PARTNERSHIPS' },
       { text: 'Start Here', link: '/START_HERE' },
+      { text: 'Customer Journey', link: '/CUSTOMER_JOURNEY' },
       { text: 'Products', link: '/products/' },
       { text: 'Free Scripts', link: '/products/free-resources' },
       { text: 'Installation', link: '/INSTALLATION' },
@@ -85,6 +86,7 @@ export default defineConfig({
       {
         text: 'Customer Guides',
         items: [
+          { text: 'Customer Journey', link: '/CUSTOMER_JOURNEY' },
           { text: 'Customer Checklist', link: '/CUSTOMER_CHECKLIST' },
           { text: 'Installation Hub', link: '/INSTALLATION' },
           { text: 'Troubleshooting Center', link: '/TROUBLESHOOTING' },
