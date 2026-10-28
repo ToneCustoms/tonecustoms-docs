@@ -69,9 +69,25 @@ You can also use the purple **Need help?** assistant at the bottom-right of this
 
 GitHub Issues on this documentation repository are **public** and require a GitHub account. Never post license keys, tokens, database credentials, private source files, order numbers, personal information, or payment details. For billing, refunds, delivery disputes, and order verification, use the **original private Tebex order-support thread**. For security vulnerabilities, follow the [Security Policy](./SECURITY).
 
+## Support hours and response times
+
+All hours are in **Eastern Time (ET)**.
+
+| Day | Support hours |
+| --- | --- |
+| Sunday | 8:00 PM – 11:00 PM |
+| Monday | 8:00 PM – 11:00 PM |
+| Tuesday | 8:00 PM – 11:00 PM |
+| Wednesday | 9:00 AM – 10:00 PM |
+| Thursday | 9:00 AM – 10:00 PM |
+| Friday | 9:00 AM – 11:00 PM |
+| Saturday | 9:00 AM – 11:00 PM |
+
+**Ticket submissions:** Available 24/7 through GitHub Issues. **Response target:** Within 24–48 hours, depending on ticket volume and availability. This is a response target, not a guaranteed resolution time. Requests submitted outside support hours are reviewed during the next support period. Critical script issues may receive priority as availability permits.
+
 ## Support standards
 
-ToneCustoms provides assistance with its resources and documentation. Please keep reports respectful, specific, and on-topic. Support is not a guaranteed 24/7 live chat, and response times are not fixed. Feature requests are reviewed individually and do not guarantee a release.
+ToneCustoms provides assistance with its resources and documentation. Please keep reports respectful, specific, and on-topic. Support hours do not mean guaranteed live chat or immediate replies. Feature requests are reviewed individually and do not guarantee a release.
 
 <div class="tc-help-bottom">
   <div><span>BUILT FOR ROLEPLAY. MADE WITH PURPOSE.</span><strong>Still need help?</strong><p>Open a support request and we'll pick it up through GitHub.</p></div>
