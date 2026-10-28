@@ -5,10 +5,8 @@ import './custom.css'
 
 export default {
   extends: DefaultTheme,
-  Layout() {
-    return h('div', { class: 'tc-site-shell' }, [
-      h(DefaultTheme.Layout),
-      h(ToneSupportAssistant)
-    ])
-  }
+  Layout: () =>
+    h(DefaultTheme.Layout, null, {
+      'layout-bottom': () => h(ToneSupportAssistant)
+    })
 }
