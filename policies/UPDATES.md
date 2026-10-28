@@ -36,7 +36,7 @@ Updates are distributed through the **official delivery method for the purchased
 
 ## Need assistance?
 
-Visit [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) for product support and setup questions. Never publish your license or payment credentials in a public issue.
+Visit the [GitHub Support Center](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) for product support and setup questions. Never publish your license or payment credentials in a public issue.
 
 **Note:** The terms shown and accepted at actual checkout, applicable provider rules and law govern the purchase. This page does not retroactively rewrite previous purchases.
 
