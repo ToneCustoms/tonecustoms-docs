@@ -88,7 +88,19 @@ Termination does not automatically transfer ownership or cancel obligations that
 
 Do not assume this template alone supplies legally adequate liability, consumer protection, privacy or dispute-resolution terms.
 
-## 10. Approval and signatures
+## 10. Final review checklist
+
+- [ ] Authorized parties and signatories confirmed privately
+- [ ] Scope, deliverables, due dates and acceptance criteria agreed
+- [ ] Any payment, benefit or expense arrangement documented
+- [ ] Existing scripts and new work have clear ownership and license terms
+- [ ] Brand use, promotion approvals and disclosure requirements agreed
+- [ ] Confidentiality, personal-data handling and private communication agreed
+- [ ] Termination, liability and dispute terms reviewed for the relevant jurisdiction
+- [ ] Required platform and third-party permissions confirmed
+- [ ] Final agreement reviewed and approved before any performance or public announcement
+
+## 11. Approval and signatures
 
 Each party confirms that its signatory is authorized to enter the agreement.
 
