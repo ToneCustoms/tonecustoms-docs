@@ -8,6 +8,9 @@ Use the links below to manage incoming support without another service. These ar
 
 | Queue | GitHub view |
 | --- | --- |
+| High priority | [Urgent tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+is%3Aopen+label%3A%22priority%3A+high%22) |
+| Normal priority | [Standard tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+is%3Aopen+label%3A%22priority%3A+normal%22) |
+| Unassigned | [Unassigned tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee) |
 | All open requests | [Open tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+is%3Aopen) |
 | New / awaiting review | [New tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+is%3Aopen+label%3A%22status%3A+new%22) |
 | Investigating | [In progress](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+is%3Aopen+label%3A%22status%3A+investigating%22) |
@@ -25,16 +28,16 @@ Partnership inquiries are public, non-confidential summaries. Staff should move 
 **New → Investigating → Waiting on Customer (if needed) → Resolved**
 
 - **New:** Incoming issues receive the `status: new` label automatically from the ToneCustoms Support Triage GitHub Action.
-- **Investigating:** Staff replace the status with `status: investigating` when reviewing a report.
+- **Investigating:** Assigning a new issue automatically changes `status: new` to `status: investigating`. Staff can also update status manually.
 - **Waiting on Customer:** Staff replace the status with `status: waiting-on-customer` if logs or additional information are needed.
 - **Resolved:** Close the issue after confirming the outcome. GitHub Actions automatically replaces the status label with `status: resolved`.
 - **Reopened:** Reopening a ticket automatically resets its status to `status: new` without posting a duplicate welcome message.
 
-**Important:** GitHub issue labels are not mutually exclusive. When changing a status, remove the old `status:` label so the ticket appears in the correct filtered view. Status labels are provisioned by the triage workflow when the first new issue is opened.
+**Important:** GitHub issue labels are not mutually exclusive. When changing a status, remove the old `status:` label so the ticket appears in the correct filtered view. Status and priority labels are provisioned by the triage workflow when the first new issue is opened after the updated workflow is active.
 
 ## Team ownership
 
-Assign an issue to the responsible GitHub team member through the **Assignees** sidebar. No staff member is automatically assigned without an explicit team decision.
+Assign an issue to the responsible GitHub team member through the **Assignees** sidebar. No staff member is automatically assigned without an explicit team decision. New issues default to `priority: normal`; staff may change to `priority: high` or `priority: low` after assessing actual customer impact. These labels do not guarantee response time.
 
 ## Handling common cases
 
