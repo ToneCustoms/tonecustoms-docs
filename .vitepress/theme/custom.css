@@ -383,3 +383,16 @@
   .tc-assistant-panel { max-height: min(610px, calc(100dvh - 100px)); }
 }
 @media (prefers-reduced-motion: reduce) { .tc-assistant-trigger, .tc-assistant-option { transition: none; } }
+
+/* Guided troubleshooting inside the support assistant */
+.tc-assistant-field-label { display: block; margin: 17px 0 7px; font-size: 12px; font-weight: 750; color: #ead8fa; }
+.tc-assistant-field { display: block; width: 100%; min-height: 42px; padding: 10px 12px; border: 1px solid rgba(185,120,244,.42); border-radius: 9px; background: #251832; color: #f8f1ff; font: inherit; font-size: 13px; color-scheme: dark; }
+.tc-assistant-field:focus-visible, .tc-assistant-copy:focus-visible { outline: 3px solid #dfbaff; outline-offset: 2px; }
+.tc-assistant-textarea { min-height: 84px; resize: vertical; line-height: 1.55; }
+.tc-assistant-tip { margin: 17px 0; padding: 14px; border: 1px solid rgba(180,120,242,.28); border-radius: 11px; background: #2a1b3b; }
+.tc-assistant-tip strong { color: #f2d8ff; font-size: 13px; }
+.tc-assistant-tip p { color: #decce9; font-size: 12px; line-height: 1.65; margin: 8px 0 0; }
+.tc-assistant-privacy { color: #bfaed0; font-size: 11px; line-height: 1.5; margin: 9px 0 13px; }
+.tc-assistant-copy { width: 100%; border: 1px solid #b980f2; border-radius: 9px; padding: 12px; background: #7531b6; color: #fff; font-weight: 750; font-size: 13px; cursor: pointer; }
+.tc-assistant-copy:hover { background: #8e41d0; }
+.tc-assistant-tip + .tc-assistant-links { margin: 0 0 10px; }
