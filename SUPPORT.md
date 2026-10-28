@@ -40,6 +40,10 @@
   </a>
 </div>
 
+## Follow an existing ticket
+
+Already opened a request? [View open support tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue%20is%3Aopen) to check replies and updates, or [view resolved tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue%20is%3Aclosed) to find previous solutions. Use GitHub notifications to follow your issue.
+
 ## Your support journey
 
 1. **Search first.** Check the [FAQ](./FAQ), [Installation Hub](./INSTALLATION), and [Troubleshooting Center](./TROUBLESHOOTING).
