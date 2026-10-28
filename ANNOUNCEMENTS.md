@@ -10,7 +10,16 @@ This is the official announcement hub for ToneCustoms. Announcements are publish
 
 | Date | Category | Announcement |
 | --- | --- | --- |
+| October 28, 2026 | Community | Welcome to the ToneCustoms Community |
 | October 28, 2026 | Website | The official [Rules & Regulations](RULES_AND_REGULATIONS.md) and [GitHub Support Center](SUPPORT.md) are available for customers. |
+
+## 2026-10-28 — Welcome to the ToneCustoms Community
+
+**Category / status:** Community
+
+Welcome to the official ToneCustoms community\! Stay connected for new FiveM scripts, development sneak peeks, giveaways, and important announcements\.
+
+**Official link:** https://discord.gg/JdZ7NTG5KF
 
 ## Announcement categories
 
