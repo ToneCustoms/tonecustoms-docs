@@ -10,6 +10,7 @@ ToneCustoms is an independent FiveM development business creating interactive ro
 | --- | --- |
 | **Learn about ToneCustoms** | [About the Business](ABOUT.md) |
 | **Understand how resources are developed** | [Our Development Process](OUR_PROCESS.md) |
+| **Compare scripts for my server** | [Find the Right Script](CHOOSE_A_SCRIPT.md) |
 | **Explore scripts and demonstrations** | [Product Catalog](products/README.md) |
 | **See what is available for purchase** | [Official Tebex Store](https://tonecustoms.tebex.store/) |
 | **Check framework and dependency information** | [Compatibility Guide](COMPATIBILITY.md) |
