@@ -18,7 +18,8 @@ This section explains how customers can learn about ToneCustoms products, reques
 | Script swaps and comparable-value exchanges | [Script Swap Policy](SCRIPT_SWAPS.md) | Draft — owner-approved approach, checkout alignment pending |
 | Purchase, delivery and refund information | [Purchases & Refunds](PURCHASES_AND_REFUNDS.md) | Tebex default no-refunds selection checked; checkout terms still govern |
 | Product updates, versions and compatibility | [Updates & Releases](UPDATES.md) | Free released updates documented; no promised schedule |
-| Customer support process | [Support](CUSTOMER_SUPPORT.md) | Free product assistance; no response-time guarantee |
+| Customer support process and conduct | [Support](CUSTOMER_SUPPORT.md) | Published staffed hours; 24–48-hour response target, not a guarantee |
+| Partnerships and collaboration rules | [Partnerships](../PARTNERSHIPS.md) | Proposal rules published; separate agreement required for commitments |
 | Customer privacy and data handling | [Privacy](PRIVACY.md) | Draft — practices and legal review required |
 | Tebex listing and checkout consistency | [Tebex Listing Guide](TEBEX_LISTING_GUIDE.md) | Draft template — not live store terms |
 | Documentation and release checklist | [Release Standards](RELEASE_STANDARDS.md) | Internal publication checklist |
