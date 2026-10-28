@@ -20,7 +20,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/ABOUT' },
-      { text: 'Updates', link: '/policies/UPDATES' },
+      { text: 'Script Updates', link: '/SCRIPT_UPDATES' },
+      { text: 'Features', link: '/FEATURES' },
       { text: 'Announcements', link: '/ANNOUNCEMENTS' },
       { text: 'Community', link: '/COMMUNITY' },
       { text: 'Support', link: '/SUPPORT' },
@@ -42,6 +43,8 @@ export default defineConfig({
           { text: 'Announcements', link: '/ANNOUNCEMENTS' },
           { text: 'Community Hub', link: '/COMMUNITY' },
           { text: 'Developer Insights', link: '/INSIGHTS' },
+          { text: 'Script Updates', link: '/SCRIPT_UPDATES' },
+          { text: 'Script Features', link: '/FEATURES' },
           { text: 'About ToneCustoms', link: '/ABOUT' },
           { text: 'Meet the Founder', link: '/ABOUT#meet-the-developer-tone' },
           { text: 'Our Development Process', link: '/OUR_PROCESS' },
@@ -53,6 +56,8 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Product Catalog', link: '/products/' },
+          { text: 'Feature Directory', link: '/FEATURES' },
+          { text: 'Script Update History', link: '/SCRIPT_UPDATES' },
           { text: 'Find the Right Script', link: '/CHOOSE_A_SCRIPT' },
           { text: 'Free FiveM Scripts', link: '/products/free-resources' },
           { text: 'Gun Jam — Overview', link: '/products/gun-jam' },
