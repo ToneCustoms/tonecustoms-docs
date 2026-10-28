@@ -2,6 +2,16 @@
 
 Use this guide to publish announcements and developer insights **directly in GitHub** without needing another website service.
 
+## Quick publishing form (recommended)
+
+1. Open [Publish ToneCustoms Community Post](https://github.com/ToneCustoms/tonecustoms-docs/actions/workflows/publish-community-post.yml).
+2. Select **Run workflow** on the `main` branch.
+3. Choose **announcement** or **insight**, enter the title, matching category/status, message and optional official HTTPS link.
+4. Select **Run workflow** to submit. The workflow validates the content, updates the correct page and commits the post to `main`.
+5. The existing website deployment workflow should run on that Markdown commit. Check its green status and the published page.
+
+Only collaborators with workflow-dispatch permission can publish this way. The first actual submission has not yet been verified. A failed workflow does not publish the post; review the run logs for the validation error.
+
 ## Post an announcement
 
 1. Open [ANNOUNCEMENTS.md](../ANNOUNCEMENTS.md) in the public docs repository.
