@@ -15,6 +15,7 @@ Use the links below to manage incoming support without another service. These ar
 | Closed tickets | [Resolved/closed history](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+is%3Aclosed) |
 | Technical support | [Script support requests](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+label%3Asupport) |
 | Documentation | [Documentation reports](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+label%3Adocumentation) |
+| Partnership inquiries | [Partnership proposals](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+label%3Apartnership) |
 | Suggestions | [Feature requests](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+label%3Aenhancement) |
 
 ## Status workflow
