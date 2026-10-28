@@ -70,7 +70,9 @@ export default defineConfig({
       {
         text: 'Customer Guides',
         items: [
+          { text: 'Customer Checklist', link: '/CUSTOMER_CHECKLIST' },
           { text: 'Installation Hub', link: '/INSTALLATION' },
+          { text: 'Troubleshooting Center', link: '/TROUBLESHOOTING' },
           { text: 'Framework Compatibility', link: '/COMPATIBILITY' },
           { text: 'Purchase & Delivery', link: '/PURCHASE_AND_DELIVERY' },
           { text: 'Updating a Script', link: '/UPDATE_GUIDE' },
