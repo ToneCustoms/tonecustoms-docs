@@ -396,3 +396,12 @@
 .tc-assistant-copy { width: 100%; border: 1px solid #b980f2; border-radius: 9px; padding: 12px; background: #7531b6; color: #fff; font-weight: 750; font-size: 13px; cursor: pointer; }
 .tc-assistant-copy:hover { background: #8e41d0; }
 .tc-assistant-tip + .tc-assistant-links { margin: 0 0 10px; }
+
+/* Optional verified support ticket intake (enabled only after backend setup) */
+.tc-assistant-ticket { margin-top: 18px; padding: 14px; border: 1px solid rgba(185,120,244,.38); border-radius: 11px; background: #20142d; }
+.tc-assistant-ticket > strong { display: block; color: #f1ddff; font-size: 13px; }
+.tc-assistant-ticket > p { margin: 8px 0 12px; color: #d3c1e0; font-size: 12px; line-height: 1.55; }
+.tc-assistant-challenge { margin: 14px 0; min-height: 65px; }
+.tc-assistant-error { color: #ffb6c0 !important; }
+.tc-assistant-success { color: #bdf5d2 !important; }
+.tc-assistant-copy:disabled { opacity: .55; cursor: not-allowed; }
