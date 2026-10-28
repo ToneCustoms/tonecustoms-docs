@@ -35,7 +35,7 @@ This section explains how customers can learn about ToneCustoms products, reques
 - [ToneCustoms Tebex store](https://tonecustoms.tebex.store/) — check for actual product listings and checkout terms
 - [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) — community and available support channels
 - [Product documentation](../products/README.md) — script overviews and demonstrations
-- [Documentation issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) — report errors in this public documentation
+- [Documentation issues](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) — report errors in this public documentation
 - [Security disclosure guidance](../SECURITY.md) — sensitive security reporting
 
 ## Product help
