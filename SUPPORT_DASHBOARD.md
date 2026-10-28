@@ -39,6 +39,27 @@ Partnership inquiries are public, non-confidential summaries. Staff should move 
 
 Assign an issue to the responsible GitHub team member through the **Assignees** sidebar. No staff member is automatically assigned without an explicit team decision. New issues default to `priority: normal`; staff may change to `priority: high` or `priority: low` after assessing actual customer impact. These labels do not guarantee response time.
 
+## Verified support roles and public introductions
+
+When a GitHub user is assigned to an issue, the support workflow posts a public ownership comment showing their GitHub username and support identity. This makes it clear who is responsible for the ticket.
+
+| Support identity | Verification |
+| --- | --- |
+| ToneCustoms Founder | `tonyiswavy` is configured as the official Founder |
+| ToneCustoms Support | Add the approved GitHub username to the workflow's `verifiedRoles` mapping |
+| ToneCustoms Developer | Add the approved GitHub username to the same mapping |
+| Community Helper | Can help in public replies but must not be described as official staff unless approved |
+
+The workflow uses a **trusted username allowlist**, not self-declared role names. Assignment alone does not establish staff identity. Do not add anyone to this list until the Founder approves their role. This identifies staff in the issue comment; it does not create custom GitHub badges or grant repository permissions.
+
+**Assignment:** GitHub posts a role-aware ownership introduction and moves a new ticket to Investigating.
+
+**Unassignment:** If the last handler is removed, the workflow posts an unassigned notice and resets an Investigating ticket to New.
+
+**Staff handoff:** Assign the next handler and remove the previous handler; the issue history preserves both changes.
+
+**Important:** This workflow is committed but assignment and unassignment events still need a live verification run.
+
 ## Handling common cases
 
 1. Check for an existing issue before investigating a new report.
