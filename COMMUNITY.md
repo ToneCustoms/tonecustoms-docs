@@ -4,6 +4,25 @@
 
 Welcome to the ToneCustoms community hub. Follow new FiveM script news, see behind-the-scenes development insights, suggest improvements and connect with other server owners and creators.
 
+## Community news and insights
+
+**Official posts stay on GitHub.** Every published announcement and insight is saved in this repository, included in its Git commit history, and displayed on the public documentation website. New posts are added above older ones rather than replacing them.
+
+- [Latest announcements](ANNOUNCEMENTS.md) — official news, releases, community events and support notices
+- [Developer insights](INSIGHTS.md) — development previews, design decisions and behind-the-scenes updates
+- [Announcement history on GitHub](https://github.com/ToneCustoms/tonecustoms-docs/commits/main/ANNOUNCEMENTS.md) — inspect past changes
+- [Insights history on GitHub](https://github.com/ToneCustoms/tonecustoms-docs/commits/main/INSIGHTS.md) — inspect past changes
+
+### Be part of the community
+
+**Follow:** Check announcements and insights for new posts.
+
+**Discuss:** Join the [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) to share opinions and talk with other FiveM creators.
+
+**Suggest:** [Submit a feature idea](https://github.com/ToneCustoms/tonecustoms-docs/issues/new?template=feature-request.yml) to propose improvements.
+
+**Get help:** [Open a support request](https://github.com/ToneCustoms/tonecustoms-docs/issues/new?template=script-support.yml) for script issues, separate from general conversation.
+
 ## Community spaces
 
 | Space | What it's for |
