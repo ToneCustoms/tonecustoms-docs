@@ -11,6 +11,8 @@ Choose the appropriate channel so questions, product issues and suggestions reac
 | Order access, delivery or purchase verification | Your original private Tebex order-support thread |
 | Documentation error or broken link | [GitHub documentation issue](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
 | Documentation improvement ideas | [GitHub Support Issues](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+| Partnerships, creator collaborations and community proposals | [Partnership Inquiry](PARTNERSHIPS.md) — public non-confidential form |
+| Custom FiveM development proposals | [Custom Development](CUSTOM_DEVELOPMENT.md) — project discussion through official Discord |
 | Sensitive security reports | [Security Policy](SECURITY.md) |
 | Demos and development videos | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
 | Current products | [Official Tebex Store](https://tonecustoms.tebex.store/) |
