@@ -10,7 +10,7 @@
 - [ ] **Understand the scope.** Distinguish features currently included from features being developed or considered.
 - [ ] **Review installation requirements.** Make sure your server setup can support the specific product.
 - [ ] **Review purchase terms.** Read the [Customer Policy Center](policies/README.md) and actual checkout terms before ordering.
-- [ ] **Ask questions first.** Use [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) if a required feature or dependency is unclear.
+- [ ] **Ask questions first.** Use the [GitHub Support Center](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) if a required feature or dependency is unclear.
 
 ## After purchasing
 
@@ -36,7 +36,7 @@
 - [ ] State the expected behavior and what happened instead.
 - [ ] Include relevant framework/dependency information.
 - [ ] Provide reproducible steps and **redacted** error messages.
-- [ ] Use [Discord Support](https://discord.gg/JdZ7NTG5KF) for product issues or the original Tebex support channel for billing/order cases.
+- [ ] Use [GitHub Support](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) for product issues or the original private Tebex support channel for billing/order cases.
 
 ## What this checklist does not guarantee
 
