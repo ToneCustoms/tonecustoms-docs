@@ -8,18 +8,18 @@ ToneCustoms offers **free installation, configuration, and product issue assista
 
 | Reason | Channel |
 | --- | --- |
-| Help installing a purchased resource | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
-| Configuration help | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
-| Report a product bug | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
+| Help installing a purchased resource | [ToneCustoms GitHub Support](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+| Configuration help | [ToneCustoms GitHub Support](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+| Report a product bug | [ToneCustoms GitHub Support](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
 | Purchase or entitlement question | Use the original Tebex order-support route for billing, delivery, and entitlement cases |
 | Incorrect public documentation | [GitHub documentation issues](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
 | Sensitive vulnerability | [Security disclosure instructions](../SECURITY.md) |
 
 ## Information to include
 
-Give the resource name, the framework/inventory setup, what happened, the result you expected, and relevant screenshots or redacted console errors. Include the version **only if known**. When purchase verification is necessary, use a private support channel.
+Give the resource name, the framework/inventory setup, what happened, the result you expected, and relevant screenshots or redacted console errors. Include the version **only if known**. When purchase verification is necessary, use the original private Tebex order-support thread.
 
-Do not post passwords, payment details, license keys, webhooks or other sensitive information in public Discord channels or GitHub issues.
+GitHub support issues are public and require a GitHub account. Do not post passwords, payment details, license keys, webhooks, private source code, or other sensitive information in public issues.
 
 ## What's included
 
