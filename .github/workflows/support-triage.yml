@@ -62,6 +62,22 @@ jobs:
                 '*Built for Roleplay. Made with Purpose.*'
               ].join('\n');
             }
+            else if (title.startsWith('[ToneCustoms Partnership]')) {
+              category = 'partnership';
+              labelColor = '8250df';
+              description = 'ToneCustoms partnership and collaboration inquiries';
+              message = [
+                'Thanks for your interest in partnering with **ToneCustoms**.',
+                '',
+                'Your non-confidential proposal has been received for review. Submission does not guarantee approval, sponsorship, free scripts, or an agreement.',
+                '',
+                'Do not post financial terms, contracts, personal contact details, or other confidential information in this public issue.',
+                '',
+                '[Partnership information](https://tonecustoms.github.io/tonecustoms-docs/PARTNERSHIPS)',
+                '',
+                '*Built for Roleplay. Made with Purpose.*'
+              ].join('\n');
+            }
             const statusLabels = [
               { name: 'status: new', color: '7c3aed', description: 'New support request awaiting review' },
               { name: 'status: investigating', color: '2563eb', description: 'ToneCustoms is reviewing the issue' },
