@@ -15,6 +15,36 @@ const issue = ref<IssueId | ''>('')
 const description = ref('')
 const framework = ref('')
 const copied = ref(false)
+type DiagnosticAnswer = 'yes' | 'no' | 'unsure' | ''
+type Resolution = 'resolved' | 'unresolved' | ''
+const starts = ref<DiagnosticAnswer>('')
+const errorShown = ref<DiagnosticAnswer>('')
+const resolution = ref<Resolution>('')
+const attempted = ref('')
+const diagnosticQuestion = 'Does the resource start successfully in your FiveM server console?'
+function resetDiagnosis() {
+  starts.value = ''
+  errorShown.value = ''
+  resolution.value = ''
+  attempted.value = ''
+  copied.value = false
+}
+function chooseStart(answer: DiagnosticAnswer) {
+  starts.value = answer
+  errorShown.value = ''
+  resolution.value = ''
+  copied.value = false
+}
+function chooseError(answer: DiagnosticAnswer) {
+  errorShown.value = answer
+  resolution.value = ''
+  copied.value = false
+}
+function chooseResolution(answer: Resolution) {
+  resolution.value = answer
+  copied.value = false
+}
+
 const customerContact = ref('')
 const ticketResult = ref('')
 const submitError = ref('')
@@ -108,6 +138,7 @@ const issues: { id: IssueId; name: string; advice: string }[] = [
 function resetFlow() {
   product.value = ''
   issue.value = ''
+  resetDiagnosis()
   description.value = ''
   framework.value = ''
   copied.value = false
@@ -128,6 +159,10 @@ function supportSummary() {
     'Help needed: ' + (topic.value === 'install' ? 'Installation' : 'Troubleshooting'),
     'Issue: ' + (issues.find(i => i.id === issue.value)?.name || 'Not selected'),
     'Framework: ' + (framework.value || 'Not specified'),
+    'Resource starts: ' + (starts.value || 'Not checked'),
+    'Console error visible: ' + (errorShown.value || 'Not checked'),
+    'Troubleshooting result: ' + (resolution.value || 'Not confirmed'),
+    'Steps already tried: ' + (attempted.value.trim() || 'Not provided'),
     'Description: ' + (description.value.trim() || 'Not provided')
   ].join('\n')
 }
@@ -252,13 +287,13 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
           <h2 class="tc-assistant-topic-title">{{ topic === 'install' ? 'Let’s install your script' : 'Let’s troubleshoot your script' }}</h2>
           <p class="tc-assistant-topic-copy">Choose your script and issue to see relevant checks. You can also prepare a support message.</p>
           <label class="tc-assistant-field-label" for="tc-product">1. Which script?</label>
-          <select id="tc-product" v-model="product" class="tc-assistant-field" @change="issue = ''; copied = false">
+          <select id="tc-product" v-model="product" class="tc-assistant-field" @change="issue = ''; resetDiagnosis()">
             <option value="" disabled>Select your script</option>
             <option v-for="p in products" :key="p.id" :value="p.id">{{ p.name }}</option>
           </select>
           <template v-if="product">
             <label class="tc-assistant-field-label" for="tc-issue">2. What is happening?</label>
-            <select id="tc-issue" v-model="issue" class="tc-assistant-field" @change="copied = false">
+            <select id="tc-issue" v-model="issue" class="tc-assistant-field" @change="resetDiagnosis()">
               <option value="" disabled>Select the closest issue</option>
               <option v-for="i in issues" :key="i.id" :value="i.id">{{ i.name }}</option>
             </select>
@@ -275,6 +310,40 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
                 <a :href="withBase(products.find(p => p.id === product)?.troubleshooting || '/TROUBLESHOOTING')" @click="close()">Product troubleshooting guide <span aria-hidden="true">↗</span></a>
                 <a :href="withBase(products.find(p => p.id === product)?.installation || '/INSTALLATION')" @click="close()">Installation guide <span aria-hidden="true">↗</span></a>
               </div>
+              <div class="tc-assistant-conversation" aria-live="polite">
+                <div class="tc-assistant-bubble tc-assistant-bubble-bot">Okay, let's narrow this down. {{ diagnosticQuestion }}</div>
+                <div class="tc-assistant-choices" role="group" aria-label="Does the resource start?">
+                  <button v-for="answer in [{ id: 'yes', label: 'Yes' }, { id: 'no', label: 'No' }, { id: 'unsure', label: 'Not sure' }]" :key="answer.id" type="button" :class="['tc-assistant-choice', { 'tc-assistant-choice-selected': starts === answer.id }]" @click="chooseStart(answer.id as DiagnosticAnswer)">{{ answer.label }}</button>
+                </div>
+                <template v-if="starts">
+                  <div class="tc-assistant-bubble tc-assistant-bubble-user">{{ starts === 'yes' ? 'Yes, it starts' : starts === 'no' ? 'No, it fails to start' : 'Not sure' }}</div>
+                  <div class="tc-assistant-bubble tc-assistant-bubble-bot">
+                    {{ starts === 'no' ? 'Check the first server-console error and confirm the resource name, fxmanifest and required dependencies. Do you see an error?' : starts === 'unsure' ? 'Check txAdmin or your server console after starting the resource. Do you see a red error?' : 'Good. Let’s check the client or server console for an error when the problem happens. Do you see one?' }}
+                  </div>
+                  <div class="tc-assistant-choices" role="group" aria-label="Do you see an error?">
+                    <button v-for="answer in [{ id: 'yes', label: 'Yes, an error' }, { id: 'no', label: 'No error' }, { id: 'unsure', label: 'Not sure' }]" :key="answer.id" type="button" :class="['tc-assistant-choice', { 'tc-assistant-choice-selected': errorShown === answer.id }]" @click="chooseError(answer.id as DiagnosticAnswer)">{{ answer.label }}</button>
+                  </div>
+                </template>
+                <template v-if="errorShown">
+                  <div class="tc-assistant-bubble tc-assistant-bubble-user">{{ errorShown === 'yes' ? 'I see an error' : errorShown === 'no' ? 'No error' : 'Not sure' }}</div>
+                  <div class="tc-assistant-bubble tc-assistant-bubble-bot">
+                    {{ errorShown === 'yes' ? 'Save the first relevant error, but remove passwords, tokens, identifiers and other secrets. Check the product troubleshooting guide for that error category.' : errorShown === 'no' ? 'Try reproducing the issue while watching the console, and compare your setup against the product installation guide.' : 'That’s okay. Follow the product guide and note exactly when the problem happens.' }}
+                    {{ issues.find(i => i.id === issue)?.advice }}
+                  </div>
+                  <div class="tc-assistant-bubble tc-assistant-bubble-bot">Did these checks solve the problem?</div>
+                  <div class="tc-assistant-choices" role="group" aria-label="Was your problem resolved?">
+                    <button type="button" :class="['tc-assistant-choice', { 'tc-assistant-choice-selected': resolution === 'resolved' }]" @click="chooseResolution('resolved')">Yes, fixed!</button>
+                    <button type="button" :class="['tc-assistant-choice', { 'tc-assistant-choice-selected': resolution === 'unresolved' }]" @click="chooseResolution('unresolved')">No, I still need help</button>
+                  </div>
+                </template>
+                <div v-if="resolution === 'resolved'" class="tc-assistant-bubble tc-assistant-bubble-bot tc-assistant-resolved">Great! Glad we could help. You can return to the help topics if you need anything else.</div>
+                <div v-if="resolution === 'unresolved'" class="tc-assistant-bubble tc-assistant-bubble-bot">No problem. Tell us what you've tried so staff can pick up where we left off. I'll prepare a support summary for you.</div>
+              </div>
+              <template v-if="resolution === 'unresolved'">
+                <label class="tc-assistant-field-label" for="tc-attempted">What steps have you tried? (optional)</label>
+                <textarea id="tc-attempted" v-model="attempted" class="tc-assistant-field tc-assistant-textarea" maxlength="700" rows="2" placeholder="What did you check or change?" @input="copied = false"></textarea>
+              </template>
+              <template v-if="resolution === 'unresolved'">
               <label class="tc-assistant-field-label" for="tc-framework">3. Framework (optional)</label>
               <select id="tc-framework" v-model="framework" class="tc-assistant-field" @change="copied = false">
                 <option value="">Not sure / other</option>
@@ -300,6 +369,7 @@ onUnmounted(() => window.removeEventListener('keydown', handleKeydown))
                 </div>
               </template>
               <p v-else class="tc-assistant-privacy">Private ticket submission is being configured. For now, copy your summary and contact support on Discord.</p>
+              </template>
               <div class="tc-assistant-links">
                 <a href="https://discord.gg/JdZ7NTG5KF" target="_blank" rel="noopener noreferrer">Open ToneCustoms Discord <span aria-hidden="true">↗</span></a>
               </div>
