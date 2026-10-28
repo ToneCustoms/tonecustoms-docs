@@ -1,0 +1,35 @@
+name: Documentation improvement
+description: Suggest a useful new public guide or an improvement to existing ToneCustoms documentation.
+title: "[Docs Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help make ToneCustoms documentation more useful for FiveM server owners. Product bug reports and customer support requests belong in [Discord](https://discord.gg/JdZ7NTG5KF), not public GitHub issues.
+  - type: input
+    id: topic
+    attributes:
+      label: Topic or product
+      placeholder: Installation guide, compatibility, product overview, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What information is missing or difficult to find?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would improve the documentation?
+      description: Describe the guide, explanation, navigation, or example you would find useful.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: My suggestion contains no private source code, credentials, or customer data.
+          required: true
