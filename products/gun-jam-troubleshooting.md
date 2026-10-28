@@ -1,7 +1,7 @@
 # ToneCustoms Gun Jam — Troubleshooting
 
 **Resource:** `tonecustoms_gunjam`  
-**Customer support:** [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF)
+**Customer support:** [ToneCustoms GitHub Support](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose)
 
 This guide helps diagnose common setup and gameplay issues with purchased copies of ToneCustoms Gun Jam. Follow the steps relevant to your setup; avoid changing protected source code.
 
@@ -72,7 +72,7 @@ ensure tonecustoms_gunjam
 
 ## Submit a support request
 
-For assistance, [join the official ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) and include:
+For assistance, [open a ToneCustoms GitHub support ticket](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) and include:
 
 ```text
 Product: ToneCustoms Gun Jam
