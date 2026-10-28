@@ -11,7 +11,9 @@ body:
 
         Thanks for contacting ToneCustoms. Please complete the details below so we can understand your issue without repeating basic questions.
 
-        Review the [ToneCustoms Rules & Regulations](https://tonecustoms.github.io/tonecustoms-docs/RULES_AND_REGULATIONS) and [support hours](https://tonecustoms.github.io/tonecustoms-docs/SUPPORT#support-hours-and-response-times).\n\n        **PUBLIC REPORT:** Anyone can view this GitHub issue. Never share purchase information, license keys, passwords, tokens, private source code, server identifiers, or personal details. For billing and order verification, use your original private Tebex support thread.
+        Review the [ToneCustoms Rules & Regulations](https://tonecustoms.github.io/tonecustoms-docs/RULES_AND_REGULATIONS) and [support hours](https://tonecustoms.github.io/tonecustoms-docs/SUPPORT#support-hours-and-response-times).
+
+        **PUBLIC REPORT:** Anyone can view this GitHub issue. Never share purchase information, license keys, passwords, tokens, private source code, server identifiers, or personal details. For billing and order verification, use your original private Tebex support thread.
   - type: dropdown
     id: product
     attributes:
