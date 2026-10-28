@@ -1,101 +1,82 @@
-# ToneCustoms Repository Organization
+# ToneCustoms — Repository & Development Standards
 
-This guide explains how ToneCustoms separates public information from protected FiveM development. It is a repository naming and maintenance standard, **not a list of promised releases**.
+**Purpose:** Keep the ToneCustoms GitHub organization professional, secure, consistent, and easy to maintain without exposing private script source.
 
-## Current verified setup (October 25, 2026)
+**Primary organization:** [github.com/ToneCustoms](https://github.com/ToneCustoms)  
+**Founder & CEO:** [Tone](https://github.com/tonyiswavy)  
+**Official documentation:** [ToneCustoms Docs](https://tonecustoms.github.io/tonecustoms-docs/)  
+**Development board:** [ToneCustoms Projects](https://github.com/users/tonyiswavy/projects/7)
 
-- **Public documentation:** [tonecustoms-docs](https://github.com/tonyiswavy/tonecustoms-docs) — installation, products, support and policies.
-- **Public profile:** [tonyiswavy](https://github.com/tonyiswavy/tonyiswavy) — official developer portfolio and community links.
-- **Public project:** [ToneCustoms-Shell-Studio](https://github.com/tonyiswavy/ToneCustoms-Shell-Studio) — public project information.
-- **Public update metadata:** [tonecustoms-prop-generator-updates](https://github.com/tonyiswavy/tonecustoms-prop-generator-updates) — updater manifest, **not** an all-products changelog.
-- **Private script source:** [tonecustoms_gunjam](https://github.com/tonyiswavy/tonecustoms_gunjam) — protected Gun Jam development.
-- Other private tools, scripts and experiments remain private. Do not publish their contents or internal plans as part of this public guide.
+## Repository inventory
 
-## When to create a repository
+The following repositories were verified within the **ToneCustoms organization** on October 28, 2026. Visibility is a point-in-time observation; current GitHub settings are authoritative.
 
-| Purpose | Recommendation | Visibility |
+| Repository | Visibility at review | Purpose |
 | --- | --- | --- |
-| New paid FiveM resource | A separate repository per maintained product, **when development starts** | Private |
-| Free script deliberately offered to the public | Publish a repository when code, instructions and license are ready | Public |
-| Product install guides / customer support | Use the existing `tonecustoms-docs` repository | Public |
-| Product-specific release history | Keep in its existing product documentation or release notes | Public |
-| Prop Generator updater manifest | Continue using the existing updates repository | Public |
-| Brand profile and community destinations | Maintain the existing profile README | Public |
-| Experimental code, credentials, assets and unreleased work | Keep restricted; do not place in public repositories | Private |
+| [tonecustoms-docs](https://github.com/ToneCustoms/tonecustoms-docs) | Public | Customer documentation, support, policies and product information |
+| [.github](https://github.com/ToneCustoms/.github) | Public | Organization profile, shared standards and contribution templates |
+| [tonecustoms_gunjam](https://github.com/ToneCustoms/tonecustoms_gunjam) | Private | Gun Jam resource development |
+| [tonecustoms_queue](https://github.com/ToneCustoms/tonecustoms_queue) | Private | Queue and whitelist development |
+| [tonecustoms_windowcleaning](https://github.com/ToneCustoms/tonecustoms_windowcleaning) | Private | Window Cleaning resource development |
+| [tonecustoms_family](https://github.com/ToneCustoms/tonecustoms_family) | Private | Family System resource development |
+| [tonecustoms_pharmacy](https://github.com/ToneCustoms/tonecustoms_pharmacy) | Private | Pharmacy and rehabilitation development |
+| [tonecustoms_realisticshopping](https://github.com/ToneCustoms/tonecustoms_realisticshopping) | Private | Shopping gameplay resource development |
+| [tonecustoms_realistic-items-images-](https://github.com/ToneCustoms/tonecustoms_realistic-items-images-) | Private | Inventory image and asset workspace |
+| [demo-repository](https://github.com/ToneCustoms/demo-repository) | Private | GitHub demo repository, not a ToneCustoms product |
 
-**Do not create a second support, documentation, changelog or portfolio repository unless the existing one becomes demonstrably insufficient.**
+The founder's personal account may maintain additional repositories and a public developer profile. **Do not assume personal repositories are owned by the ToneCustoms organization, or transfer them without approval.**
 
-## Public repository presentation audit (October 25, 2026)
+## Organization responsibilities
 
-Every public repository should have a meaningful **About** description, relevant topics and a README that states its actual status. These metadata fields appear alongside GitHub repositories and are separate from README content.
+- **Founder & CEO — Tone:** retains ownership and final approval over business decisions, source access, releases, pricing and product publication.
+- **Development Team:** code implementation and maintenance when members are assigned.
+- **Staff / Customer Support / Quality Assurance:** optional operational teams when created and populated.
 
-| Public repository | About description to use | Suggested topics |
-| --- | --- | --- |
-| [tonyiswavy](https://github.com/tonyiswavy/tonyiswavy) | ToneCustoms — FiveM development, custom scripts, roleplay systems and official project links. | `fivem`, `tonecustoms`, `lua`, `roleplay` |
-| [ToneCustoms-Shell-Studio](https://github.com/tonyiswavy/ToneCustoms-Shell-Studio) | Planning and development showcase for a proposed FiveM interior shell creation studio; no public application release yet. | `fivem`, `gta5`, `3d-modeling`, `development` |
-| [tonecustoms-prop-generator-updates](https://github.com/tonyiswavy/tonecustoms-prop-generator-updates) | Public update manifest for ToneCustoms Prop Generator; contains metadata, not application source. | `fivem`, `updates`, `release-metadata`, `tonecustoms` |
-| [tonecustoms-docs](https://github.com/tonyiswavy/tonecustoms-docs) | Existing description and topics are already set. | Retain existing relevant topics |
+GitHub **team names are not organization roles or automatic permissions**. Access is granted separately through GitHub's repository and organization settings. Do not grant Admin access merely because a team has a leadership-sounding name.
 
-**Metadata still to set:** At this review the first three repositories did not have an About description or topics. The connected GitHub actions can edit README files but cannot change repository About metadata or rename repositories. The table is a ready-to-use set of descriptions and topics, **not a claim those GitHub settings were changed**.
+## Repository presentation standards
 
-### Naming and visibility decisions
+Each active resource repository should have:
 
-- Preserve existing repository names and clone URLs unless a specific rename has been approved and dependencies or external links have been checked.
-- Keep private development, internal tools and bots private. A consistent public brand does not require exposing private source.
-- Where legacy names differ from the `tonecustoms_` naming standard, document the discrepancy and plan any future rename separately rather than risking breaking integrations.
-- Never create extra repositories simply to make the account look more active.
+1. A concise GitHub About description and relevant topics, where appropriate.
+2. A README explaining the actual project, development/release status, dependencies, configuration, and support route.
+3. A clear private/public boundary: paid source, internal credentials and unreleased assets stay restricted.
+4. Appropriate security and contribution guidance, inheriting the organization's shared defaults when a repository has no local file.
+5. Release notes only for approved customer-facing versions; commits and demos are **not** releases.
+6. Actionable issue reports and pull request reviews when collaboration is needed.
 
-## Suggested naming for future repositories
+Do not add a public source-code license to a private paid resource without explicit owner approval. Do not rename existing repositories solely for visual consistency; renames can break clone URLs, integrations and external links.
 
-- Protected resource: `tonecustoms_<resource>` — for example, the existing `tonecustoms_gunjam`.
-- New public free resource (only after approved for publication): `tonecustoms_<resource>`.
-- Distinguish visibility in GitHub's repository settings, not by relying on a `-private` or `-free` name suffix.
+## Development workflow
 
-Naming examples are patterns only: they do **not** imply the example repository exists or that a resource is available.
+The [existing GitHub Projects board](https://github.com/users/tonyiswavy/projects/7) is the main tracking location. Preserve its configured statuses and workflow rather than inventing new statuses or artificial deadlines.
 
-## GitHub Projects workflow
+A practical lifecycle is: scope the resource → implement → review → test and fix → confirm owner approval → prepare release notes and customer documentation → publish an approved build.
 
-The existing [ToneCustoms Development Board](https://github.com/users/tonyiswavy/projects/7) is the primary place to track work. Keep its existing, FiveM-specific statuses rather than replacing them with a generic board template.
+**Verified working** is not the same as **released**. Version changes, paid package publication and customer distribution require explicit approval.
 
-| Existing board status | Meaning |
+## Customer-facing information
+
+Use the official public documentation for product descriptions, installation guides, troubleshooting, update notices and policies. Never rely on an unverified showcase video as evidence of a purchasable product.
+
+| Need | Official destination |
 | --- | --- |
-| **Planned** | Resource or task is inventoried but has not started |
-| **Development** | Active implementation |
-| **Testing** | Gameplay, integration or documentation checks are underway |
-| **Needs Fixes** | Issues found during review or testing |
-| **Verified Working** | Functionality confirmed working, but not necessarily released |
-| **Released** | Owner-approved official release |
+| About, updates and support | [ToneCustoms Documentation](https://tonecustoms.github.io/tonecustoms-docs/) |
+| Current listings and checkout terms | [Tebex Store](https://tonecustoms.tebex.store/) |
+| Customer assistance | [Discord Support](https://discord.gg/JdZ7NTG5KF) |
+| Video demonstrations | [YouTube](https://www.youtube.com/@tonyiswavy12) |
+| Organization and code management | [ToneCustoms GitHub](https://github.com/ToneCustoms) |
+| Security and community guidance | [Organization Standards](https://github.com/ToneCustoms/.github) |
 
-**Board snapshot (October 25, 2026):** Nine items in Planned and one in Released (Gun Jam); the other columns are empty. This is a point-in-time inventory, not a claim that all planned resources are unfinished.
+## Periodic audit checklist
 
-### Working rules
+- [ ] Organization avatar, website, About text and public links match ToneCustoms branding.
+- [ ] Private source repositories remain private and collaborator access is intentional.
+- [ ] Repository descriptions, topics and READMEs accurately reflect current scope.
+- [ ] Documentation links resolve to the current organization and GitHub Pages website.
+- [ ] Security settings and branch rules are reviewed against the current GitHub plan.
+- [ ] Customer documentation matches current Tebex listings and approved policies.
+- [ ] Release notes do not invent versions, dates or compatibility guarantees.
+- [ ] Unused demo repositories are identified but not deleted without approval.
 
-1. Keep existing linked GitHub issues as the source of truth; avoid duplicate project cards.
-2. Move a card only when its status genuinely changes, not just to populate columns.
-3. Treat **Verified Working** and **Released** as distinct milestones. A tested script is not automatically a public or paid release.
-4. Use issue labels or optional project fields for Priority, Type and Repository if those are useful. Never assign artificial deadlines or release versions.
-5. Keep sensitive technical details in private repositories. Do not expose protected code, customer information or credentials in public documentation.
-6. Maintain a separate Release view only if it improves navigation; the current Development Board already shows the full workflow.
-
-**Access note:** This document records the existing board workflow; editing Project fields, views and card status requires GitHub Projects controls, which are not exposed through the current connected GitHub actions.
-
-## Minimum checklist for each script repository
-
-1. Clear description, product scope, owner, and supported FiveM dependencies.
-2. README with install steps, configuration references, compatibility, and support destination.
-3. Version and changelog tied to verified releases, not automatic version bumps.
-4. License/distribution guidance appropriate to the actual product.
-5. Issue templates for actionable defects and feature requests when collaboration warrants them.
-6. No API tokens, Discord bot credentials, license keys, purchased third-party assets, or customer information committed to Git.
-7. For paid source: confirm **Private** visibility and access permissions before pushing code.
-8. Add demo videos and official store links to the **public docs**, without exposing protected source.
-
-## Official public destinations
-
-- [Documentation](https://tonyiswavy.github.io/tonecustoms-docs/)
-- [YouTube — subscribe](https://www.youtube.com/@tonyiswavy12)
-- [Discord — join](https://discord.gg/JdZ7NTG5KF)
-- [GitHub profile](https://github.com/tonyiswavy)
-- [Tebex store](https://tonecustoms.tebex.store/)
-
-**Principle:** Release only what is ready and approved. More repositories alone do not mean more finished products.
+**ToneCustoms — Built for Roleplay. Made with Purpose.**
