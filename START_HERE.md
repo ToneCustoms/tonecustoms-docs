@@ -19,6 +19,7 @@ ToneCustoms is an independent FiveM development business creating interactive ro
 | **Install a resource I already own** | [Installation Hub](INSTALLATION.md) |
 | **Find updates or release information** | [Updates Policy](policies/UPDATES.md) |
 | **Ask a question or get help** | [Customer Support](SUPPORT.md) |
+| **Review business and community rules** | [Rules & Regulations](RULES_AND_REGULATIONS.md) |
 | **Review licensing and purchasing information** | [Customer Policy Center](policies/README.md) |
 | **Watch gameplay showcases** | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
 
