@@ -1,11 +1,5 @@
----
-title: ToneCustoms Analytics
-layout: page
-sidebar: false
-aside: false
-editLink: false
----
+# Analytics
 
-<ToneAnalytics />
+ToneCustoms business analytics are private and are not hosted on this public documentation website.
 
-[Measurement definitions and privacy plan](ANALYTICS_MEASUREMENT_PLAN.md)
+[Return to documentation](/)
