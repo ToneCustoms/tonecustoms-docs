@@ -1,64 +1,70 @@
 # ToneCustoms Support
 
----
+<div class="tc-help-hero">
+  <div class="tc-help-eyebrow">TONECUSTOMS / CUSTOMER CARE</div>
+  <h2>Support that gets you back in the city.</h2>
+  <p>Need help with a ToneCustoms FiveM resource? Find your guide, troubleshoot the issue, or open a support request directly on GitHub.</p>
+  <div class="tc-help-actions">
+    <a class="tc-help-primary" href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose">Open a Support Ticket ↗</a>
+    <a class="tc-help-secondary" href="./TROUBLESHOOTING">Troubleshooting Guides</a>
+  </div>
+  <div class="tc-help-meta"><span>GITHUB-BASED SUPPORT</span><span>NO ADDITIONAL ACCOUNT BEYOND GITHUB</span><span>PUBLIC TECHNICAL REPORTS</span></div>
+</div>
 
-**Navigate:** [About](ABOUT.md) · [Products](products/README.md) · [Installation](INSTALLATION.md) · [Updates](policies/UPDATES.md) · [Support](SUPPORT.md) · [Policies](policies/README.md)
+## How can we help?
 
-Welcome to the official **ToneCustoms** support information page.
+<div class="tc-help-grid">
+  <a class="tc-help-card" href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new?template=script-support.yml">
+    <span class="tc-help-card-num">01 / TECHNICAL SUPPORT</span>
+    <strong>Script Support</strong>
+    <span>Installation, dependencies, errors, missing interactions, inventory integration, and unexpected behavior.</span>
+    <b>Open script support ↗</b>
+  </a>
+  <a class="tc-help-card" href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new?template=bug-report.yml">
+    <span class="tc-help-card-num">02 / DOCUMENTATION</span>
+    <strong>Report a Documentation Issue</strong>
+    <span>Broken links, outdated instructions, incorrect setup steps, and missing information.</span>
+    <b>Report a problem ↗</b>
+  </a>
+  <a class="tc-help-card" href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new?template=feature-request.yml">
+    <span class="tc-help-card-num">03 / IDEAS & FEEDBACK</span>
+    <strong>Request an Improvement</strong>
+    <span>Share suggestions for a ToneCustoms script, documentation, or the website.</span>
+    <b>Submit an idea ↗</b>
+  </a>
+  <a class="tc-help-card" href="./PURCHASE_AND_DELIVERY">
+    <span class="tc-help-card-num">04 / PURCHASES</span>
+    <strong>Orders & Delivery</strong>
+    <span>Get help finding downloads and installation instructions. Handle billing and private order information through your original Tebex support thread.</span>
+    <b>View purchase guidance →</b>
+  </a>
+</div>
 
-This repository hosts documentation and community information for ToneCustoms, an independent FiveM development brand. For assistance, choose the channel that best matches your request.
+## Your support journey
 
-For common purchase and setup questions, read the [FAQ](FAQ.md). For common technical issues, start with the [Troubleshooting Center](TROUBLESHOOTING.md). For support routing and suggestions, see [Contact & Feedback](CONTACT.md).
+1. **Search first.** Check the [FAQ](./FAQ), [Installation Hub](./INSTALLATION), and [Troubleshooting Center](./TROUBLESHOOTING).
+2. **Open a GitHub issue.** Select the right support form and include the script, framework, version, error, and steps already tried.
+3. **Work with ToneCustoms.** Follow the issue for replies and updates. Once resolved, the issue can be closed.
 
-## On-site Support Assistant
+You can also use the purple **Need help?** assistant at the bottom-right of this website. It walks through common FiveM issues and prepares a summary you can copy into a GitHub support request.
 
-Look for the purple **Need help?** button in the bottom-right corner of the [ToneCustoms documentation website](https://tonecustoms.github.io/tonecustoms-docs/). It opens a guided help panel for installation, troubleshooting, purchase and delivery questions, custom development inquiries, documentation feedback, and direct support links.
+## What to include in a technical report
 
-The assistant also walks customers through script-specific troubleshooting with follow-up questions, checks whether the issue was resolved, and helps prepare a support summary for unresolved problems. It is a **guided conversational assistant**, not an AI model or a live agent. Customers can copy their troubleshooting summary and [open a public GitHub support issue](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose). GitHub sign-in is required. Never include secrets, order details, or private source code in a public issue. For billing cases, use the original Tebex order-support channel.
+- **Resource:** Script name and version, if known.
+- **Environment:** Qbox, QBCore, ESX, inventory system, and relevant dependencies.
+- **Problem:** What you expected, what actually happened, and how to reproduce it.
+- **Evidence:** Relevant console errors or screenshots with sensitive details removed.
+- **Troubleshooting:** What you've already checked or changed.
 
-## Where to Get Help
+## Important: public issues and private information
 
-| Your request | Recommended channel |
-| --- | --- |
-| Billing disputes, refund requests or ongoing Tebex order cases | Use the official Tebex support route on the order and reply within the original Tebex support thread |
-| Script installation, configuration, and technical problems | [Open a GitHub support issue](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
-| Documentation errors, outdated information, or broken links | [Documentation Issue Templates](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
-| Feature suggestions and documentation improvements | [GitHub issue forms](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
-| Store information and available listings | [ToneCustoms Tebex Store](https://tonecustoms.tebex.store/) |
-| Videos and previews | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
-| Sensitive security concerns | [Security Policy](SECURITY.md) |
+GitHub Issues on this documentation repository are **public** and require a GitHub account. Never post license keys, tokens, database credentials, private source files, order numbers, personal information, or payment details. For billing, refunds, delivery disputes, and order verification, use the **original private Tebex order-support thread**. For security vulnerabilities, follow the [Security Policy](./SECURITY).
 
-## Before Requesting Help
+## Support standards
 
-To help identify an issue, include the following information when it is relevant:
+ToneCustoms provides assistance with its resources and documentation. Please keep reports respectful, specific, and on-topic. Support is not a guaranteed 24/7 live chat, and response times are not fixed. Feature requests are reviewed individually and do not guarantee a release.
 
-1. **Resource or documentation page:** Name the resource or link the page.
-2. **Environment:** Share your framework and dependencies, where applicable.
-3. **Expected result:** Explain what you expected to happen.
-4. **Actual result:** Explain what happened instead.
-5. **Evidence:** Include a relevant error message or screenshot, with private information removed.
-6. **Troubleshooting:** Describe any steps you have already tried.
-
-If reporting a documentation mistake, include the specific section and the correction you recommend.
-
-## Protect Your Information
-
-Never share passwords, database credentials, API tokens, private license keys, or server access details in public issues or discussions.
-
-If a report involves a vulnerability or other sensitive security concern, follow the [ToneCustoms Security Policy](SECURITY.md) rather than posting sensitive information publicly.
-
-## Tebex Buyer-Support Cases
-
-When a customer opens a case through Tebex, keep order-resolution communication inside the **original Tebex support thread** so Tebex can review the response history. Discord remains available for installation and product troubleshooting, but Discord messages are not a substitute for responding in a Tebex buyer-support case.
-
-## Support Expectations
-
-Official support availability is communicated through the relevant ToneCustoms channels. This document does not promise specific response times, guaranteed fixes, or a particular service level.
-
-## Community Guidelines
-
-Please treat other members respectfully and follow the [ToneCustoms Code of Conduct](CODE_OF_CONDUCT.md).
-
----
-
-[Return to Documentation](README.md) · [Join Discord](https://discord.gg/JdZ7NTG5KF)
+<div class="tc-help-bottom">
+  <div><span>BUILT FOR ROLEPLAY. MADE WITH PURPOSE.</span><strong>Still need help?</strong><p>Open a support request and we'll pick it up through GitHub.</p></div>
+  <a href="https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose">Go to Support Center ↗</a>
+</div>
