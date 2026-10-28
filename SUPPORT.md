@@ -14,7 +14,7 @@ For common purchase and setup questions, read the [FAQ](FAQ.md). For common tech
 
 Look for the purple **Need help?** button in the bottom-right corner of the [ToneCustoms documentation website](https://tonecustoms.github.io/tonecustoms-docs/). It opens a guided help panel for installation, troubleshooting, purchase and delivery questions, custom development inquiries, documentation feedback, and direct support links.
 
-The assistant is an interactive navigation tool. It does **not** send messages, open private tickets, or connect you to a live agent. For a conversation with support, use the official Discord or the appropriate Tebex order-support channel.
+The assistant also walks customers through script-specific troubleshooting with follow-up questions, checks whether the issue was resolved, and helps prepare a support summary for unresolved problems. It is a **guided conversational assistant**, not an AI model or a live agent. Automatic private ticket submission and Discord staff alerts are **not yet enabled**; until those connections are configured, customers can copy their support summary and contact the official Discord. For billing cases, use the original Tebex order-support channel.
 
 ## Where to Get Help
 
