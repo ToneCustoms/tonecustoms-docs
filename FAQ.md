@@ -54,13 +54,27 @@ Start at the [Installation Hub](INSTALLATION.md). [Gun Jam's guide](products/gun
 That depends on the delivered package. Preserve your allowed configuration values and follow the product's release notes before replacing files. [Safe Update Guide](UPDATE_GUIDE.md).
 
 ### Is support free?
-Product installation, configuration and troubleshooting assistance are free through [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF); responses are not guaranteed instantly or 24/7.
+Product installation, configuration and troubleshooting assistance are free through the [public GitHub Support Center](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose). Tickets can be submitted at any time; the target initial response is 24–48 hours, not a guarantee. See [support hours](SUPPORT.md#support-hours-and-response-times). Keep purchase verification and billing details in the original private Tebex support route.
 
 ### Can I swap a script for another?
 You may **request** a swap for another ToneCustoms script of reasonably comparable value, using the amount originally paid as a consideration. Approval is discretionary, and no automatic exchange or cash difference is promised. [Swap Policy](policies/SCRIPT_SWAPS.md).
 
 ### What if I want a refund?
 ToneCustoms has selected Tebex's **[Default] No Refunds Policy** and does not offer discretionary change-of-mind refunds. Delivery problems, technical access failures, Tebex's buyer-support process and any applicable legal rights are exceptions or separate considerations. Use the official order support route for billing/refund requests and see [Purchases & Refunds](policies/PURCHASES_AND_REFUNDS.md).
+
+## Partnerships and custom development
+
+### How do I apply to partner with ToneCustoms?
+
+Use the [Partnership Inquiry](PARTNERSHIPS.md) for a non-confidential public proposal. Read the published rules before applying. An inquiry does not guarantee acceptance, sponsorship, free scripts, exclusivity or any other benefit.
+
+### Can I share ToneCustoms scripts with my community or promote myself as an official partner?
+
+Not without appropriate authorization. A partnership does not automatically permit script redistribution, license transfers, use of ToneCustoms branding or claims of endorsement. See [Partnership Rules](PARTNERSHIPS.md#partnership-rules-and-regulations) and [Licensing](policies/LICENSING.md).
+
+### Is a partnership application the same as a custom development order?
+
+No. Partnerships concern collaboration between parties. Commissioned FiveM work is a separate discussion described in [Custom Development](CUSTOM_DEVELOPMENT.md); availability, scope, pricing and deadlines require explicit agreement.
 
 ## Contact and security
 
