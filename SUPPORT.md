@@ -40,6 +40,10 @@
   </a>
 </div>
 
+## Quick access
+
+**[Known Issues & Fixes](./KNOWN_ISSUES)** · **[Support Dashboard](./SUPPORT_DASHBOARD)** · **[Open GitHub Tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+is%3Aopen)**
+
 ## Follow an existing ticket
 
 Already opened a request? [View open support tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue%20is%3Aopen) to check replies and updates, or [view resolved tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue%20is%3Aclosed) to find previous solutions. Use GitHub notifications to follow your issue.
