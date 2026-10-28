@@ -4,6 +4,17 @@
 
 Welcome to the ToneCustoms community hub. Follow new FiveM script news, see behind-the-scenes development insights, suggest improvements and connect with other server owners and creators.
 
+## Find what you need
+
+| Looking for | Go to |
+| --- | --- |
+| New script versions, bug fixes and upgrade notes | [Script Updates](SCRIPT_UPDATES.md) |
+| Script functionality, showcases and development status | [Script Features](FEATURES.md) |
+| Official news and notices | [Announcements](ANNOUNCEMENTS.md) |
+| Sneak peeks and behind-the-scenes development | [Developer Insights](INSIGHTS.md) |
+| Technical help and ticket status | [Support Center](SUPPORT.md) |
+| Suggest a new feature | [Feature request form](https://github.com/ToneCustoms/tonecustoms-docs/issues/new?template=feature-request.yml) |
+
 ## Community news and insights
 
 **Official posts stay on GitHub.** Every published announcement and insight is saved in this repository, included in its Git commit history, and displayed on the public documentation website. New posts are added above older ones rather than replacing them.
