@@ -9,8 +9,8 @@ Choose the appropriate channel so questions, product issues and suggestions reac
 | Help with purchased script installation/configuration | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Product bugs and gameplay issues | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Order access, delivery or purchase verification | Private support through your order or [Discord](https://discord.gg/JdZ7NTG5KF) |
-| Documentation error or broken link | [GitHub documentation issue](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
-| Documentation improvement ideas | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
+| Documentation error or broken link | [GitHub documentation issue](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+| Documentation improvement ideas | [GitHub Discussions](https://github.com/ToneCustoms/tonecustoms-docs/discussions) |
 | Sensitive security reports | [Security Policy](SECURITY.md) |
 | Demos and development videos | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
 | Current products | [Official Tebex Store](https://tonecustoms.tebex.store/) |
