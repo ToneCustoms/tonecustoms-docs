@@ -1,0 +1,49 @@
+name: Documentation problem
+description: Report an incorrect, outdated, confusing, or broken ToneCustoms documentation page.
+title: "[Docs] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for **public documentation problems only**. For purchased script troubleshooting, use [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF). Never include order identifiers, private scripts, license keys, credentials, or payment information.
+  - type: input
+    id: page
+    attributes:
+      label: Documentation page
+      description: Paste the public URL of the page that needs attention.
+      placeholder: https://tonecustoms.github.io/tonecustoms-docs/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: What needs correcting?
+      options:
+        - Incorrect or outdated information
+        - Broken link or missing page
+        - Unclear instructions
+        - Formatting or accessibility
+        - Other documentation issue
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What is wrong?
+      description: Explain the problem and the section where it appears.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Suggested correction
+      description: Describe what you expected to find or how the documentation could be clearer.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I have not included private customer information, credentials, paid source files, or sensitive order details.
+          required: true
