@@ -21,6 +21,12 @@ Use the form for a **non-confidential overview only**. Describe your community o
 
 For proposals that require confidential discussion, [join the ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) and request an appropriate private discussion with the team. A public GitHub issue is not a private negotiation channel.
 
+## Review criteria
+
+ToneCustoms evaluates proposals based on relevance to FiveM roleplay, credibility of the project or creator, clear mutual benefit, realistic deliverables, audience/community fit, and compliance with ToneCustoms licensing and community standards. A large follower or member count alone does not guarantee acceptance.
+
+**Partnership status:** Submitted → Under Review → Private Discussion (if needed) → Accepted or Declined. An accepted inquiry is not a signed agreement; commitments must be confirmed separately.
+
 ## How proposals are reviewed
 
 1. **Submitted:** Staff reviews the public summary.
