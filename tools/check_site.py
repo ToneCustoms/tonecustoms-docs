@@ -18,7 +18,7 @@ ROUTES = [
     "/products/free-resources", "/products/queue", "/products/farming",
     "/products/skills", "/products/roleplay-text", "/products/multi-job",
     "/products/pharmacy", "/products/inventory-images",
-    "/CONTACT", "/START_HERE", "/CUSTOMER_CHECKLIST", "/CUSTOM_DEVELOPMENT",
+    "/ANNOUNCEMENTS", "/CONTACT", "/START_HERE", "/CUSTOMER_CHECKLIST", "/CUSTOM_DEVELOPMENT",
     "/PARTNERSHIPS", "/PARTNERSHIP_AGREEMENT_TEMPLATE", "/RULES_AND_REGULATIONS",
     "/policies/UPDATES", "/policies/LICENSING",
     "/policies/CUSTOMER_SUPPORT", "/policies/PURCHASES_AND_REFUNDS",
