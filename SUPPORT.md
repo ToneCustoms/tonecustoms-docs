@@ -40,6 +40,10 @@
   </a>
 </div>
 
+## Partnerships & business inquiries
+
+Interested in working with ToneCustoms? Visit the [Partnerships & Collaborations page](./PARTNERSHIPS) to review collaboration opportunities and submit a public, non-confidential proposal. Private business details should not be posted in GitHub Issues.
+
 ## Quick access
 
 **[Known Issues & Fixes](./KNOWN_ISSUES)** · **[Support Dashboard](./SUPPORT_DASHBOARD)** · **[Open GitHub Tickets](https://github.com/ToneCustoms/tonecustoms-docs/issues?q=is%3Aissue+is%3Aopen)**
