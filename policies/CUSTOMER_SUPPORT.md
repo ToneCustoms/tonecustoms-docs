@@ -11,8 +11,8 @@ ToneCustoms offers **free installation, configuration, and product issue assista
 | Help installing a purchased resource | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Configuration help | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
 | Report a product bug | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
-| Purchase or entitlement question | Use the support route from your Tebex order or [Discord](https://discord.gg/JdZ7NTG5KF) |
-| Incorrect public documentation | [GitHub documentation issues](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
+| Purchase or entitlement question | Use the original Tebex order-support route for billing, delivery, and entitlement cases |
+| Incorrect public documentation | [GitHub documentation issues](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
 | Sensitive vulnerability | [Security disclosure instructions](../SECURITY.md) |
 
 ## Information to include
