@@ -76,7 +76,7 @@ For quality rules, see the [ToneCustoms Release Standards](../policies/RELEASE_S
 - **Purchase / availability:** [ToneCustoms Tebex](https://tonecustoms.tebex.store/)
 - **Support and product questions:** [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF)
 - **Demos:** [YouTube channel](https://www.youtube.com/@tonyiswavy12)
-- **Community updates:** [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions)
+- **Community updates:** [GitHub Discussions](https://github.com/ToneCustoms/tonecustoms-docs/discussions)
 - **General help:** [Support guide](../SUPPORT.md)
 - **Customer information:** [Licensing, purchase and support policy center](../policies/README.md)
 
