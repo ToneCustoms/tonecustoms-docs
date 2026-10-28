@@ -2,7 +2,7 @@ name: ToneCustoms Support Triage
 
 on:
   issues:
-    types: [opened]
+    types: [opened, reopened, closed]
 
 permissions:
   issues: write
@@ -17,6 +17,7 @@ jobs:
         with:
           script: |
             const issue = context.payload.issue;
+            const action = context.payload.action;
             const title = issue.title || '';
             const repo = context.repo;
             let category = 'support';
@@ -86,9 +87,27 @@ jobs:
                 throw error;
               }
             }
+            const oldStatus = (issue.labels || [])
+              .map(label => typeof label === 'string' ? label : label.name)
+              .filter(name => name && name.startsWith('status: '));
+            const nextStatus = action === 'closed' ? 'status: resolved' : 'status: new';
+            for (const label of oldStatus) {
+              if (label === nextStatus) continue;
+              await github.rest.issues.removeLabel({
+                ...repo, issue_number: issue.number, name: label
+              });
+            }
+            if (action === 'closed') {
+              await github.rest.issues.addLabels({
+                ...repo, issue_number: issue.number, labels: [nextStatus]
+              });
+              return;
+            }
             await github.rest.issues.addLabels({
-              ...repo, issue_number: issue.number, labels: [category, 'status: new']
+              ...repo, issue_number: issue.number, labels: [category, nextStatus]
             });
-            await github.rest.issues.createComment({
-              ...repo, issue_number: issue.number, body: message
-            });
+            if (action === 'opened') {
+              await github.rest.issues.createComment({
+                ...repo, issue_number: issue.number, body: message
+              });
+            }
