@@ -91,6 +91,8 @@ All hours are in **Eastern Time (ET)**.
 
 ## Support standards
 
+Review the [ToneCustoms Rules & Regulations](./RULES_AND_REGULATIONS) for conduct, confidentiality and resource-use expectations.
+
 ToneCustoms provides assistance with its resources and documentation. Please keep reports respectful, specific, and on-topic. Support hours do not mean guaranteed live chat or immediate replies. Feature requests are reviewed individually and do not guarantee a release.
 
 <div class="tc-help-bottom">
