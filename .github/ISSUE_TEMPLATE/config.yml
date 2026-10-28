@@ -1,14 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Product installation and technical support
-    url: https://discord.gg/JdZ7NTG5KF
-    about: Get help with purchased resources, installation, configuration, and technical problems.
-  - name: Customer troubleshooting center
+  - name: Troubleshooting guides
     url: https://tonecustoms.github.io/tonecustoms-docs/TROUBLESHOOTING
-    about: Check common FiveM resource issues and product-specific troubleshooting guides.
+    about: Try the relevant product troubleshooting guide before opening a public support issue.
   - name: Purchases, delivery and billing
     url: https://tonecustoms.github.io/tonecustoms-docs/PURCHASE_AND_DELIVERY
-    about: Find order and delivery guidance; use your original Tebex order support channel for billing cases.
+    about: Keep payment, order, and billing details in your private Tebex order-support thread.
   - name: Confidential security reporting
     url: https://github.com/ToneCustoms/tonecustoms-docs/blob/main/SECURITY.md
-    about: Follow the security reporting guidance rather than posting sensitive details publicly.
+    about: Never disclose vulnerabilities or credentials in public issues.
