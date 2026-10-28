@@ -55,6 +55,10 @@ These guidelines apply to partnership inquiries and proposed collaborations. Any
 
 A private written agreement should identify the parties, scope, ownership and permitted use of deliverables, brand permissions, confidentiality, any payments or benefits, duration, termination and dispute handling. Where relevant, it should also cover content disclosures and platform-specific requirements. Do not treat a public GitHub issue, an accepted inquiry or an informal conversation as a finalized contract.
 
+## Agreement planning
+
+For collaborations that proceed to private negotiations, use the [Partnership Agreement Template](./PARTNERSHIP_AGREEMENT_TEMPLATE) as a checklist of matters to agree. It is a draft, not a signed contract or a grant of script rights. Never post completed agreements or personal details in public issues.
+
 ## Availability
 
 Partnership requests are reviewed alongside other ToneCustoms inquiries during [published support hours](./SUPPORT#support-hours-and-response-times). The 24–48-hour support response target is not a guarantee of a partnership decision.
