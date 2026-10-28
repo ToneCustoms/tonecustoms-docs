@@ -45,6 +45,10 @@ Each resource has its own requirements and compatibility. Product pages explain 
 
 Our development process starts with the intended player experience, defines the resource's configuration and dependencies, and continues through implementation, review, documentation, and owner-approved publication. Read the full [ToneCustoms Development Process](OUR_PROCESS.md) for a closer look.
 
+## Custom development inquiries
+
+Interested in a purpose-built FiveM system? Our [Custom Development Guide](CUSTOM_DEVELOPMENT.md) explains the types of projects we work on, what to include in an inquiry, and how scope and availability are discussed.
+
 ## Explore ToneCustoms
 
 - [Browse resources and showcases](products/README.md)
