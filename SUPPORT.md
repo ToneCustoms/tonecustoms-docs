@@ -16,8 +16,8 @@ For common purchase and setup questions, read the [FAQ](FAQ.md). For support rou
 | --- | --- |
 | Billing disputes, refund requests or ongoing Tebex order cases | Use the official Tebex support route on the order and reply within the original Tebex support thread |
 | Questions about ToneCustoms or a resource | [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF) |
-| Documentation errors, outdated information, or broken links | [Documentation Issue Templates](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) |
-| Documentation suggestions and general community discussions | [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions) |
+| Documentation errors, outdated information, or broken links | [Documentation Issue Templates](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) |
+| Documentation suggestions and general community discussions | [GitHub Discussions](https://github.com/ToneCustoms/tonecustoms-docs/discussions) |
 | Store information and available listings | [ToneCustoms Tebex Store](https://tonecustoms.tebex.store/) |
 | Videos and previews | [ToneCustoms YouTube](https://www.youtube.com/@tonyiswavy12) |
 | Sensitive security concerns | [Security Policy](SECURITY.md) |
