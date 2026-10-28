@@ -33,6 +33,10 @@ Official ToneCustoms product information, setup instructions, customer support a
 
 Explore the [Free FiveM Resources Directory](products/free-resources.md) for owner-approved free scripts, download links, installation guides and licensing information when they are released. No private or paid source is distributed through this directory.
 
+## How We Work
+
+ToneCustoms is built around purposeful FiveM development, practical server integration, and clear customer information. Read [Our Development Process](OUR_PROCESS.md) for the principles behind our gameplay design, project reviews, documentation, and approved releases.
+
 ## Customer Help & Resources
 
 | Question | Start here |
