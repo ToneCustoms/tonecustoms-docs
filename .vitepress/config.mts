@@ -22,6 +22,7 @@ export default defineConfig({
       { text: 'About', link: '/ABOUT' },
       { text: 'Updates', link: '/policies/UPDATES' },
       { text: 'Support', link: '/SUPPORT' },
+      { text: 'Start Here', link: '/START_HERE' },
       { text: 'Products', link: '/products/' },
       { text: 'Free Scripts', link: '/products/free-resources' },
       { text: 'Installation', link: '/INSTALLATION' },
@@ -33,8 +34,10 @@ export default defineConfig({
         text: 'Get Started',
         items: [
           { text: 'Documentation Home', link: '/' },
+          { text: 'Start Here', link: '/START_HERE' },
           { text: 'About ToneCustoms', link: '/ABOUT' },
-          { text: 'Meet the Developer', link: '/ABOUT#meet-the-developer-tone' },
+          { text: 'Meet the Founder', link: '/ABOUT#meet-the-developer-tone' },
+          { text: 'Our Development Process', link: '/OUR_PROCESS' },
           { text: 'Frequently Asked Questions', link: '/FAQ' }
         ]
       },
@@ -72,6 +75,7 @@ export default defineConfig({
           { text: 'Purchase & Delivery', link: '/PURCHASE_AND_DELIVERY' },
           { text: 'Updating a Script', link: '/UPDATE_GUIDE' },
           { text: 'Contact & Feedback', link: '/CONTACT' },
+          { text: 'Custom Development Inquiries', link: '/CUSTOM_DEVELOPMENT' },
           { text: 'Support', link: '/SUPPORT' }
         ]
       },
