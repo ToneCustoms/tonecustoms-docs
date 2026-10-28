@@ -33,7 +33,7 @@ jobs:
               '- Keep relevant console errors and reproduction steps available.',
               '- Do not post license keys, credentials, payment details, order information, or private source files in this public issue.',
               '',
-              'Please follow this issue for replies and updates.',
+              'Please **subscribe to this issue** using GitHub notifications to receive replies and status updates. GitHub controls email and app notification delivery.',
               '',
               '*Built for Roleplay. Made with Purpose.*'
             ].join('\n');
@@ -172,7 +172,7 @@ jobs:
             const oldStatus = (issue.labels || [])
               .map(label => typeof label === 'string' ? label : label.name)
               .filter(name => name && name.startsWith('status: '));
-            const nextStatus = action === 'closed' ? 'status: resolved' : 'status: new';
+            const nextStatus = action === 'closed' ? 'status: resolved' : (issue.assignees || []).length ? 'status: investigating' : 'status: new';
             for (const label of oldStatus) {
               if (label === nextStatus) continue;
               await github.rest.issues.removeLabel({
