@@ -49,6 +49,10 @@ Start with the [Installation Hub](INSTALLATION.md) and your product-specific gui
 
 When requesting help, identify the resource, your framework and dependencies, expected behavior, actual behavior, and relevant **redacted** errors. Never post passwords, license keys, payment information, private source code, or other sensitive details in public.
 
+## Analytics and transparency
+
+The [Analytics & Business Insights plan](ANALYTICS.md) explains the metrics ToneCustoms intends to measure. Private sales and customer information will not be published on the public documentation website.
+
 ## About our GitHub organization
 
 The [ToneCustoms GitHub organization](https://github.com/ToneCustoms) houses public documentation and private development repositories. **Private script repositories are not customer download locations.** Customers should follow their official product delivery instructions.
