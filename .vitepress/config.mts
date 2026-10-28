@@ -46,6 +46,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Product Catalog', link: '/products/' },
+          { text: 'Find the Right Script', link: '/CHOOSE_A_SCRIPT' },
           { text: 'Free FiveM Scripts', link: '/products/free-resources' },
           { text: 'Gun Jam — Overview', link: '/products/gun-jam' },
           { text: 'Family System', link: '/products/family-system' },
