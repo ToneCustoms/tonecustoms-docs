@@ -8,7 +8,7 @@ This repository is dedicated to public documentation and community information. 
 
 ### Report a Documentation Problem
 
-Open a [GitHub Issue](https://github.com/tonyiswavy/tonecustoms-docs/issues/new/choose) using **Documentation correction** if you find:
+Open a [GitHub Issue](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose) using **Documentation correction** if you find:
 
 - Incorrect or outdated text.
 - Broken links.
@@ -21,7 +21,7 @@ Identify the page or section, explain the issue, and suggest a correction where 
 
 Use the **Documentation suggestion** issue template to recommend better organization, navigation, explanations, or accessibility.
 
-For broader conversations, join [ToneCustoms Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions).
+For broader conversations, join [ToneCustoms Discussions](https://github.com/ToneCustoms/tonecustoms-docs/discussions).
 
 ### Quality checks before publication
 
@@ -65,7 +65,7 @@ If you notice a security concern, use the private reporting methods in [SECURITY
 
 ## Official Community
 
-- [GitHub Discussions](https://github.com/tonyiswavy/tonecustoms-docs/discussions)
+- [GitHub Discussions](https://github.com/ToneCustoms/tonecustoms-docs/discussions)
 - [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF)
 - [Documentation homepage](README.md)
 
