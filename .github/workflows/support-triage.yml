@@ -142,7 +142,7 @@ jobs:
                     : 'Assignment alone does not verify official ToneCustoms staff status. Check with the Founder before treating this person as official support.',
                   '',
                   'Please keep troubleshooting updates in this issue. Do not post credentials, license keys, or purchase details.'
-                ].join('\\n')
+                ].join('\n')
               });
 
               const labels = (issue.labels || []).map(label => typeof label === 'string' ? label : label.name);
@@ -164,7 +164,7 @@ jobs:
                 await github.rest.issues.addLabels({ ...repo, issue_number: issue.number, labels: ['status: new'] });
                 await github.rest.issues.createComment({
                   ...repo, issue_number: issue.number,
-                  body: '### ToneCustoms support ownership\\n\\nThis ticket is currently **unassigned** and awaiting a support handler.'
+                  body: '### ToneCustoms support ownership\n\nThis ticket is currently **unassigned** and awaiting a support handler.'
                 });
               }
               return;
