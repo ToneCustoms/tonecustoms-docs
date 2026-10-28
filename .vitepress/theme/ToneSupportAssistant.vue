@@ -68,7 +68,7 @@ async function submitTicket() {
   submitError.value = ''
   ticketResult.value = ''
   try {
-    const response = await fetch(supportConfig.endpoint.replace(/\\/$/, '') + '/ticket', {
+    const response = await fetch(supportConfig.endpoint.replace(/[/]$/, '') + '/ticket', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -111,6 +111,7 @@ function resetFlow() {
   description.value = ''
   framework.value = ''
   copied.value = false
+  challengeRendered = false
   customerContact.value = ''
   ticketResult.value = ''
   submitError.value = ''
