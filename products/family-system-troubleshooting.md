@@ -25,6 +25,6 @@ First redacted error:
 Steps already tried:
 ```
 
-Contact [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF). Do not post payment data, credentials, private script logic, or license keys in public issues.
+Contact [ToneCustoms GitHub Support](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose). Do not post payment data, credentials, private script logic, or license keys in public issues.
 
 [Overview](family-system.md) · [Installation](family-system-installation.md) · [Release History](family-system-changelog.md)
