@@ -62,6 +62,16 @@ No customer software releases, checkout policies, or private resource files were
 
 These updates improve customer navigation and documentation feedback. No script releases, prices, or product terms were changed.
 
+## October 28, 2026 — Floating customer support assistant
+
+- Added a responsive, purple-and-black **Need help?** chat bubble to the shared VitePress layout.
+- Added six guided customer topics: installation, troubleshooting, purchases, custom development, documentation feedback, and support.
+- Connected help topics to existing official documentation, Discord, Tebex, and GitHub issue forms.
+- Added accessible button labels, keyboard Escape support, and a clear notice that the tool is guided navigation rather than live or AI chat.
+- Updated the Support guide to explain how to use the assistant.
+
+This is a documentation website feature, not a script release or a live support integration.
+
 ## Keeping this history accurate
 
 When updating this page, record:
