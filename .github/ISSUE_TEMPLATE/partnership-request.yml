@@ -59,6 +59,11 @@ body:
         - Later / exploratory
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Partnership rules
+        Review the [ToneCustoms Partnership Rules & Regulations](https://tonecustoms.github.io/tonecustoms-docs/PARTNERSHIPS#partnership-rules-and-regulations) before submitting. Public proposals are not contracts.
   - type: checkboxes
     id: consent
     attributes:
@@ -67,4 +72,6 @@ body:
         - label: "I understand this proposal is public and contains no confidential or personal information."
           required: true
         - label: "I understand submitting a proposal does not establish a partnership or guarantee acceptance."
+          required: true
+        - label: "I have reviewed the ToneCustoms partnership rules and understand script redistribution and brand use require authorization."
           required: true
