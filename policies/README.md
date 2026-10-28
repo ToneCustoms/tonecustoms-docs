@@ -14,6 +14,7 @@ This section explains how customers can learn about ToneCustoms products, reques
 
 | Topic | Page | Status |
 | --- | --- | --- |
+| Rules, conduct and policy overview | [Rules & Regulations](../RULES_AND_REGULATIONS.md) | Published summary; checkout terms and law take precedence |
 | Licensing and permitted use | [Licensing](LICENSING.md) | Owner decisions documented; checkout alignment pending |
 | Script swaps and comparable-value exchanges | [Script Swap Policy](SCRIPT_SWAPS.md) | Draft — owner-approved approach, checkout alignment pending |
 | Purchase, delivery and refund information | [Purchases & Refunds](PURCHASES_AND_REFUNDS.md) | Tebex default no-refunds selection checked; checkout terms still govern |
@@ -27,6 +28,7 @@ This section explains how customers can learn about ToneCustoms products, reques
 
 ## Customer quick links
 
+- [Rules & Regulations](../RULES_AND_REGULATIONS.md) — conduct, script use, partnerships and support boundaries
 - [FAQ](../FAQ.md) — common purchase, licensing, and update questions
 - [Purchase & Delivery](../PURCHASE_AND_DELIVERY.md) — order access and entitlement guidance
 - [Updating a Script](../UPDATE_GUIDE.md) — safe customer update process
