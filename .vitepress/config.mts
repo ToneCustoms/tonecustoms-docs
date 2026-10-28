@@ -27,6 +27,7 @@ export default defineConfig({
       { text: 'Products', link: '/products/' },
       { text: 'Free Scripts', link: '/products/free-resources' },
       { text: 'Installation', link: '/INSTALLATION' },
+      { text: 'Rules', link: '/RULES_AND_REGULATIONS' },
       { text: 'Policies', link: '/policies/' },
       { text: 'Shop', link: 'https://tonecustoms.tebex.store/' }
     ],
@@ -92,6 +93,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Policy Center', link: '/policies/' },
+          { text: 'Rules & Regulations', link: '/RULES_AND_REGULATIONS' },
           { text: 'Licensing', link: '/policies/LICENSING' },
           { text: 'Purchases & Refunds', link: '/policies/PURCHASES_AND_REFUNDS' },
           { text: 'Script Swaps', link: '/policies/SCRIPT_SWAPS' },
