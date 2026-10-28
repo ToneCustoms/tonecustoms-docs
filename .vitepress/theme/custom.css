@@ -405,3 +405,14 @@
 .tc-assistant-error { color: #ffb6c0 !important; }
 .tc-assistant-success { color: #bdf5d2 !important; }
 .tc-assistant-copy:disabled { opacity: .55; cursor: not-allowed; }
+
+/* Conversational guided support flow */
+.tc-assistant-conversation { display: grid; gap: 11px; margin: 18px 0 6px; }
+.tc-assistant-bubble { max-width: 95%; padding: 12px 13px; border-radius: 13px; font-size: 12px; line-height: 1.65; }
+.tc-assistant-bubble-bot { justify-self: start; background: #322043; color: #f2e5ff; border-bottom-left-radius: 4px; }
+.tc-assistant-bubble-user { justify-self: end; background: #7336b2; color: #fff; border-bottom-right-radius: 4px; }
+.tc-assistant-choices { display: flex; gap: 7px; flex-wrap: wrap; margin: 0 0 3px; }
+.tc-assistant-choice { padding: 8px 11px; border: 1px solid rgba(195,147,248,.4); border-radius: 9px; background: #21142f; color: #f4e5ff; font-size: 12px; font-weight: 650; cursor: pointer; }
+.tc-assistant-choice:hover, .tc-assistant-choice-selected { background: #633294; border-color: #c28df6; color: #fff; }
+.tc-assistant-choice:focus-visible { outline: 3px solid #dfbaff; outline-offset: 2px; }
+.tc-assistant-resolved { border: 1px solid #7dc9a1; }
