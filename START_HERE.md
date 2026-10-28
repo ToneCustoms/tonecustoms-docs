@@ -32,7 +32,7 @@ ToneCustoms is an independent FiveM development business creating interactive ro
 
 **4. Review customer information.** Read the relevant [licensing and purchase policies](policies/README.md) before ordering.
 
-**5. Use the official support route.** For product questions or installation assistance, visit [ToneCustoms Discord](https://discord.gg/JdZ7NTG5KF). For billing or order-support cases, continue through the original Tebex support channel.
+**5. Use the official support route.** For product questions or installation assistance, use the [GitHub Support Center](https://github.com/ToneCustoms/tonecustoms-docs/issues/new/choose). For billing or order-support cases, continue through the original Tebex support channel.
 
 ## Already own a ToneCustoms resource?
 
