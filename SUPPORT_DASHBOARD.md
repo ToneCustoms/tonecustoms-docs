@@ -24,9 +24,10 @@ Use the links below to manage incoming support without another service. These ar
 - **New:** Incoming issues receive the `status: new` label automatically from the ToneCustoms Support Triage GitHub Action.
 - **Investigating:** Staff replace the status with `status: investigating` when reviewing a report.
 - **Waiting on Customer:** Staff replace the status with `status: waiting-on-customer` if logs or additional information are needed.
-- **Resolved:** Staff apply `status: resolved` and close the issue after confirming the outcome.
+- **Resolved:** Close the issue after confirming the outcome. GitHub Actions automatically replaces the status label with `status: resolved`.
+- **Reopened:** Reopening a ticket automatically resets its status to `status: new` without posting a duplicate welcome message.
 
-**Important:** GitHub issue labels are not mutually exclusive. When changing a status, remove the old `status:` label so the ticket appears in the correct filtered view. Labels are provisioned when the triage workflow runs on a new issue; until then, status filters may show no matches.
+**Important:** GitHub issue labels are not mutually exclusive. When changing a status, remove the old `status:` label so the ticket appears in the correct filtered view. Status labels are provisioned by the triage workflow when the first new issue is opened.
 
 ## Team ownership
 
