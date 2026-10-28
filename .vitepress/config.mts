@@ -22,6 +22,7 @@ export default defineConfig({
       { text: 'About', link: '/ABOUT' },
       { text: 'Updates', link: '/policies/UPDATES' },
       { text: 'Support', link: '/SUPPORT' },
+      { text: 'Partnerships', link: '/PARTNERSHIPS' },
       { text: 'Start Here', link: '/START_HERE' },
       { text: 'Products', link: '/products/' },
       { text: 'Free Scripts', link: '/products/free-resources' },
